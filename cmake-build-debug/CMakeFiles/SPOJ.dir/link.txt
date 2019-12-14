@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SPOJ.dir/main.cpp.o  -o SPOJ 

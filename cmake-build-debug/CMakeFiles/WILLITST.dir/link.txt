@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.o CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.o  -o WILLITST 

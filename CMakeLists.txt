@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.15)
+project(SPOJ)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(SPOJ main.cpp)
+add_executable(CMakeLists CMakeLists.txt)
+add_executable(main main.cpp)
+add_executable(WILLITST SOLUTIONS/WILLITST.cpp SOLUTIONS/TestCode.cpp)
+add_executable(STPAR SOLUTIONS/STPAR.cpp)
+add_executable(TestCode SOLUTIONS/TestCode.cpp)
