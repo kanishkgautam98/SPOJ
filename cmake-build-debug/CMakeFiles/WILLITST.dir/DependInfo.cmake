@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/kanishk/Pictures/SPOJ/SOLUTIONS/CANTON.cpp" "/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.o"
+  "/home/kanishk/Pictures/SPOJ/SOLUTIONS/INTEST.cpp" "/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.o"
+  "/home/kanishk/Pictures/SPOJ/SOLUTIONS/INVCNT.cpp" "/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.o"
   "/home/kanishk/Pictures/SPOJ/SOLUTIONS/TestCode.cpp" "/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.o"
   "/home/kanishk/Pictures/SPOJ/SOLUTIONS/WILLITST.cpp" "/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.o"
   )

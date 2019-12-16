@@ -1,8 +1,12 @@
 /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/CANTON.dir
+/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/INVCNT.dir
+/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/ABSYS.dir
 /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/SPOJ.dir
 /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/CMakeLists.dir
 /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/STPAR.dir
 /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/main.dir
+/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/INTEST.dir
 /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir
 /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/TestCode.dir

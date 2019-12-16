@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named CANTON
+
+# Build rule for target.
+CANTON: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CANTON
+.PHONY : CANTON
+
+# fast build rule for target.
+CANTON/fast:
+	$(MAKE) -f CMakeFiles/CANTON.dir/build.make CMakeFiles/CANTON.dir/build
+.PHONY : CANTON/fast
+
+#=============================================================================
+# Target rules for targets named INVCNT
+
+# Build rule for target.
+INVCNT: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 INVCNT
+.PHONY : INVCNT
+
+# fast build rule for target.
+INVCNT/fast:
+	$(MAKE) -f CMakeFiles/INVCNT.dir/build.make CMakeFiles/INVCNT.dir/build
+.PHONY : INVCNT/fast
+
+#=============================================================================
+# Target rules for targets named ABSYS
+
+# Build rule for target.
+ABSYS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ABSYS
+.PHONY : ABSYS
+
+# fast build rule for target.
+ABSYS/fast:
+	$(MAKE) -f CMakeFiles/ABSYS.dir/build.make CMakeFiles/ABSYS.dir/build
+.PHONY : ABSYS/fast
+
+#=============================================================================
 # Target rules for targets named SPOJ
 
 # Build rule for target.
@@ -163,6 +202,19 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
+# Target rules for targets named INTEST
+
+# Build rule for target.
+INTEST: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 INTEST
+.PHONY : INTEST
+
+# fast build rule for target.
+INTEST/fast:
+	$(MAKE) -f CMakeFiles/INTEST.dir/build.make CMakeFiles/INTEST.dir/build
+.PHONY : INTEST/fast
+
+#=============================================================================
 # Target rules for targets named WILLITST
 
 # Build rule for target.
@@ -187,6 +239,123 @@ TestCode: cmake_check_build_system
 TestCode/fast:
 	$(MAKE) -f CMakeFiles/TestCode.dir/build.make CMakeFiles/TestCode.dir/build
 .PHONY : TestCode/fast
+
+SOLUTIONS/ABSYS.o: SOLUTIONS/ABSYS.cpp.o
+
+.PHONY : SOLUTIONS/ABSYS.o
+
+# target to build an object file
+SOLUTIONS/ABSYS.cpp.o:
+	$(MAKE) -f CMakeFiles/ABSYS.dir/build.make CMakeFiles/ABSYS.dir/SOLUTIONS/ABSYS.cpp.o
+.PHONY : SOLUTIONS/ABSYS.cpp.o
+
+SOLUTIONS/ABSYS.i: SOLUTIONS/ABSYS.cpp.i
+
+.PHONY : SOLUTIONS/ABSYS.i
+
+# target to preprocess a source file
+SOLUTIONS/ABSYS.cpp.i:
+	$(MAKE) -f CMakeFiles/ABSYS.dir/build.make CMakeFiles/ABSYS.dir/SOLUTIONS/ABSYS.cpp.i
+.PHONY : SOLUTIONS/ABSYS.cpp.i
+
+SOLUTIONS/ABSYS.s: SOLUTIONS/ABSYS.cpp.s
+
+.PHONY : SOLUTIONS/ABSYS.s
+
+# target to generate assembly for a file
+SOLUTIONS/ABSYS.cpp.s:
+	$(MAKE) -f CMakeFiles/ABSYS.dir/build.make CMakeFiles/ABSYS.dir/SOLUTIONS/ABSYS.cpp.s
+.PHONY : SOLUTIONS/ABSYS.cpp.s
+
+SOLUTIONS/CANTON.o: SOLUTIONS/CANTON.cpp.o
+
+.PHONY : SOLUTIONS/CANTON.o
+
+# target to build an object file
+SOLUTIONS/CANTON.cpp.o:
+	$(MAKE) -f CMakeFiles/CANTON.dir/build.make CMakeFiles/CANTON.dir/SOLUTIONS/CANTON.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.o
+.PHONY : SOLUTIONS/CANTON.cpp.o
+
+SOLUTIONS/CANTON.i: SOLUTIONS/CANTON.cpp.i
+
+.PHONY : SOLUTIONS/CANTON.i
+
+# target to preprocess a source file
+SOLUTIONS/CANTON.cpp.i:
+	$(MAKE) -f CMakeFiles/CANTON.dir/build.make CMakeFiles/CANTON.dir/SOLUTIONS/CANTON.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.i
+.PHONY : SOLUTIONS/CANTON.cpp.i
+
+SOLUTIONS/CANTON.s: SOLUTIONS/CANTON.cpp.s
+
+.PHONY : SOLUTIONS/CANTON.s
+
+# target to generate assembly for a file
+SOLUTIONS/CANTON.cpp.s:
+	$(MAKE) -f CMakeFiles/CANTON.dir/build.make CMakeFiles/CANTON.dir/SOLUTIONS/CANTON.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.s
+.PHONY : SOLUTIONS/CANTON.cpp.s
+
+SOLUTIONS/INTEST.o: SOLUTIONS/INTEST.cpp.o
+
+.PHONY : SOLUTIONS/INTEST.o
+
+# target to build an object file
+SOLUTIONS/INTEST.cpp.o:
+	$(MAKE) -f CMakeFiles/INTEST.dir/build.make CMakeFiles/INTEST.dir/SOLUTIONS/INTEST.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.o
+.PHONY : SOLUTIONS/INTEST.cpp.o
+
+SOLUTIONS/INTEST.i: SOLUTIONS/INTEST.cpp.i
+
+.PHONY : SOLUTIONS/INTEST.i
+
+# target to preprocess a source file
+SOLUTIONS/INTEST.cpp.i:
+	$(MAKE) -f CMakeFiles/INTEST.dir/build.make CMakeFiles/INTEST.dir/SOLUTIONS/INTEST.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.i
+.PHONY : SOLUTIONS/INTEST.cpp.i
+
+SOLUTIONS/INTEST.s: SOLUTIONS/INTEST.cpp.s
+
+.PHONY : SOLUTIONS/INTEST.s
+
+# target to generate assembly for a file
+SOLUTIONS/INTEST.cpp.s:
+	$(MAKE) -f CMakeFiles/INTEST.dir/build.make CMakeFiles/INTEST.dir/SOLUTIONS/INTEST.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.s
+.PHONY : SOLUTIONS/INTEST.cpp.s
+
+SOLUTIONS/INVCNT.o: SOLUTIONS/INVCNT.cpp.o
+
+.PHONY : SOLUTIONS/INVCNT.o
+
+# target to build an object file
+SOLUTIONS/INVCNT.cpp.o:
+	$(MAKE) -f CMakeFiles/INVCNT.dir/build.make CMakeFiles/INVCNT.dir/SOLUTIONS/INVCNT.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.o
+.PHONY : SOLUTIONS/INVCNT.cpp.o
+
+SOLUTIONS/INVCNT.i: SOLUTIONS/INVCNT.cpp.i
+
+.PHONY : SOLUTIONS/INVCNT.i
+
+# target to preprocess a source file
+SOLUTIONS/INVCNT.cpp.i:
+	$(MAKE) -f CMakeFiles/INVCNT.dir/build.make CMakeFiles/INVCNT.dir/SOLUTIONS/INVCNT.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.i
+.PHONY : SOLUTIONS/INVCNT.cpp.i
+
+SOLUTIONS/INVCNT.s: SOLUTIONS/INVCNT.cpp.s
+
+.PHONY : SOLUTIONS/INVCNT.s
+
+# target to generate assembly for a file
+SOLUTIONS/INVCNT.cpp.s:
+	$(MAKE) -f CMakeFiles/INVCNT.dir/build.make CMakeFiles/INVCNT.dir/SOLUTIONS/INVCNT.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.s
+.PHONY : SOLUTIONS/INVCNT.cpp.s
 
 SOLUTIONS/STPAR.o: SOLUTIONS/STPAR.cpp.o
 
@@ -309,13 +478,29 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... CANTON"
+	@echo "... INVCNT"
+	@echo "... ABSYS"
 	@echo "... SPOJ"
 	@echo "... rebuild_cache"
 	@echo "... CMakeLists"
 	@echo "... STPAR"
 	@echo "... main"
+	@echo "... INTEST"
 	@echo "... WILLITST"
 	@echo "... TestCode"
+	@echo "... SOLUTIONS/ABSYS.o"
+	@echo "... SOLUTIONS/ABSYS.i"
+	@echo "... SOLUTIONS/ABSYS.s"
+	@echo "... SOLUTIONS/CANTON.o"
+	@echo "... SOLUTIONS/CANTON.i"
+	@echo "... SOLUTIONS/CANTON.s"
+	@echo "... SOLUTIONS/INTEST.o"
+	@echo "... SOLUTIONS/INTEST.i"
+	@echo "... SOLUTIONS/INTEST.s"
+	@echo "... SOLUTIONS/INVCNT.o"
+	@echo "... SOLUTIONS/INVCNT.i"
+	@echo "... SOLUTIONS/INVCNT.s"
 	@echo "... SOLUTIONS/STPAR.o"
 	@echo "... SOLUTIONS/STPAR.i"
 	@echo "... SOLUTIONS/STPAR.s"

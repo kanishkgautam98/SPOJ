@@ -53,20 +53,28 @@ CMAKE_BINARY_DIR = /home/kanishk/Pictures/SPOJ/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/CANTON.dir/all
+all: CMakeFiles/INVCNT.dir/all
+all: CMakeFiles/ABSYS.dir/all
 all: CMakeFiles/SPOJ.dir/all
 all: CMakeFiles/CMakeLists.dir/all
 all: CMakeFiles/STPAR.dir/all
 all: CMakeFiles/main.dir/all
+all: CMakeFiles/INTEST.dir/all
 all: CMakeFiles/WILLITST.dir/all
 all: CMakeFiles/TestCode.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/CANTON.dir/clean
+clean: CMakeFiles/INVCNT.dir/clean
+clean: CMakeFiles/ABSYS.dir/clean
 clean: CMakeFiles/SPOJ.dir/clean
 clean: CMakeFiles/CMakeLists.dir/clean
 clean: CMakeFiles/STPAR.dir/clean
 clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/INTEST.dir/clean
 clean: CMakeFiles/WILLITST.dir/clean
 clean: CMakeFiles/TestCode.dir/clean
 
@@ -78,13 +86,94 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
+# Target rules for target CMakeFiles/CANTON.dir
+
+# All Build rule for target.
+CMakeFiles/CANTON.dir/all:
+	$(MAKE) -f CMakeFiles/CANTON.dir/build.make CMakeFiles/CANTON.dir/depend
+	$(MAKE) -f CMakeFiles/CANTON.dir/build.make CMakeFiles/CANTON.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target CANTON"
+.PHONY : CMakeFiles/CANTON.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CANTON.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CANTON.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/CANTON.dir/rule
+
+# Convenience name for target.
+CANTON: CMakeFiles/CANTON.dir/rule
+
+.PHONY : CANTON
+
+# clean rule for target.
+CMakeFiles/CANTON.dir/clean:
+	$(MAKE) -f CMakeFiles/CANTON.dir/build.make CMakeFiles/CANTON.dir/clean
+.PHONY : CMakeFiles/CANTON.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/INVCNT.dir
+
+# All Build rule for target.
+CMakeFiles/INVCNT.dir/all:
+	$(MAKE) -f CMakeFiles/INVCNT.dir/build.make CMakeFiles/INVCNT.dir/depend
+	$(MAKE) -f CMakeFiles/INVCNT.dir/build.make CMakeFiles/INVCNT.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target INVCNT"
+.PHONY : CMakeFiles/INVCNT.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/INVCNT.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/INVCNT.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/INVCNT.dir/rule
+
+# Convenience name for target.
+INVCNT: CMakeFiles/INVCNT.dir/rule
+
+.PHONY : INVCNT
+
+# clean rule for target.
+CMakeFiles/INVCNT.dir/clean:
+	$(MAKE) -f CMakeFiles/INVCNT.dir/build.make CMakeFiles/INVCNT.dir/clean
+.PHONY : CMakeFiles/INVCNT.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ABSYS.dir
+
+# All Build rule for target.
+CMakeFiles/ABSYS.dir/all:
+	$(MAKE) -f CMakeFiles/ABSYS.dir/build.make CMakeFiles/ABSYS.dir/depend
+	$(MAKE) -f CMakeFiles/ABSYS.dir/build.make CMakeFiles/ABSYS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ABSYS"
+.PHONY : CMakeFiles/ABSYS.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ABSYS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ABSYS.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ABSYS.dir/rule
+
+# Convenience name for target.
+ABSYS: CMakeFiles/ABSYS.dir/rule
+
+.PHONY : ABSYS
+
+# clean rule for target.
+CMakeFiles/ABSYS.dir/clean:
+	$(MAKE) -f CMakeFiles/ABSYS.dir/build.make CMakeFiles/ABSYS.dir/clean
+.PHONY : CMakeFiles/ABSYS.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/SPOJ.dir
 
 # All Build rule for target.
 CMakeFiles/SPOJ.dir/all:
 	$(MAKE) -f CMakeFiles/SPOJ.dir/build.make CMakeFiles/SPOJ.dir/depend
 	$(MAKE) -f CMakeFiles/SPOJ.dir/build.make CMakeFiles/SPOJ.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target SPOJ"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target SPOJ"
 .PHONY : CMakeFiles/SPOJ.dir/all
 
 # Build rule for subdir invocation for target.
@@ -138,7 +227,7 @@ CMakeFiles/CMakeLists.dir/clean:
 CMakeFiles/STPAR.dir/all:
 	$(MAKE) -f CMakeFiles/STPAR.dir/build.make CMakeFiles/STPAR.dir/depend
 	$(MAKE) -f CMakeFiles/STPAR.dir/build.make CMakeFiles/STPAR.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target STPAR"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target STPAR"
 .PHONY : CMakeFiles/STPAR.dir/all
 
 # Build rule for subdir invocation for target.
@@ -165,7 +254,7 @@ CMakeFiles/STPAR.dir/clean:
 CMakeFiles/main.dir/all:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -186,18 +275,45 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/INTEST.dir
+
+# All Build rule for target.
+CMakeFiles/INTEST.dir/all:
+	$(MAKE) -f CMakeFiles/INTEST.dir/build.make CMakeFiles/INTEST.dir/depend
+	$(MAKE) -f CMakeFiles/INTEST.dir/build.make CMakeFiles/INTEST.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target INTEST"
+.PHONY : CMakeFiles/INTEST.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/INTEST.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/INTEST.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/INTEST.dir/rule
+
+# Convenience name for target.
+INTEST: CMakeFiles/INTEST.dir/rule
+
+.PHONY : INTEST
+
+# clean rule for target.
+CMakeFiles/INTEST.dir/clean:
+	$(MAKE) -f CMakeFiles/INTEST.dir/build.make CMakeFiles/INTEST.dir/clean
+.PHONY : CMakeFiles/INTEST.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/WILLITST.dir
 
 # All Build rule for target.
 CMakeFiles/WILLITST.dir/all:
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/depend
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=7,8,9 "Built target WILLITST"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=15,16,17,18,19,20 "Built target WILLITST"
 .PHONY : CMakeFiles/WILLITST.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/WILLITST.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/WILLITST.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/WILLITST.dir/rule
@@ -219,7 +335,7 @@ CMakeFiles/WILLITST.dir/clean:
 CMakeFiles/TestCode.dir/all:
 	$(MAKE) -f CMakeFiles/TestCode.dir/build.make CMakeFiles/TestCode.dir/depend
 	$(MAKE) -f CMakeFiles/TestCode.dir/build.make CMakeFiles/TestCode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target TestCode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target TestCode"
 .PHONY : CMakeFiles/TestCode.dir/all
 
 # Build rule for subdir invocation for target.

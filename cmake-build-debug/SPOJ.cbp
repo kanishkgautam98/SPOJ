@@ -27,6 +27,144 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="CANTON">
+				<Option output="/home/kanishk/Pictures/SPOJ/cmake-build-debug/CANTON" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/Pictures/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 CANTON"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CANTON/fast">
+				<Option output="/home/kanishk/Pictures/SPOJ/cmake-build-debug/CANTON" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/Pictures/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 CANTON/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="INVCNT">
+				<Option output="/home/kanishk/Pictures/SPOJ/cmake-build-debug/INVCNT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/Pictures/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 INVCNT"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="INVCNT/fast">
+				<Option output="/home/kanishk/Pictures/SPOJ/cmake-build-debug/INVCNT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/Pictures/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 INVCNT/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ABSYS">
+				<Option output="/home/kanishk/Pictures/SPOJ/cmake-build-debug/ABSYS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/Pictures/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 ABSYS"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ABSYS/fast">
+				<Option output="/home/kanishk/Pictures/SPOJ/cmake-build-debug/ABSYS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/Pictures/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 ABSYS/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="SPOJ">
 				<Option output="/home/kanishk/Pictures/SPOJ/cmake-build-debug/SPOJ" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/kanishk/Pictures/SPOJ/cmake-build-debug"/>
@@ -221,6 +359,52 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="INTEST">
+				<Option output="/home/kanishk/Pictures/SPOJ/cmake-build-debug/INTEST" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/Pictures/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 INTEST"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="INTEST/fast">
+				<Option output="/home/kanishk/Pictures/SPOJ/cmake-build-debug/INTEST" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/Pictures/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 INTEST/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/Pictures/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="WILLITST">
 				<Option output="/home/kanishk/Pictures/SPOJ/cmake-build-debug/WILLITST" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/kanishk/Pictures/SPOJ/cmake-build-debug"/>
@@ -316,6 +500,21 @@
 		</Build>
 		<Unit filename="/home/kanishk/Pictures/SPOJ/CMakeLists.txt">
 			<Option target="CMakeLists"/>
+		</Unit>
+		<Unit filename="/home/kanishk/Pictures/SPOJ/SOLUTIONS/ABSYS.cpp">
+			<Option target="ABSYS"/>
+		</Unit>
+		<Unit filename="/home/kanishk/Pictures/SPOJ/SOLUTIONS/CANTON.cpp">
+			<Option target="CANTON"/>
+			<Option target="WILLITST"/>
+		</Unit>
+		<Unit filename="/home/kanishk/Pictures/SPOJ/SOLUTIONS/INTEST.cpp">
+			<Option target="INTEST"/>
+			<Option target="WILLITST"/>
+		</Unit>
+		<Unit filename="/home/kanishk/Pictures/SPOJ/SOLUTIONS/INVCNT.cpp">
+			<Option target="INVCNT"/>
+			<Option target="WILLITST"/>
 		</Unit>
 		<Unit filename="/home/kanishk/Pictures/SPOJ/SOLUTIONS/STPAR.cpp">
 			<Option target="STPAR"/>
