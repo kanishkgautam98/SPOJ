@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanishk/Pictures/SPOJ
+CMAKE_SOURCE_DIR = /home/kanishk/CLionProjects/SPOJ
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanishk/Pictures/SPOJ/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kanishk/CLionProjects/SPOJ/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CMakeLists.dir/depend.make
@@ -62,6 +62,6 @@ CMakeFiles/CMakeLists.dir/clean:
 .PHONY : CMakeFiles/CMakeLists.dir/clean
 
 CMakeFiles/CMakeLists.dir/depend:
-	cd /home/kanishk/Pictures/SPOJ/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kanishk/Pictures/SPOJ /home/kanishk/Pictures/SPOJ /home/kanishk/Pictures/SPOJ/cmake-build-debug /home/kanishk/Pictures/SPOJ/cmake-build-debug /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/CMakeLists.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kanishk/CLionProjects/SPOJ/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kanishk/CLionProjects/SPOJ /home/kanishk/CLionProjects/SPOJ /home/kanishk/CLionProjects/SPOJ/cmake-build-debug /home/kanishk/CLionProjects/SPOJ/cmake-build-debug /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/CMakeLists.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CMakeLists.dir/depend
 

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanishk/Pictures/SPOJ
+CMAKE_SOURCE_DIR = /home/kanishk/CLionProjects/SPOJ
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanishk/Pictures/SPOJ/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kanishk/CLionProjects/SPOJ/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/WILLITST.dir/depend.make
@@ -59,68 +59,94 @@ include CMakeFiles/WILLITST.dir/flags.make
 
 CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.o: CMakeFiles/WILLITST.dir/flags.make
 CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.o: ../SOLUTIONS/WILLITST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.o -c /home/kanishk/Pictures/SPOJ/SOLUTIONS/WILLITST.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.o -c /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/WILLITST.cpp
 
 CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/Pictures/SPOJ/SOLUTIONS/WILLITST.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/WILLITST.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.i
 
 CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/Pictures/SPOJ/SOLUTIONS/WILLITST.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/WILLITST.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.s
 
 CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.o: CMakeFiles/WILLITST.dir/flags.make
 CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.o: ../SOLUTIONS/TestCode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.o -c /home/kanishk/Pictures/SPOJ/SOLUTIONS/TestCode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.o -c /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/TestCode.cpp
 
 CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/Pictures/SPOJ/SOLUTIONS/TestCode.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/TestCode.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.i
 
 CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/Pictures/SPOJ/SOLUTIONS/TestCode.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/TestCode.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.s
 
 CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.o: CMakeFiles/WILLITST.dir/flags.make
 CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.o: ../SOLUTIONS/INTEST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.o -c /home/kanishk/Pictures/SPOJ/SOLUTIONS/INTEST.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.o -c /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/INTEST.cpp
 
 CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/Pictures/SPOJ/SOLUTIONS/INTEST.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/INTEST.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.i
 
 CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/Pictures/SPOJ/SOLUTIONS/INTEST.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/INTEST.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.s
 
 CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.o: CMakeFiles/WILLITST.dir/flags.make
 CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.o: ../SOLUTIONS/INVCNT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.o -c /home/kanishk/Pictures/SPOJ/SOLUTIONS/INVCNT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.o -c /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/INVCNT.cpp
 
 CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/Pictures/SPOJ/SOLUTIONS/INVCNT.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/INVCNT.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.i
 
 CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/Pictures/SPOJ/SOLUTIONS/INVCNT.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/INVCNT.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.s
 
 CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.o: CMakeFiles/WILLITST.dir/flags.make
 CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.o: ../SOLUTIONS/CANTON.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.o -c /home/kanishk/Pictures/SPOJ/SOLUTIONS/CANTON.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.o -c /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/CANTON.cpp
 
 CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/Pictures/SPOJ/SOLUTIONS/CANTON.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/CANTON.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.i
 
 CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/Pictures/SPOJ/SOLUTIONS/CANTON.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/CANTON.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.s
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.o: CMakeFiles/WILLITST.dir/flags.make
+CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.o: ../SOLUTIONS/ALCATRAZ3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.o -c /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/ALCATRAZ3.cpp
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/ALCATRAZ3.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.i
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/ALCATRAZ3.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.s
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ32.cpp.o: CMakeFiles/WILLITST.dir/flags.make
+CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ32.cpp.o: ../SOLUTIONS/ALCATRAZ32.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ32.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ32.cpp.o -c /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/ALCATRAZ32.cpp
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ32.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ32.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/ALCATRAZ32.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ32.cpp.i
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ32.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ32.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/ALCATRAZ32.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ32.cpp.s
 
 # Object files for target WILLITST
 WILLITST_OBJECTS = \
@@ -128,7 +154,9 @@ WILLITST_OBJECTS = \
 "CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.o" \
 "CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.o" \
 "CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.o" \
-"CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.o"
+"CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.o" \
+"CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.o" \
+"CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ32.cpp.o"
 
 # External object files for target WILLITST
 WILLITST_EXTERNAL_OBJECTS =
@@ -138,9 +166,11 @@ WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.o
 WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.o
 WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.o
 WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.o
+WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.o
+WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ32.cpp.o
 WILLITST: CMakeFiles/WILLITST.dir/build.make
 WILLITST: CMakeFiles/WILLITST.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable WILLITST"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable WILLITST"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WILLITST.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +183,6 @@ CMakeFiles/WILLITST.dir/clean:
 .PHONY : CMakeFiles/WILLITST.dir/clean
 
 CMakeFiles/WILLITST.dir/depend:
-	cd /home/kanishk/Pictures/SPOJ/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kanishk/Pictures/SPOJ /home/kanishk/Pictures/SPOJ /home/kanishk/Pictures/SPOJ/cmake-build-debug /home/kanishk/Pictures/SPOJ/cmake-build-debug /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kanishk/CLionProjects/SPOJ/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kanishk/CLionProjects/SPOJ /home/kanishk/CLionProjects/SPOJ /home/kanishk/CLionProjects/SPOJ/cmake-build-debug /home/kanishk/CLionProjects/SPOJ/cmake-build-debug /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/WILLITST.dir/depend
 

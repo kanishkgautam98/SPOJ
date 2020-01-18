@@ -1,4 +1,4 @@
-# Install script for directory: /home/kanishk/Pictures/SPOJ
+# Install script for directory: /home/kanishk/CLionProjects/SPOJ
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kanishk/Pictures/SPOJ/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

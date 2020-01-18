@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanishk/Pictures/SPOJ
+CMAKE_SOURCE_DIR = /home/kanishk/CLionProjects/SPOJ
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanishk/Pictures/SPOJ/cmake-build-debug
+CMAKE_BINARY_DIR = /home/kanishk/CLionProjects/SPOJ/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/kanishk/Pictures/SPOJ/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5233.144/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanishk/Pictures/SPOJ/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,19 @@ CANTON: cmake_check_build_system
 CANTON/fast:
 	$(MAKE) -f CMakeFiles/CANTON.dir/build.make CMakeFiles/CANTON.dir/build
 .PHONY : CANTON/fast
+
+#=============================================================================
+# Target rules for targets named ALCATRAZ3
+
+# Build rule for target.
+ALCATRAZ3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ALCATRAZ3
+.PHONY : ALCATRAZ3
+
+# fast build rule for target.
+ALCATRAZ3/fast:
+	$(MAKE) -f CMakeFiles/ALCATRAZ3.dir/build.make CMakeFiles/ALCATRAZ3.dir/build
+.PHONY : ALCATRAZ3/fast
 
 #=============================================================================
 # Target rules for targets named INVCNT
@@ -266,6 +279,63 @@ SOLUTIONS/ABSYS.s: SOLUTIONS/ABSYS.cpp.s
 SOLUTIONS/ABSYS.cpp.s:
 	$(MAKE) -f CMakeFiles/ABSYS.dir/build.make CMakeFiles/ABSYS.dir/SOLUTIONS/ABSYS.cpp.s
 .PHONY : SOLUTIONS/ABSYS.cpp.s
+
+SOLUTIONS/ALCATRAZ3.o: SOLUTIONS/ALCATRAZ3.cpp.o
+
+.PHONY : SOLUTIONS/ALCATRAZ3.o
+
+# target to build an object file
+SOLUTIONS/ALCATRAZ3.cpp.o:
+	$(MAKE) -f CMakeFiles/ALCATRAZ3.dir/build.make CMakeFiles/ALCATRAZ3.dir/SOLUTIONS/ALCATRAZ3.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.o
+.PHONY : SOLUTIONS/ALCATRAZ3.cpp.o
+
+SOLUTIONS/ALCATRAZ3.i: SOLUTIONS/ALCATRAZ3.cpp.i
+
+.PHONY : SOLUTIONS/ALCATRAZ3.i
+
+# target to preprocess a source file
+SOLUTIONS/ALCATRAZ3.cpp.i:
+	$(MAKE) -f CMakeFiles/ALCATRAZ3.dir/build.make CMakeFiles/ALCATRAZ3.dir/SOLUTIONS/ALCATRAZ3.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.i
+.PHONY : SOLUTIONS/ALCATRAZ3.cpp.i
+
+SOLUTIONS/ALCATRAZ3.s: SOLUTIONS/ALCATRAZ3.cpp.s
+
+.PHONY : SOLUTIONS/ALCATRAZ3.s
+
+# target to generate assembly for a file
+SOLUTIONS/ALCATRAZ3.cpp.s:
+	$(MAKE) -f CMakeFiles/ALCATRAZ3.dir/build.make CMakeFiles/ALCATRAZ3.dir/SOLUTIONS/ALCATRAZ3.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.s
+.PHONY : SOLUTIONS/ALCATRAZ3.cpp.s
+
+SOLUTIONS/ALCATRAZ32.o: SOLUTIONS/ALCATRAZ32.cpp.o
+
+.PHONY : SOLUTIONS/ALCATRAZ32.o
+
+# target to build an object file
+SOLUTIONS/ALCATRAZ32.cpp.o:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ32.cpp.o
+.PHONY : SOLUTIONS/ALCATRAZ32.cpp.o
+
+SOLUTIONS/ALCATRAZ32.i: SOLUTIONS/ALCATRAZ32.cpp.i
+
+.PHONY : SOLUTIONS/ALCATRAZ32.i
+
+# target to preprocess a source file
+SOLUTIONS/ALCATRAZ32.cpp.i:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ32.cpp.i
+.PHONY : SOLUTIONS/ALCATRAZ32.cpp.i
+
+SOLUTIONS/ALCATRAZ32.s: SOLUTIONS/ALCATRAZ32.cpp.s
+
+.PHONY : SOLUTIONS/ALCATRAZ32.s
+
+# target to generate assembly for a file
+SOLUTIONS/ALCATRAZ32.cpp.s:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ32.cpp.s
+.PHONY : SOLUTIONS/ALCATRAZ32.cpp.s
 
 SOLUTIONS/CANTON.o: SOLUTIONS/CANTON.cpp.o
 
@@ -479,6 +549,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... CANTON"
+	@echo "... ALCATRAZ3"
 	@echo "... INVCNT"
 	@echo "... ABSYS"
 	@echo "... SPOJ"
@@ -492,6 +563,12 @@ help:
 	@echo "... SOLUTIONS/ABSYS.o"
 	@echo "... SOLUTIONS/ABSYS.i"
 	@echo "... SOLUTIONS/ABSYS.s"
+	@echo "... SOLUTIONS/ALCATRAZ3.o"
+	@echo "... SOLUTIONS/ALCATRAZ3.i"
+	@echo "... SOLUTIONS/ALCATRAZ3.s"
+	@echo "... SOLUTIONS/ALCATRAZ32.o"
+	@echo "... SOLUTIONS/ALCATRAZ32.i"
+	@echo "... SOLUTIONS/ALCATRAZ32.s"
 	@echo "... SOLUTIONS/CANTON.o"
 	@echo "... SOLUTIONS/CANTON.i"
 	@echo "... SOLUTIONS/CANTON.s"
