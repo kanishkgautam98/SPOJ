@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/kanishk/CLionProjects/SPOJ/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,108 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CANTON
+# Target rules for targets named GIRLSNBYS
 
 # Build rule for target.
-CANTON: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CANTON
-.PHONY : CANTON
+GIRLSNBYS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GIRLSNBYS
+.PHONY : GIRLSNBYS
 
 # fast build rule for target.
-CANTON/fast:
-	$(MAKE) -f CMakeFiles/CANTON.dir/build.make CMakeFiles/CANTON.dir/build
-.PHONY : CANTON/fast
-
-#=============================================================================
-# Target rules for targets named ALCATRAZ3
-
-# Build rule for target.
-ALCATRAZ3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ALCATRAZ3
-.PHONY : ALCATRAZ3
-
-# fast build rule for target.
-ALCATRAZ3/fast:
-	$(MAKE) -f CMakeFiles/ALCATRAZ3.dir/build.make CMakeFiles/ALCATRAZ3.dir/build
-.PHONY : ALCATRAZ3/fast
-
-#=============================================================================
-# Target rules for targets named INVCNT
-
-# Build rule for target.
-INVCNT: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 INVCNT
-.PHONY : INVCNT
-
-# fast build rule for target.
-INVCNT/fast:
-	$(MAKE) -f CMakeFiles/INVCNT.dir/build.make CMakeFiles/INVCNT.dir/build
-.PHONY : INVCNT/fast
-
-#=============================================================================
-# Target rules for targets named ABSYS
-
-# Build rule for target.
-ABSYS: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ABSYS
-.PHONY : ABSYS
-
-# fast build rule for target.
-ABSYS/fast:
-	$(MAKE) -f CMakeFiles/ABSYS.dir/build.make CMakeFiles/ABSYS.dir/build
-.PHONY : ABSYS/fast
-
-#=============================================================================
-# Target rules for targets named SPOJ
-
-# Build rule for target.
-SPOJ: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SPOJ
-.PHONY : SPOJ
-
-# fast build rule for target.
-SPOJ/fast:
-	$(MAKE) -f CMakeFiles/SPOJ.dir/build.make CMakeFiles/SPOJ.dir/build
-.PHONY : SPOJ/fast
-
-#=============================================================================
-# Target rules for targets named CMakeLists
-
-# Build rule for target.
-CMakeLists: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeLists
-.PHONY : CMakeLists
-
-# fast build rule for target.
-CMakeLists/fast:
-	$(MAKE) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/build
-.PHONY : CMakeLists/fast
-
-#=============================================================================
-# Target rules for targets named STPAR
-
-# Build rule for target.
-STPAR: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 STPAR
-.PHONY : STPAR
-
-# fast build rule for target.
-STPAR/fast:
-	$(MAKE) -f CMakeFiles/STPAR.dir/build.make CMakeFiles/STPAR.dir/build
-.PHONY : STPAR/fast
-
-#=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+GIRLSNBYS/fast:
+	$(MAKE) -f CMakeFiles/GIRLSNBYS.dir/build.make CMakeFiles/GIRLSNBYS.dir/build
+.PHONY : GIRLSNBYS/fast
 
 #=============================================================================
 # Target rules for targets named INTEST
@@ -228,6 +137,58 @@ INTEST/fast:
 .PHONY : INTEST/fast
 
 #=============================================================================
+# Target rules for targets named STPAR
+
+# Build rule for target.
+STPAR: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 STPAR
+.PHONY : STPAR
+
+# fast build rule for target.
+STPAR/fast:
+	$(MAKE) -f CMakeFiles/STPAR.dir/build.make CMakeFiles/STPAR.dir/build
+.PHONY : STPAR/fast
+
+#=============================================================================
+# Target rules for targets named PT07Z
+
+# Build rule for target.
+PT07Z: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PT07Z
+.PHONY : PT07Z
+
+# fast build rule for target.
+PT07Z/fast:
+	$(MAKE) -f CMakeFiles/PT07Z.dir/build.make CMakeFiles/PT07Z.dir/build
+.PHONY : PT07Z/fast
+
+#=============================================================================
+# Target rules for targets named SPOJ
+
+# Build rule for target.
+SPOJ: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SPOJ
+.PHONY : SPOJ
+
+# fast build rule for target.
+SPOJ/fast:
+	$(MAKE) -f CMakeFiles/SPOJ.dir/build.make CMakeFiles/SPOJ.dir/build
+.PHONY : SPOJ/fast
+
+#=============================================================================
+# Target rules for targets named ABSYS
+
+# Build rule for target.
+ABSYS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ABSYS
+.PHONY : ABSYS
+
+# fast build rule for target.
+ABSYS/fast:
+	$(MAKE) -f CMakeFiles/ABSYS.dir/build.make CMakeFiles/ABSYS.dir/build
+.PHONY : ABSYS/fast
+
+#=============================================================================
 # Target rules for targets named WILLITST
 
 # Build rule for target.
@@ -241,6 +202,110 @@ WILLITST/fast:
 .PHONY : WILLITST/fast
 
 #=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named INVCNT
+
+# Build rule for target.
+INVCNT: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 INVCNT
+.PHONY : INVCNT
+
+# fast build rule for target.
+INVCNT/fast:
+	$(MAKE) -f CMakeFiles/INVCNT.dir/build.make CMakeFiles/INVCNT.dir/build
+.PHONY : INVCNT/fast
+
+#=============================================================================
+# Target rules for targets named CMakeLists
+
+# Build rule for target.
+CMakeLists: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeLists
+.PHONY : CMakeLists
+
+# fast build rule for target.
+CMakeLists/fast:
+	$(MAKE) -f CMakeFiles/CMakeLists.dir/build.make CMakeFiles/CMakeLists.dir/build
+.PHONY : CMakeLists/fast
+
+#=============================================================================
+# Target rules for targets named ALCATRAZ3
+
+# Build rule for target.
+ALCATRAZ3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ALCATRAZ3
+.PHONY : ALCATRAZ3
+
+# fast build rule for target.
+ALCATRAZ3/fast:
+	$(MAKE) -f CMakeFiles/ALCATRAZ3.dir/build.make CMakeFiles/ALCATRAZ3.dir/build
+.PHONY : ALCATRAZ3/fast
+
+#=============================================================================
+# Target rules for targets named PT07Y
+
+# Build rule for target.
+PT07Y: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PT07Y
+.PHONY : PT07Y
+
+# fast build rule for target.
+PT07Y/fast:
+	$(MAKE) -f CMakeFiles/PT07Y.dir/build.make CMakeFiles/PT07Y.dir/build
+.PHONY : PT07Y/fast
+
+#=============================================================================
+# Target rules for targets named CANTON
+
+# Build rule for target.
+CANTON: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CANTON
+.PHONY : CANTON
+
+# fast build rule for target.
+CANTON/fast:
+	$(MAKE) -f CMakeFiles/CANTON.dir/build.make CMakeFiles/CANTON.dir/build
+.PHONY : CANTON/fast
+
+#=============================================================================
+# Target rules for targets named PERMUT2
+
+# Build rule for target.
+PERMUT2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PERMUT2
+.PHONY : PERMUT2
+
+# fast build rule for target.
+PERMUT2/fast:
+	$(MAKE) -f CMakeFiles/PERMUT2.dir/build.make CMakeFiles/PERMUT2.dir/build
+.PHONY : PERMUT2/fast
+
+#=============================================================================
+# Target rules for targets named TRICOUNT
+
+# Build rule for target.
+TRICOUNT: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TRICOUNT
+.PHONY : TRICOUNT
+
+# fast build rule for target.
+TRICOUNT/fast:
+	$(MAKE) -f CMakeFiles/TRICOUNT.dir/build.make CMakeFiles/TRICOUNT.dir/build
+.PHONY : TRICOUNT/fast
+
+#=============================================================================
 # Target rules for targets named TestCode
 
 # Build rule for target.
@@ -252,6 +317,19 @@ TestCode: cmake_check_build_system
 TestCode/fast:
 	$(MAKE) -f CMakeFiles/TestCode.dir/build.make CMakeFiles/TestCode.dir/build
 .PHONY : TestCode/fast
+
+#=============================================================================
+# Target rules for targets named TOPOSORT
+
+# Build rule for target.
+TOPOSORT: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TOPOSORT
+.PHONY : TOPOSORT
+
+# fast build rule for target.
+TOPOSORT/fast:
+	$(MAKE) -f CMakeFiles/TOPOSORT.dir/build.make CMakeFiles/TOPOSORT.dir/build
+.PHONY : TOPOSORT/fast
 
 SOLUTIONS/ABSYS.o: SOLUTIONS/ABSYS.cpp.o
 
@@ -286,8 +364,8 @@ SOLUTIONS/ALCATRAZ3.o: SOLUTIONS/ALCATRAZ3.cpp.o
 
 # target to build an object file
 SOLUTIONS/ALCATRAZ3.cpp.o:
-	$(MAKE) -f CMakeFiles/ALCATRAZ3.dir/build.make CMakeFiles/ALCATRAZ3.dir/SOLUTIONS/ALCATRAZ3.cpp.o
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.o
+	$(MAKE) -f CMakeFiles/ALCATRAZ3.dir/build.make CMakeFiles/ALCATRAZ3.dir/SOLUTIONS/ALCATRAZ3.cpp.o
 .PHONY : SOLUTIONS/ALCATRAZ3.cpp.o
 
 SOLUTIONS/ALCATRAZ3.i: SOLUTIONS/ALCATRAZ3.cpp.i
@@ -296,8 +374,8 @@ SOLUTIONS/ALCATRAZ3.i: SOLUTIONS/ALCATRAZ3.cpp.i
 
 # target to preprocess a source file
 SOLUTIONS/ALCATRAZ3.cpp.i:
-	$(MAKE) -f CMakeFiles/ALCATRAZ3.dir/build.make CMakeFiles/ALCATRAZ3.dir/SOLUTIONS/ALCATRAZ3.cpp.i
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.i
+	$(MAKE) -f CMakeFiles/ALCATRAZ3.dir/build.make CMakeFiles/ALCATRAZ3.dir/SOLUTIONS/ALCATRAZ3.cpp.i
 .PHONY : SOLUTIONS/ALCATRAZ3.cpp.i
 
 SOLUTIONS/ALCATRAZ3.s: SOLUTIONS/ALCATRAZ3.cpp.s
@@ -306,36 +384,9 @@ SOLUTIONS/ALCATRAZ3.s: SOLUTIONS/ALCATRAZ3.cpp.s
 
 # target to generate assembly for a file
 SOLUTIONS/ALCATRAZ3.cpp.s:
-	$(MAKE) -f CMakeFiles/ALCATRAZ3.dir/build.make CMakeFiles/ALCATRAZ3.dir/SOLUTIONS/ALCATRAZ3.cpp.s
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.s
+	$(MAKE) -f CMakeFiles/ALCATRAZ3.dir/build.make CMakeFiles/ALCATRAZ3.dir/SOLUTIONS/ALCATRAZ3.cpp.s
 .PHONY : SOLUTIONS/ALCATRAZ3.cpp.s
-
-SOLUTIONS/ALCATRAZ32.o: SOLUTIONS/ALCATRAZ32.cpp.o
-
-.PHONY : SOLUTIONS/ALCATRAZ32.o
-
-# target to build an object file
-SOLUTIONS/ALCATRAZ32.cpp.o:
-	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ32.cpp.o
-.PHONY : SOLUTIONS/ALCATRAZ32.cpp.o
-
-SOLUTIONS/ALCATRAZ32.i: SOLUTIONS/ALCATRAZ32.cpp.i
-
-.PHONY : SOLUTIONS/ALCATRAZ32.i
-
-# target to preprocess a source file
-SOLUTIONS/ALCATRAZ32.cpp.i:
-	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ32.cpp.i
-.PHONY : SOLUTIONS/ALCATRAZ32.cpp.i
-
-SOLUTIONS/ALCATRAZ32.s: SOLUTIONS/ALCATRAZ32.cpp.s
-
-.PHONY : SOLUTIONS/ALCATRAZ32.s
-
-# target to generate assembly for a file
-SOLUTIONS/ALCATRAZ32.cpp.s:
-	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ32.cpp.s
-.PHONY : SOLUTIONS/ALCATRAZ32.cpp.s
 
 SOLUTIONS/CANTON.o: SOLUTIONS/CANTON.cpp.o
 
@@ -343,8 +394,8 @@ SOLUTIONS/CANTON.o: SOLUTIONS/CANTON.cpp.o
 
 # target to build an object file
 SOLUTIONS/CANTON.cpp.o:
-	$(MAKE) -f CMakeFiles/CANTON.dir/build.make CMakeFiles/CANTON.dir/SOLUTIONS/CANTON.cpp.o
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.o
+	$(MAKE) -f CMakeFiles/CANTON.dir/build.make CMakeFiles/CANTON.dir/SOLUTIONS/CANTON.cpp.o
 .PHONY : SOLUTIONS/CANTON.cpp.o
 
 SOLUTIONS/CANTON.i: SOLUTIONS/CANTON.cpp.i
@@ -353,8 +404,8 @@ SOLUTIONS/CANTON.i: SOLUTIONS/CANTON.cpp.i
 
 # target to preprocess a source file
 SOLUTIONS/CANTON.cpp.i:
-	$(MAKE) -f CMakeFiles/CANTON.dir/build.make CMakeFiles/CANTON.dir/SOLUTIONS/CANTON.cpp.i
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.i
+	$(MAKE) -f CMakeFiles/CANTON.dir/build.make CMakeFiles/CANTON.dir/SOLUTIONS/CANTON.cpp.i
 .PHONY : SOLUTIONS/CANTON.cpp.i
 
 SOLUTIONS/CANTON.s: SOLUTIONS/CANTON.cpp.s
@@ -363,9 +414,39 @@ SOLUTIONS/CANTON.s: SOLUTIONS/CANTON.cpp.s
 
 # target to generate assembly for a file
 SOLUTIONS/CANTON.cpp.s:
-	$(MAKE) -f CMakeFiles/CANTON.dir/build.make CMakeFiles/CANTON.dir/SOLUTIONS/CANTON.cpp.s
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.s
+	$(MAKE) -f CMakeFiles/CANTON.dir/build.make CMakeFiles/CANTON.dir/SOLUTIONS/CANTON.cpp.s
 .PHONY : SOLUTIONS/CANTON.cpp.s
+
+SOLUTIONS/GIRLSNBYS.o: SOLUTIONS/GIRLSNBYS.cpp.o
+
+.PHONY : SOLUTIONS/GIRLSNBYS.o
+
+# target to build an object file
+SOLUTIONS/GIRLSNBYS.cpp.o:
+	$(MAKE) -f CMakeFiles/GIRLSNBYS.dir/build.make CMakeFiles/GIRLSNBYS.dir/SOLUTIONS/GIRLSNBYS.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/GIRLSNBYS.cpp.o
+.PHONY : SOLUTIONS/GIRLSNBYS.cpp.o
+
+SOLUTIONS/GIRLSNBYS.i: SOLUTIONS/GIRLSNBYS.cpp.i
+
+.PHONY : SOLUTIONS/GIRLSNBYS.i
+
+# target to preprocess a source file
+SOLUTIONS/GIRLSNBYS.cpp.i:
+	$(MAKE) -f CMakeFiles/GIRLSNBYS.dir/build.make CMakeFiles/GIRLSNBYS.dir/SOLUTIONS/GIRLSNBYS.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/GIRLSNBYS.cpp.i
+.PHONY : SOLUTIONS/GIRLSNBYS.cpp.i
+
+SOLUTIONS/GIRLSNBYS.s: SOLUTIONS/GIRLSNBYS.cpp.s
+
+.PHONY : SOLUTIONS/GIRLSNBYS.s
+
+# target to generate assembly for a file
+SOLUTIONS/GIRLSNBYS.cpp.s:
+	$(MAKE) -f CMakeFiles/GIRLSNBYS.dir/build.make CMakeFiles/GIRLSNBYS.dir/SOLUTIONS/GIRLSNBYS.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/GIRLSNBYS.cpp.s
+.PHONY : SOLUTIONS/GIRLSNBYS.cpp.s
 
 SOLUTIONS/INTEST.o: SOLUTIONS/INTEST.cpp.o
 
@@ -403,8 +484,8 @@ SOLUTIONS/INVCNT.o: SOLUTIONS/INVCNT.cpp.o
 
 # target to build an object file
 SOLUTIONS/INVCNT.cpp.o:
-	$(MAKE) -f CMakeFiles/INVCNT.dir/build.make CMakeFiles/INVCNT.dir/SOLUTIONS/INVCNT.cpp.o
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.o
+	$(MAKE) -f CMakeFiles/INVCNT.dir/build.make CMakeFiles/INVCNT.dir/SOLUTIONS/INVCNT.cpp.o
 .PHONY : SOLUTIONS/INVCNT.cpp.o
 
 SOLUTIONS/INVCNT.i: SOLUTIONS/INVCNT.cpp.i
@@ -413,8 +494,8 @@ SOLUTIONS/INVCNT.i: SOLUTIONS/INVCNT.cpp.i
 
 # target to preprocess a source file
 SOLUTIONS/INVCNT.cpp.i:
-	$(MAKE) -f CMakeFiles/INVCNT.dir/build.make CMakeFiles/INVCNT.dir/SOLUTIONS/INVCNT.cpp.i
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.i
+	$(MAKE) -f CMakeFiles/INVCNT.dir/build.make CMakeFiles/INVCNT.dir/SOLUTIONS/INVCNT.cpp.i
 .PHONY : SOLUTIONS/INVCNT.cpp.i
 
 SOLUTIONS/INVCNT.s: SOLUTIONS/INVCNT.cpp.s
@@ -423,9 +504,96 @@ SOLUTIONS/INVCNT.s: SOLUTIONS/INVCNT.cpp.s
 
 # target to generate assembly for a file
 SOLUTIONS/INVCNT.cpp.s:
-	$(MAKE) -f CMakeFiles/INVCNT.dir/build.make CMakeFiles/INVCNT.dir/SOLUTIONS/INVCNT.cpp.s
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.s
+	$(MAKE) -f CMakeFiles/INVCNT.dir/build.make CMakeFiles/INVCNT.dir/SOLUTIONS/INVCNT.cpp.s
 .PHONY : SOLUTIONS/INVCNT.cpp.s
+
+SOLUTIONS/PERMUT2.o: SOLUTIONS/PERMUT2.cpp.o
+
+.PHONY : SOLUTIONS/PERMUT2.o
+
+# target to build an object file
+SOLUTIONS/PERMUT2.cpp.o:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/PERMUT2.cpp.o
+	$(MAKE) -f CMakeFiles/PERMUT2.dir/build.make CMakeFiles/PERMUT2.dir/SOLUTIONS/PERMUT2.cpp.o
+.PHONY : SOLUTIONS/PERMUT2.cpp.o
+
+SOLUTIONS/PERMUT2.i: SOLUTIONS/PERMUT2.cpp.i
+
+.PHONY : SOLUTIONS/PERMUT2.i
+
+# target to preprocess a source file
+SOLUTIONS/PERMUT2.cpp.i:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/PERMUT2.cpp.i
+	$(MAKE) -f CMakeFiles/PERMUT2.dir/build.make CMakeFiles/PERMUT2.dir/SOLUTIONS/PERMUT2.cpp.i
+.PHONY : SOLUTIONS/PERMUT2.cpp.i
+
+SOLUTIONS/PERMUT2.s: SOLUTIONS/PERMUT2.cpp.s
+
+.PHONY : SOLUTIONS/PERMUT2.s
+
+# target to generate assembly for a file
+SOLUTIONS/PERMUT2.cpp.s:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/PERMUT2.cpp.s
+	$(MAKE) -f CMakeFiles/PERMUT2.dir/build.make CMakeFiles/PERMUT2.dir/SOLUTIONS/PERMUT2.cpp.s
+.PHONY : SOLUTIONS/PERMUT2.cpp.s
+
+SOLUTIONS/PT07Y.o: SOLUTIONS/PT07Y.cpp.o
+
+.PHONY : SOLUTIONS/PT07Y.o
+
+# target to build an object file
+SOLUTIONS/PT07Y.cpp.o:
+	$(MAKE) -f CMakeFiles/PT07Y.dir/build.make CMakeFiles/PT07Y.dir/SOLUTIONS/PT07Y.cpp.o
+.PHONY : SOLUTIONS/PT07Y.cpp.o
+
+SOLUTIONS/PT07Y.i: SOLUTIONS/PT07Y.cpp.i
+
+.PHONY : SOLUTIONS/PT07Y.i
+
+# target to preprocess a source file
+SOLUTIONS/PT07Y.cpp.i:
+	$(MAKE) -f CMakeFiles/PT07Y.dir/build.make CMakeFiles/PT07Y.dir/SOLUTIONS/PT07Y.cpp.i
+.PHONY : SOLUTIONS/PT07Y.cpp.i
+
+SOLUTIONS/PT07Y.s: SOLUTIONS/PT07Y.cpp.s
+
+.PHONY : SOLUTIONS/PT07Y.s
+
+# target to generate assembly for a file
+SOLUTIONS/PT07Y.cpp.s:
+	$(MAKE) -f CMakeFiles/PT07Y.dir/build.make CMakeFiles/PT07Y.dir/SOLUTIONS/PT07Y.cpp.s
+.PHONY : SOLUTIONS/PT07Y.cpp.s
+
+SOLUTIONS/PT07Z.o: SOLUTIONS/PT07Z.cpp.o
+
+.PHONY : SOLUTIONS/PT07Z.o
+
+# target to build an object file
+SOLUTIONS/PT07Z.cpp.o:
+	$(MAKE) -f CMakeFiles/PT07Z.dir/build.make CMakeFiles/PT07Z.dir/SOLUTIONS/PT07Z.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/PT07Z.cpp.o
+.PHONY : SOLUTIONS/PT07Z.cpp.o
+
+SOLUTIONS/PT07Z.i: SOLUTIONS/PT07Z.cpp.i
+
+.PHONY : SOLUTIONS/PT07Z.i
+
+# target to preprocess a source file
+SOLUTIONS/PT07Z.cpp.i:
+	$(MAKE) -f CMakeFiles/PT07Z.dir/build.make CMakeFiles/PT07Z.dir/SOLUTIONS/PT07Z.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/PT07Z.cpp.i
+.PHONY : SOLUTIONS/PT07Z.cpp.i
+
+SOLUTIONS/PT07Z.s: SOLUTIONS/PT07Z.cpp.s
+
+.PHONY : SOLUTIONS/PT07Z.s
+
+# target to generate assembly for a file
+SOLUTIONS/PT07Z.cpp.s:
+	$(MAKE) -f CMakeFiles/PT07Z.dir/build.make CMakeFiles/PT07Z.dir/SOLUTIONS/PT07Z.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/PT07Z.cpp.s
+.PHONY : SOLUTIONS/PT07Z.cpp.s
 
 SOLUTIONS/STPAR.o: SOLUTIONS/STPAR.cpp.o
 
@@ -453,6 +621,66 @@ SOLUTIONS/STPAR.s: SOLUTIONS/STPAR.cpp.s
 SOLUTIONS/STPAR.cpp.s:
 	$(MAKE) -f CMakeFiles/STPAR.dir/build.make CMakeFiles/STPAR.dir/SOLUTIONS/STPAR.cpp.s
 .PHONY : SOLUTIONS/STPAR.cpp.s
+
+SOLUTIONS/TOPOSORT.o: SOLUTIONS/TOPOSORT.cpp.o
+
+.PHONY : SOLUTIONS/TOPOSORT.o
+
+# target to build an object file
+SOLUTIONS/TOPOSORT.cpp.o:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/TOPOSORT.cpp.o
+	$(MAKE) -f CMakeFiles/TOPOSORT.dir/build.make CMakeFiles/TOPOSORT.dir/SOLUTIONS/TOPOSORT.cpp.o
+.PHONY : SOLUTIONS/TOPOSORT.cpp.o
+
+SOLUTIONS/TOPOSORT.i: SOLUTIONS/TOPOSORT.cpp.i
+
+.PHONY : SOLUTIONS/TOPOSORT.i
+
+# target to preprocess a source file
+SOLUTIONS/TOPOSORT.cpp.i:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/TOPOSORT.cpp.i
+	$(MAKE) -f CMakeFiles/TOPOSORT.dir/build.make CMakeFiles/TOPOSORT.dir/SOLUTIONS/TOPOSORT.cpp.i
+.PHONY : SOLUTIONS/TOPOSORT.cpp.i
+
+SOLUTIONS/TOPOSORT.s: SOLUTIONS/TOPOSORT.cpp.s
+
+.PHONY : SOLUTIONS/TOPOSORT.s
+
+# target to generate assembly for a file
+SOLUTIONS/TOPOSORT.cpp.s:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/TOPOSORT.cpp.s
+	$(MAKE) -f CMakeFiles/TOPOSORT.dir/build.make CMakeFiles/TOPOSORT.dir/SOLUTIONS/TOPOSORT.cpp.s
+.PHONY : SOLUTIONS/TOPOSORT.cpp.s
+
+SOLUTIONS/TRICOUNT.o: SOLUTIONS/TRICOUNT.cpp.o
+
+.PHONY : SOLUTIONS/TRICOUNT.o
+
+# target to build an object file
+SOLUTIONS/TRICOUNT.cpp.o:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/TRICOUNT.cpp.o
+	$(MAKE) -f CMakeFiles/TRICOUNT.dir/build.make CMakeFiles/TRICOUNT.dir/SOLUTIONS/TRICOUNT.cpp.o
+.PHONY : SOLUTIONS/TRICOUNT.cpp.o
+
+SOLUTIONS/TRICOUNT.i: SOLUTIONS/TRICOUNT.cpp.i
+
+.PHONY : SOLUTIONS/TRICOUNT.i
+
+# target to preprocess a source file
+SOLUTIONS/TRICOUNT.cpp.i:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/TRICOUNT.cpp.i
+	$(MAKE) -f CMakeFiles/TRICOUNT.dir/build.make CMakeFiles/TRICOUNT.dir/SOLUTIONS/TRICOUNT.cpp.i
+.PHONY : SOLUTIONS/TRICOUNT.cpp.i
+
+SOLUTIONS/TRICOUNT.s: SOLUTIONS/TRICOUNT.cpp.s
+
+.PHONY : SOLUTIONS/TRICOUNT.s
+
+# target to generate assembly for a file
+SOLUTIONS/TRICOUNT.cpp.s:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/TRICOUNT.cpp.s
+	$(MAKE) -f CMakeFiles/TRICOUNT.dir/build.make CMakeFiles/TRICOUNT.dir/SOLUTIONS/TRICOUNT.cpp.s
+.PHONY : SOLUTIONS/TRICOUNT.cpp.s
 
 SOLUTIONS/TestCode.o: SOLUTIONS/TestCode.cpp.o
 
@@ -547,40 +775,61 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... CANTON"
-	@echo "... ALCATRAZ3"
-	@echo "... INVCNT"
-	@echo "... ABSYS"
-	@echo "... SPOJ"
 	@echo "... rebuild_cache"
-	@echo "... CMakeLists"
-	@echo "... STPAR"
-	@echo "... main"
+	@echo "... edit_cache"
+	@echo "... GIRLSNBYS"
 	@echo "... INTEST"
+	@echo "... STPAR"
+	@echo "... PT07Z"
+	@echo "... SPOJ"
+	@echo "... ABSYS"
 	@echo "... WILLITST"
+	@echo "... main"
+	@echo "... INVCNT"
+	@echo "... CMakeLists"
+	@echo "... ALCATRAZ3"
+	@echo "... PT07Y"
+	@echo "... CANTON"
+	@echo "... PERMUT2"
+	@echo "... TRICOUNT"
 	@echo "... TestCode"
+	@echo "... TOPOSORT"
 	@echo "... SOLUTIONS/ABSYS.o"
 	@echo "... SOLUTIONS/ABSYS.i"
 	@echo "... SOLUTIONS/ABSYS.s"
 	@echo "... SOLUTIONS/ALCATRAZ3.o"
 	@echo "... SOLUTIONS/ALCATRAZ3.i"
 	@echo "... SOLUTIONS/ALCATRAZ3.s"
-	@echo "... SOLUTIONS/ALCATRAZ32.o"
-	@echo "... SOLUTIONS/ALCATRAZ32.i"
-	@echo "... SOLUTIONS/ALCATRAZ32.s"
 	@echo "... SOLUTIONS/CANTON.o"
 	@echo "... SOLUTIONS/CANTON.i"
 	@echo "... SOLUTIONS/CANTON.s"
+	@echo "... SOLUTIONS/GIRLSNBYS.o"
+	@echo "... SOLUTIONS/GIRLSNBYS.i"
+	@echo "... SOLUTIONS/GIRLSNBYS.s"
 	@echo "... SOLUTIONS/INTEST.o"
 	@echo "... SOLUTIONS/INTEST.i"
 	@echo "... SOLUTIONS/INTEST.s"
 	@echo "... SOLUTIONS/INVCNT.o"
 	@echo "... SOLUTIONS/INVCNT.i"
 	@echo "... SOLUTIONS/INVCNT.s"
+	@echo "... SOLUTIONS/PERMUT2.o"
+	@echo "... SOLUTIONS/PERMUT2.i"
+	@echo "... SOLUTIONS/PERMUT2.s"
+	@echo "... SOLUTIONS/PT07Y.o"
+	@echo "... SOLUTIONS/PT07Y.i"
+	@echo "... SOLUTIONS/PT07Y.s"
+	@echo "... SOLUTIONS/PT07Z.o"
+	@echo "... SOLUTIONS/PT07Z.i"
+	@echo "... SOLUTIONS/PT07Z.s"
 	@echo "... SOLUTIONS/STPAR.o"
 	@echo "... SOLUTIONS/STPAR.i"
 	@echo "... SOLUTIONS/STPAR.s"
+	@echo "... SOLUTIONS/TOPOSORT.o"
+	@echo "... SOLUTIONS/TOPOSORT.i"
+	@echo "... SOLUTIONS/TOPOSORT.s"
+	@echo "... SOLUTIONS/TRICOUNT.o"
+	@echo "... SOLUTIONS/TRICOUNT.i"
+	@echo "... SOLUTIONS/TRICOUNT.s"
 	@echo "... SOLUTIONS/TestCode.o"
 	@echo "... SOLUTIONS/TestCode.i"
 	@echo "... SOLUTIONS/TestCode.s"

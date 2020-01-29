@@ -1,50 +1,67 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void dfsHelper(vector<vector<int>>v, int node, set<int> & visited){
-    visited.insert(node);
-    for(auto itr = v[node].begin(); itr != v[node].end(); itr++){
-        if(visited.find(*itr) == visited.end()){
-            dfsHelper(v, *itr, visited);
+void dfs(vector< vector<int> >v, int node, vector<int>&distance, vector<bool>visited, int step, int n){
+
+    distance[node] = step;
+    visited[node] = true;
+
+    for(auto itr = v[node].begin(); itr != v[node].end(); itr++) {
+        if(visited[*itr] == false){
+            dfs(v, *itr, distance, visited, step+1, n);
         }
-    }
-}
-
-
-void dfs(vector< vector<int> > v){
-    set<int>visited;
-
-    dfsHelper(v, 1, visited);
-
-    if(visited.size() != v.size()-1){
-        cout << "NO" << endl;
-    } else{
-        cout << "YES" << endl;
     }
     return;
 
 }
 
+int helper (vector<int> distance, int n) {
+    int maxValue = 0;
+    int index = 0;
+
+    for(int i = 0; i < n; i++) {
+        if(distance[i] > maxValue){
+            index = i;
+            maxValue = distance[i];
+        }
+    }
+    return index;
+}
+
+
+
+
 
 int main(){
-    int n, m;
-    cin >> n >> m;
-    vector< vector<int> > v(n+1);
+    int n;
+    cin >> n;
+    vector< vector<int> >v(n);
+    for(int i = 0; i < n-1; i++) {
+        int se, ee;
+        cin >> se >> ee;
+        se--;
+        ee--;
+        v[se].push_back(ee);
+        v[ee].push_back(se);
 
-    for(int i = 0; i < m; i++){
-        int v1, v2;
-        cin >> v1 >> v2;
-        v[v1].push_back(v2);
-        v[v2].push_back(v1);
     }
 
-    if(m != n-1){
-        cout << "NO" << endl;
-        return 0;
-    }
+    vector<int>distancee(n, 0);
+    vector<bool>visited(n, false);
 
-    dfs(v);
+    dfs(v, 0, distancee, visited, 0, n);
+   // int nextNode = helper(distance, n);
+   auto nextNodee = distance(distancee.begin(), distancee.end());
+   int nextNode = *nextNodee;
+    //cout << nextNode << endl;
 
-    return 0;
+    vector<int>distance2(n, 0);
+    vector<bool>visited2(n, false);
+
+    dfs(v, nextNode,distance2, visited2, 0, n);
+    cout << *max_element(distance2.begin(), distance2.end())<<endl;
+
+
+    //cout<< helper(distance2, n)+1 <<  endl;
 
 }
