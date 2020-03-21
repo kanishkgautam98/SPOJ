@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/NGM.dir/SOLUTIONS/NGM.cpp.o  -o NGM 

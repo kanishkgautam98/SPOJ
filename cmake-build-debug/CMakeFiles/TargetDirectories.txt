@@ -1,5 +1,7 @@
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/FARIDA.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/NGM.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/GSS1.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/GSS1-final.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/GIRLSNBYS.dir
@@ -16,6 +18,7 @@
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/PT07Y.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/CANTON.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/PERMUT2.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/test.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/TRICOUNT.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/TestCode.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/TOPOSORT.dir

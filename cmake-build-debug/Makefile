@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named FARIDA
+
+# Build rule for target.
+FARIDA: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FARIDA
+.PHONY : FARIDA
+
+# fast build rule for target.
+FARIDA/fast:
+	$(MAKE) -f CMakeFiles/FARIDA.dir/build.make CMakeFiles/FARIDA.dir/build
+.PHONY : FARIDA/fast
+
+#=============================================================================
+# Target rules for targets named NGM
+
+# Build rule for target.
+NGM: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 NGM
+.PHONY : NGM
+
+# fast build rule for target.
+NGM/fast:
+	$(MAKE) -f CMakeFiles/NGM.dir/build.make CMakeFiles/NGM.dir/build
+.PHONY : NGM/fast
+
+#=============================================================================
 # Target rules for targets named GSS1
 
 # Build rule for target.
@@ -319,6 +345,19 @@ PERMUT2/fast:
 .PHONY : PERMUT2/fast
 
 #=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
 # Target rules for targets named TRICOUNT
 
 # Build rule for target.
@@ -443,6 +482,36 @@ SOLUTIONS/CANTON.cpp.s:
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.s
 	$(MAKE) -f CMakeFiles/CANTON.dir/build.make CMakeFiles/CANTON.dir/SOLUTIONS/CANTON.cpp.s
 .PHONY : SOLUTIONS/CANTON.cpp.s
+
+SOLUTIONS/FARIDA.o: SOLUTIONS/FARIDA.cpp.o
+
+.PHONY : SOLUTIONS/FARIDA.o
+
+# target to build an object file
+SOLUTIONS/FARIDA.cpp.o:
+	$(MAKE) -f CMakeFiles/FARIDA.dir/build.make CMakeFiles/FARIDA.dir/SOLUTIONS/FARIDA.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.o
+.PHONY : SOLUTIONS/FARIDA.cpp.o
+
+SOLUTIONS/FARIDA.i: SOLUTIONS/FARIDA.cpp.i
+
+.PHONY : SOLUTIONS/FARIDA.i
+
+# target to preprocess a source file
+SOLUTIONS/FARIDA.cpp.i:
+	$(MAKE) -f CMakeFiles/FARIDA.dir/build.make CMakeFiles/FARIDA.dir/SOLUTIONS/FARIDA.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.i
+.PHONY : SOLUTIONS/FARIDA.cpp.i
+
+SOLUTIONS/FARIDA.s: SOLUTIONS/FARIDA.cpp.s
+
+.PHONY : SOLUTIONS/FARIDA.s
+
+# target to generate assembly for a file
+SOLUTIONS/FARIDA.cpp.s:
+	$(MAKE) -f CMakeFiles/FARIDA.dir/build.make CMakeFiles/FARIDA.dir/SOLUTIONS/FARIDA.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.s
+.PHONY : SOLUTIONS/FARIDA.cpp.s
 
 SOLUTIONS/GIRLSNBYS.o: SOLUTIONS/GIRLSNBYS.cpp.o
 
@@ -593,6 +662,36 @@ SOLUTIONS/INVCNT.cpp.s:
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.s
 	$(MAKE) -f CMakeFiles/INVCNT.dir/build.make CMakeFiles/INVCNT.dir/SOLUTIONS/INVCNT.cpp.s
 .PHONY : SOLUTIONS/INVCNT.cpp.s
+
+SOLUTIONS/NGM.o: SOLUTIONS/NGM.cpp.o
+
+.PHONY : SOLUTIONS/NGM.o
+
+# target to build an object file
+SOLUTIONS/NGM.cpp.o:
+	$(MAKE) -f CMakeFiles/NGM.dir/build.make CMakeFiles/NGM.dir/SOLUTIONS/NGM.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.o
+.PHONY : SOLUTIONS/NGM.cpp.o
+
+SOLUTIONS/NGM.i: SOLUTIONS/NGM.cpp.i
+
+.PHONY : SOLUTIONS/NGM.i
+
+# target to preprocess a source file
+SOLUTIONS/NGM.cpp.i:
+	$(MAKE) -f CMakeFiles/NGM.dir/build.make CMakeFiles/NGM.dir/SOLUTIONS/NGM.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.i
+.PHONY : SOLUTIONS/NGM.cpp.i
+
+SOLUTIONS/NGM.s: SOLUTIONS/NGM.cpp.s
+
+.PHONY : SOLUTIONS/NGM.s
+
+# target to generate assembly for a file
+SOLUTIONS/NGM.cpp.s:
+	$(MAKE) -f CMakeFiles/NGM.dir/build.make CMakeFiles/NGM.dir/SOLUTIONS/NGM.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.s
+.PHONY : SOLUTIONS/NGM.cpp.s
 
 SOLUTIONS/PERMUT2.o: SOLUTIONS/PERMUT2.cpp.o
 
@@ -825,6 +924,36 @@ SOLUTIONS/WILLITST.cpp.s:
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.s
 .PHONY : SOLUTIONS/WILLITST.cpp.s
 
+SOLUTIONS/test.o: SOLUTIONS/test.cpp.o
+
+.PHONY : SOLUTIONS/test.o
+
+# target to build an object file
+SOLUTIONS/test.cpp.o:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/SOLUTIONS/test.cpp.o
+.PHONY : SOLUTIONS/test.cpp.o
+
+SOLUTIONS/test.i: SOLUTIONS/test.cpp.i
+
+.PHONY : SOLUTIONS/test.i
+
+# target to preprocess a source file
+SOLUTIONS/test.cpp.i:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/SOLUTIONS/test.cpp.i
+.PHONY : SOLUTIONS/test.cpp.i
+
+SOLUTIONS/test.s: SOLUTIONS/test.cpp.s
+
+.PHONY : SOLUTIONS/test.s
+
+# target to generate assembly for a file
+SOLUTIONS/test.cpp.s:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/SOLUTIONS/test.cpp.s
+.PHONY : SOLUTIONS/test.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -863,6 +992,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... FARIDA"
+	@echo "... NGM"
 	@echo "... GSS1"
 	@echo "... GSS1-final"
 	@echo "... GIRLSNBYS"
@@ -879,6 +1010,7 @@ help:
 	@echo "... PT07Y"
 	@echo "... CANTON"
 	@echo "... PERMUT2"
+	@echo "... test"
 	@echo "... TRICOUNT"
 	@echo "... TestCode"
 	@echo "... TOPOSORT"
@@ -891,6 +1023,9 @@ help:
 	@echo "... SOLUTIONS/CANTON.o"
 	@echo "... SOLUTIONS/CANTON.i"
 	@echo "... SOLUTIONS/CANTON.s"
+	@echo "... SOLUTIONS/FARIDA.o"
+	@echo "... SOLUTIONS/FARIDA.i"
+	@echo "... SOLUTIONS/FARIDA.s"
 	@echo "... SOLUTIONS/GIRLSNBYS.o"
 	@echo "... SOLUTIONS/GIRLSNBYS.i"
 	@echo "... SOLUTIONS/GIRLSNBYS.s"
@@ -906,6 +1041,9 @@ help:
 	@echo "... SOLUTIONS/INVCNT.o"
 	@echo "... SOLUTIONS/INVCNT.i"
 	@echo "... SOLUTIONS/INVCNT.s"
+	@echo "... SOLUTIONS/NGM.o"
+	@echo "... SOLUTIONS/NGM.i"
+	@echo "... SOLUTIONS/NGM.s"
 	@echo "... SOLUTIONS/PERMUT2.o"
 	@echo "... SOLUTIONS/PERMUT2.i"
 	@echo "... SOLUTIONS/PERMUT2.s"
@@ -930,6 +1068,9 @@ help:
 	@echo "... SOLUTIONS/WILLITST.o"
 	@echo "... SOLUTIONS/WILLITST.i"
 	@echo "... SOLUTIONS/WILLITST.s"
+	@echo "... SOLUTIONS/test.o"
+	@echo "... SOLUTIONS/test.i"
+	@echo "... SOLUTIONS/test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

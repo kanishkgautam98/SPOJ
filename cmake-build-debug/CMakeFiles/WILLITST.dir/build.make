@@ -226,6 +226,45 @@ CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1-final.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1-final.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/GSS1-final.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1-final.cpp.s
 
+CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.o: CMakeFiles/WILLITST.dir/flags.make
+CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.o: ../SOLUTIONS/NGM.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.o -c /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/NGM.cpp
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/NGM.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.i
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/NGM.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.s
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.o: CMakeFiles/WILLITST.dir/flags.make
+CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.o: ../SOLUTIONS/FARIDA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.o -c /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/FARIDA.cpp
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/FARIDA.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.i
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/FARIDA.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.s
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.o: CMakeFiles/WILLITST.dir/flags.make
+CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.o: ../SOLUTIONS/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.o -c /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/test.cpp
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/test.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.i
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/test.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.s
+
 # Object files for target WILLITST
 WILLITST_OBJECTS = \
 "CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.o" \
@@ -240,7 +279,10 @@ WILLITST_OBJECTS = \
 "CMakeFiles/WILLITST.dir/SOLUTIONS/TOPOSORT.cpp.o" \
 "CMakeFiles/WILLITST.dir/SOLUTIONS/GIRLSNBYS.cpp.o" \
 "CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1.cpp.o" \
-"CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1-final.cpp.o"
+"CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1-final.cpp.o" \
+"CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.o" \
+"CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.o" \
+"CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.o"
 
 # External object files for target WILLITST
 WILLITST_EXTERNAL_OBJECTS =
@@ -258,9 +300,12 @@ WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/TOPOSORT.cpp.o
 WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/GIRLSNBYS.cpp.o
 WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1.cpp.o
 WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1-final.cpp.o
+WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.o
+WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.o
+WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.o
 WILLITST: CMakeFiles/WILLITST.dir/build.make
 WILLITST: CMakeFiles/WILLITST.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable WILLITST"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable WILLITST"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WILLITST.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
