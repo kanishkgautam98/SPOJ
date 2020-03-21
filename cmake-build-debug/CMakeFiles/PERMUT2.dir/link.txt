@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PERMUT2.dir/SOLUTIONS/PERMUT2.cpp.o  -o PERMUT2 

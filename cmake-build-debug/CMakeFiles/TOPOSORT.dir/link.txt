@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TOPOSORT.dir/SOLUTIONS/TOPOSORT.cpp.o  -o TOPOSORT 

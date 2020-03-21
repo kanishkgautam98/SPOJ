@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TRICOUNT.dir/SOLUTIONS/TRICOUNT.cpp.o  -o TRICOUNT 

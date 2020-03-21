@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/INVCNT.dir/SOLUTIONS/INVCNT.cpp.o  -o INVCNT 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/INTEST.dir/SOLUTIONS/INTEST.cpp.o  -o INTEST 

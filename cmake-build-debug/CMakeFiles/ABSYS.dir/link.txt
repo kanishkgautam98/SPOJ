@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ABSYS.dir/SOLUTIONS/ABSYS.cpp.o  -o ABSYS 

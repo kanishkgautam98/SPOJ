@@ -7,6 +7,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/ALCATRAZ3.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/CANTON.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/GIRLSNBYS.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/GIRLSNBYS.cpp.o"
+  "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/GSS1-final.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1-final.cpp.o"
+  "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/GSS1.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/INTEST.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/INVCNT.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/PERMUT2.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/PERMUT2.cpp.o"

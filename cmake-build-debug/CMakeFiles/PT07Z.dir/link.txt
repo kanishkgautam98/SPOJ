@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PT07Z.dir/SOLUTIONS/PT07Z.cpp.o  -o PT07Z 

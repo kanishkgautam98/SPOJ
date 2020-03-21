@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.o"
   "CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.o"
   "CMakeFiles/WILLITST.dir/SOLUTIONS/GIRLSNBYS.cpp.o"
+  "CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1-final.cpp.o"
+  "CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1.cpp.o"
   "CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.o"
   "CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.o"
   "CMakeFiles/WILLITST.dir/SOLUTIONS/PERMUT2.cpp.o"

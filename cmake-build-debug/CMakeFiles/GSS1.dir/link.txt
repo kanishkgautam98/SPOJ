@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/GSS1.dir/SOLUTIONS/GSS1.cpp.o  -o GSS1 

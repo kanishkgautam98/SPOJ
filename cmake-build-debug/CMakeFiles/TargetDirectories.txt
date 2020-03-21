@@ -1,5 +1,7 @@
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/GSS1.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/GSS1-final.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/GIRLSNBYS.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/INTEST.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/STPAR.dir

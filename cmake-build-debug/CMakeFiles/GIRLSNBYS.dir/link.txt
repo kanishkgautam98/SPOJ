@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/GIRLSNBYS.dir/SOLUTIONS/GIRLSNBYS.cpp.o  -o GIRLSNBYS 
