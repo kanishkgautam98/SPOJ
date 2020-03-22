@@ -1,5 +1,6 @@
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/LAZY.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/FARIDA.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/NGM.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/GSS1.dir

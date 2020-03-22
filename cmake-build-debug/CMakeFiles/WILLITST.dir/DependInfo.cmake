@@ -4,17 +4,23 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/(LAZYPROPUSED).cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/(LAZYPROPUSED).cpp.o"
+  "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/AIBOHP.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/AIBOHP.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/ALCATRAZ3.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/ALCATRAZ3.cpp.o"
+  "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/BUGLIFE.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/BUGLIFE.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/CANTON.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.o"
+  "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/ETF.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/ETF.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/FARIDA.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/GIRLSNBYS.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/GIRLSNBYS.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/GSS1-final.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1-final.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/GSS1.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/INTEST.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/INVCNT.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/INVCNT.cpp.o"
+  "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/LAZY.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/LAZY.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/NGM.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/PERMUT2.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/PERMUT2.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/PT07Z.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/PT07Z.cpp.o"
+  "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/TOPOSORT.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/TOPOSORT.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/TRICOUNT.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/TRICOUNT.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/TestCode.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.o"

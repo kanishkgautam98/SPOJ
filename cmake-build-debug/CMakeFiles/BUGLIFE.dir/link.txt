@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/BUGLIFE.dir/SOLUTIONS/BUGLIFE.cpp.o  -o BUGLIFE 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/HORRIBLE.dir/SOLUTIONS/HORRIBLE.cpp.o  -o HORRIBLE 

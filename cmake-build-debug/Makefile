@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named LAZY
+
+# Build rule for target.
+LAZY: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LAZY
+.PHONY : LAZY
+
+# fast build rule for target.
+LAZY/fast:
+	$(MAKE) -f CMakeFiles/LAZY.dir/build.make CMakeFiles/LAZY.dir/build
+.PHONY : LAZY/fast
+
+#=============================================================================
 # Target rules for targets named FARIDA
 
 # Build rule for target.
@@ -396,6 +409,33 @@ TOPOSORT/fast:
 	$(MAKE) -f CMakeFiles/TOPOSORT.dir/build.make CMakeFiles/TOPOSORT.dir/build
 .PHONY : TOPOSORT/fast
 
+SOLUTIONS/(LAZYPROPUSED).o: SOLUTIONS/(LAZYPROPUSED).cpp.o
+
+.PHONY : SOLUTIONS/(LAZYPROPUSED).o
+
+# target to build an object file
+SOLUTIONS/(LAZYPROPUSED).cpp.o:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make "CMakeFiles/WILLITST.dir/SOLUTIONS/(LAZYPROPUSED).cpp.o"
+.PHONY : SOLUTIONS/(LAZYPROPUSED).cpp.o
+
+SOLUTIONS/(LAZYPROPUSED).i: SOLUTIONS/(LAZYPROPUSED).cpp.i
+
+.PHONY : SOLUTIONS/(LAZYPROPUSED).i
+
+# target to preprocess a source file
+SOLUTIONS/(LAZYPROPUSED).cpp.i:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make "CMakeFiles/WILLITST.dir/SOLUTIONS/(LAZYPROPUSED).cpp.i"
+.PHONY : SOLUTIONS/(LAZYPROPUSED).cpp.i
+
+SOLUTIONS/(LAZYPROPUSED).s: SOLUTIONS/(LAZYPROPUSED).cpp.s
+
+.PHONY : SOLUTIONS/(LAZYPROPUSED).s
+
+# target to generate assembly for a file
+SOLUTIONS/(LAZYPROPUSED).cpp.s:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make "CMakeFiles/WILLITST.dir/SOLUTIONS/(LAZYPROPUSED).cpp.s"
+.PHONY : SOLUTIONS/(LAZYPROPUSED).cpp.s
+
 SOLUTIONS/ABSYS.o: SOLUTIONS/ABSYS.cpp.o
 
 .PHONY : SOLUTIONS/ABSYS.o
@@ -422,6 +462,33 @@ SOLUTIONS/ABSYS.s: SOLUTIONS/ABSYS.cpp.s
 SOLUTIONS/ABSYS.cpp.s:
 	$(MAKE) -f CMakeFiles/ABSYS.dir/build.make CMakeFiles/ABSYS.dir/SOLUTIONS/ABSYS.cpp.s
 .PHONY : SOLUTIONS/ABSYS.cpp.s
+
+SOLUTIONS/AIBOHP.o: SOLUTIONS/AIBOHP.cpp.o
+
+.PHONY : SOLUTIONS/AIBOHP.o
+
+# target to build an object file
+SOLUTIONS/AIBOHP.cpp.o:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/AIBOHP.cpp.o
+.PHONY : SOLUTIONS/AIBOHP.cpp.o
+
+SOLUTIONS/AIBOHP.i: SOLUTIONS/AIBOHP.cpp.i
+
+.PHONY : SOLUTIONS/AIBOHP.i
+
+# target to preprocess a source file
+SOLUTIONS/AIBOHP.cpp.i:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/AIBOHP.cpp.i
+.PHONY : SOLUTIONS/AIBOHP.cpp.i
+
+SOLUTIONS/AIBOHP.s: SOLUTIONS/AIBOHP.cpp.s
+
+.PHONY : SOLUTIONS/AIBOHP.s
+
+# target to generate assembly for a file
+SOLUTIONS/AIBOHP.cpp.s:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/AIBOHP.cpp.s
+.PHONY : SOLUTIONS/AIBOHP.cpp.s
 
 SOLUTIONS/ALCATRAZ3.o: SOLUTIONS/ALCATRAZ3.cpp.o
 
@@ -453,6 +520,33 @@ SOLUTIONS/ALCATRAZ3.cpp.s:
 	$(MAKE) -f CMakeFiles/ALCATRAZ3.dir/build.make CMakeFiles/ALCATRAZ3.dir/SOLUTIONS/ALCATRAZ3.cpp.s
 .PHONY : SOLUTIONS/ALCATRAZ3.cpp.s
 
+SOLUTIONS/BUGLIFE.o: SOLUTIONS/BUGLIFE.cpp.o
+
+.PHONY : SOLUTIONS/BUGLIFE.o
+
+# target to build an object file
+SOLUTIONS/BUGLIFE.cpp.o:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/BUGLIFE.cpp.o
+.PHONY : SOLUTIONS/BUGLIFE.cpp.o
+
+SOLUTIONS/BUGLIFE.i: SOLUTIONS/BUGLIFE.cpp.i
+
+.PHONY : SOLUTIONS/BUGLIFE.i
+
+# target to preprocess a source file
+SOLUTIONS/BUGLIFE.cpp.i:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/BUGLIFE.cpp.i
+.PHONY : SOLUTIONS/BUGLIFE.cpp.i
+
+SOLUTIONS/BUGLIFE.s: SOLUTIONS/BUGLIFE.cpp.s
+
+.PHONY : SOLUTIONS/BUGLIFE.s
+
+# target to generate assembly for a file
+SOLUTIONS/BUGLIFE.cpp.s:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/BUGLIFE.cpp.s
+.PHONY : SOLUTIONS/BUGLIFE.cpp.s
+
 SOLUTIONS/CANTON.o: SOLUTIONS/CANTON.cpp.o
 
 .PHONY : SOLUTIONS/CANTON.o
@@ -482,6 +576,33 @@ SOLUTIONS/CANTON.cpp.s:
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.s
 	$(MAKE) -f CMakeFiles/CANTON.dir/build.make CMakeFiles/CANTON.dir/SOLUTIONS/CANTON.cpp.s
 .PHONY : SOLUTIONS/CANTON.cpp.s
+
+SOLUTIONS/ETF.o: SOLUTIONS/ETF.cpp.o
+
+.PHONY : SOLUTIONS/ETF.o
+
+# target to build an object file
+SOLUTIONS/ETF.cpp.o:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ETF.cpp.o
+.PHONY : SOLUTIONS/ETF.cpp.o
+
+SOLUTIONS/ETF.i: SOLUTIONS/ETF.cpp.i
+
+.PHONY : SOLUTIONS/ETF.i
+
+# target to preprocess a source file
+SOLUTIONS/ETF.cpp.i:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ETF.cpp.i
+.PHONY : SOLUTIONS/ETF.cpp.i
+
+SOLUTIONS/ETF.s: SOLUTIONS/ETF.cpp.s
+
+.PHONY : SOLUTIONS/ETF.s
+
+# target to generate assembly for a file
+SOLUTIONS/ETF.cpp.s:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ETF.cpp.s
+.PHONY : SOLUTIONS/ETF.cpp.s
 
 SOLUTIONS/FARIDA.o: SOLUTIONS/FARIDA.cpp.o
 
@@ -663,6 +784,36 @@ SOLUTIONS/INVCNT.cpp.s:
 	$(MAKE) -f CMakeFiles/INVCNT.dir/build.make CMakeFiles/INVCNT.dir/SOLUTIONS/INVCNT.cpp.s
 .PHONY : SOLUTIONS/INVCNT.cpp.s
 
+SOLUTIONS/LAZY.o: SOLUTIONS/LAZY.cpp.o
+
+.PHONY : SOLUTIONS/LAZY.o
+
+# target to build an object file
+SOLUTIONS/LAZY.cpp.o:
+	$(MAKE) -f CMakeFiles/LAZY.dir/build.make CMakeFiles/LAZY.dir/SOLUTIONS/LAZY.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/LAZY.cpp.o
+.PHONY : SOLUTIONS/LAZY.cpp.o
+
+SOLUTIONS/LAZY.i: SOLUTIONS/LAZY.cpp.i
+
+.PHONY : SOLUTIONS/LAZY.i
+
+# target to preprocess a source file
+SOLUTIONS/LAZY.cpp.i:
+	$(MAKE) -f CMakeFiles/LAZY.dir/build.make CMakeFiles/LAZY.dir/SOLUTIONS/LAZY.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/LAZY.cpp.i
+.PHONY : SOLUTIONS/LAZY.cpp.i
+
+SOLUTIONS/LAZY.s: SOLUTIONS/LAZY.cpp.s
+
+.PHONY : SOLUTIONS/LAZY.s
+
+# target to generate assembly for a file
+SOLUTIONS/LAZY.cpp.s:
+	$(MAKE) -f CMakeFiles/LAZY.dir/build.make CMakeFiles/LAZY.dir/SOLUTIONS/LAZY.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/LAZY.cpp.s
+.PHONY : SOLUTIONS/LAZY.cpp.s
+
 SOLUTIONS/NGM.o: SOLUTIONS/NGM.cpp.o
 
 .PHONY : SOLUTIONS/NGM.o
@@ -806,6 +957,33 @@ SOLUTIONS/STPAR.s: SOLUTIONS/STPAR.cpp.s
 SOLUTIONS/STPAR.cpp.s:
 	$(MAKE) -f CMakeFiles/STPAR.dir/build.make CMakeFiles/STPAR.dir/SOLUTIONS/STPAR.cpp.s
 .PHONY : SOLUTIONS/STPAR.cpp.s
+
+SOLUTIONS/SegmentTreesWithoutLazyProp.o: SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.o
+
+.PHONY : SOLUTIONS/SegmentTreesWithoutLazyProp.o
+
+# target to build an object file
+SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.o:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.o
+.PHONY : SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.o
+
+SOLUTIONS/SegmentTreesWithoutLazyProp.i: SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.i
+
+.PHONY : SOLUTIONS/SegmentTreesWithoutLazyProp.i
+
+# target to preprocess a source file
+SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.i:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.i
+.PHONY : SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.i
+
+SOLUTIONS/SegmentTreesWithoutLazyProp.s: SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.s
+
+.PHONY : SOLUTIONS/SegmentTreesWithoutLazyProp.s
+
+# target to generate assembly for a file
+SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.s:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.s
+.PHONY : SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.s
 
 SOLUTIONS/TOPOSORT.o: SOLUTIONS/TOPOSORT.cpp.o
 
@@ -992,6 +1170,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... LAZY"
 	@echo "... FARIDA"
 	@echo "... NGM"
 	@echo "... GSS1"
@@ -1014,15 +1193,27 @@ help:
 	@echo "... TRICOUNT"
 	@echo "... TestCode"
 	@echo "... TOPOSORT"
+	@echo "... SOLUTIONS/(LAZYPROPUSED).o"
+	@echo "... SOLUTIONS/(LAZYPROPUSED).i"
+	@echo "... SOLUTIONS/(LAZYPROPUSED).s"
 	@echo "... SOLUTIONS/ABSYS.o"
 	@echo "... SOLUTIONS/ABSYS.i"
 	@echo "... SOLUTIONS/ABSYS.s"
+	@echo "... SOLUTIONS/AIBOHP.o"
+	@echo "... SOLUTIONS/AIBOHP.i"
+	@echo "... SOLUTIONS/AIBOHP.s"
 	@echo "... SOLUTIONS/ALCATRAZ3.o"
 	@echo "... SOLUTIONS/ALCATRAZ3.i"
 	@echo "... SOLUTIONS/ALCATRAZ3.s"
+	@echo "... SOLUTIONS/BUGLIFE.o"
+	@echo "... SOLUTIONS/BUGLIFE.i"
+	@echo "... SOLUTIONS/BUGLIFE.s"
 	@echo "... SOLUTIONS/CANTON.o"
 	@echo "... SOLUTIONS/CANTON.i"
 	@echo "... SOLUTIONS/CANTON.s"
+	@echo "... SOLUTIONS/ETF.o"
+	@echo "... SOLUTIONS/ETF.i"
+	@echo "... SOLUTIONS/ETF.s"
 	@echo "... SOLUTIONS/FARIDA.o"
 	@echo "... SOLUTIONS/FARIDA.i"
 	@echo "... SOLUTIONS/FARIDA.s"
@@ -1041,6 +1232,9 @@ help:
 	@echo "... SOLUTIONS/INVCNT.o"
 	@echo "... SOLUTIONS/INVCNT.i"
 	@echo "... SOLUTIONS/INVCNT.s"
+	@echo "... SOLUTIONS/LAZY.o"
+	@echo "... SOLUTIONS/LAZY.i"
+	@echo "... SOLUTIONS/LAZY.s"
 	@echo "... SOLUTIONS/NGM.o"
 	@echo "... SOLUTIONS/NGM.i"
 	@echo "... SOLUTIONS/NGM.s"
@@ -1056,6 +1250,9 @@ help:
 	@echo "... SOLUTIONS/STPAR.o"
 	@echo "... SOLUTIONS/STPAR.i"
 	@echo "... SOLUTIONS/STPAR.s"
+	@echo "... SOLUTIONS/SegmentTreesWithoutLazyProp.o"
+	@echo "... SOLUTIONS/SegmentTreesWithoutLazyProp.i"
+	@echo "... SOLUTIONS/SegmentTreesWithoutLazyProp.s"
 	@echo "... SOLUTIONS/TOPOSORT.o"
 	@echo "... SOLUTIONS/TOPOSORT.i"
 	@echo "... SOLUTIONS/TOPOSORT.s"

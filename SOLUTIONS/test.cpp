@@ -1,43 +1,92 @@
-#include "bits/stdc++.h"
+#include<bits/stdc++.h>
 using namespace std;
-typedef unsigned long long ull;
-typedef long long int ll;
-typedef vector<long long int> vi;
-typedef pair<int, int> ii;
-typedef vector<ii> vii;
+#define ll long long int
+
+ll tree[400400];
+ll lazy[400400];
+
+ll query(ll idx,ll queryStart,ll queryEnd,ll treeStart,ll treeEnd)
+{
+    if(lazy[idx]!=0)
+    {
+        tree[idx]+=(treeEnd-treeStart+1)*lazy[idx];
+        if(treeStart!=treeEnd)
+        {
+            lazy[2*idx]+=lazy[idx];
+            lazy[2*idx+1]+=lazy[idx];
+        }
+        lazy[idx]=0;
+    }
+    if(treeStart>treeEnd || treeStart>queryEnd || treeEnd<queryStart)
+    {
+        return 0;
+    }
+    if(treeStart>=queryStart && treeEnd<=queryEnd)
+    {
+        return tree[idx];
+    }
+    ll mid=treeStart+(treeEnd-treeStart)/2;
+    return query(2*idx,queryStart,queryEnd,treeStart,mid)+query(2*idx+1,queryStart,queryEnd,mid+1,treeEnd);
+}
+
+void update(ll idx,ll updateStart,ll updateEnd,ll treeStart,ll treeEnd,ll val)
+{
+    if(lazy[idx] != 0)
+    {
+        tree[idx]+=(treeEnd-treeStart+1)*lazy[idx];
+        if(treeStart!=treeEnd)
+        {
+            lazy[2*idx]+=lazy[idx];
+            lazy[2*idx+1]+=lazy[idx];
+        }
+        lazy[idx]=0;
+    }
+    if(treeStart>treeEnd || treeStart>updateEnd || treeEnd<updateStart)
+    {
+        return ;
+    }
+    if(treeStart>=updateStart && treeEnd<=updateEnd)
+    {
+        tree[idx]+=(treeEnd-treeStart+1)*val;
+        if(treeStart!=treeEnd)
+        {
+            lazy[2*idx]+=val;
+            lazy[2*idx+1]+=val;
+        }
+        return ;
+    }
+    ll mid=treeStart+(treeEnd-treeStart)/2;
+    update(2*idx,updateStart,updateEnd,treeStart,mid,val);
+    update(2*idx+1,updateStart,updateEnd,mid+1,treeEnd,val);
+    tree[idx]=tree[2*idx]+tree[2*idx+1];
+}
+
 int main()
 {
-    ios_base::sync_with_stdio(0);cin.tie(NULL);cout.tie(NULL);
+    ios_base::sync_with_stdio(false),cin.tie(NULL),cout.tie(NULL);
     ll t;
     cin>>t;
-    ll k=1;
     while(t--)
     {
-        ll dp[10000];
-        dp[0]=0;
-        ll n;
-        cin>>n;
-        if(n==0)
+        ll n,c;
+        cin>>n>>c;
+        memset(tree,0,sizeof(tree));
+        memset(lazy,0,sizeof(lazy));
+        ll temp,a,b;
+        while(c--)
         {
-            cout<<"Case "<<k++<<": "<<0<<endl;
-            continue;
+            cin>>temp;
+            if(temp)
+            {
+                cin>>a>>b;
+                cout<<query(1,a,b,1,n)<<"\n";
+            }
+            else
+            {
+                cin>>a>>b>>temp;
+                update(1,a,b,1,n,temp);
+            }
         }
-        if(n==1)
-        {
-            ll x;
-            cin>>x;
-            cout<<"Case "<<k++<<": "<<x<<endl;
-            continue;
-        }
-        cin>>dp[1]>>dp[2];
-        dp[2]=max(dp[1],dp[2]);
-        for(int i=3;i<=n;i++)
-        {
-            ll x;
-            cin>>x;
-            dp[i]=max(x+dp[i-2],dp[i-1]);
-        }
-        cout<<"Case "<<k++<<": "<<dp[n]<<endl;
     }
     return 0;
 }

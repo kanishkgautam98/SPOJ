@@ -265,6 +265,84 @@ CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/test.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.s
 
+CMakeFiles/WILLITST.dir/SOLUTIONS/BUGLIFE.cpp.o: CMakeFiles/WILLITST.dir/flags.make
+CMakeFiles/WILLITST.dir/SOLUTIONS/BUGLIFE.cpp.o: ../SOLUTIONS/BUGLIFE.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/BUGLIFE.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/BUGLIFE.cpp.o -c /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/BUGLIFE.cpp
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/BUGLIFE.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/BUGLIFE.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/BUGLIFE.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/BUGLIFE.cpp.i
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/BUGLIFE.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/BUGLIFE.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/BUGLIFE.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/BUGLIFE.cpp.s
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/AIBOHP.cpp.o: CMakeFiles/WILLITST.dir/flags.make
+CMakeFiles/WILLITST.dir/SOLUTIONS/AIBOHP.cpp.o: ../SOLUTIONS/AIBOHP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/AIBOHP.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/AIBOHP.cpp.o -c /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/AIBOHP.cpp
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/AIBOHP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/AIBOHP.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/AIBOHP.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/AIBOHP.cpp.i
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/AIBOHP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/AIBOHP.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/AIBOHP.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/AIBOHP.cpp.s
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.o: CMakeFiles/WILLITST.dir/flags.make
+CMakeFiles/WILLITST.dir/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.o: ../SOLUTIONS/SegmentTreesWithoutLazyProp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.o -c /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.i
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.s
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/(LAZYPROPUSED).cpp.o: CMakeFiles/WILLITST.dir/flags.make
+CMakeFiles/WILLITST.dir/SOLUTIONS/(LAZYPROPUSED).cpp.o: ../SOLUTIONS/(LAZYPROPUSED).cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/(LAZYPROPUSED).cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/WILLITST.dir/SOLUTIONS/(LAZYPROPUSED).cpp.o" -c "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/(LAZYPROPUSED).cpp"
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/(LAZYPROPUSED).cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/(LAZYPROPUSED).cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/(LAZYPROPUSED).cpp" > "CMakeFiles/WILLITST.dir/SOLUTIONS/(LAZYPROPUSED).cpp.i"
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/(LAZYPROPUSED).cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/(LAZYPROPUSED).cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/(LAZYPROPUSED).cpp" -o "CMakeFiles/WILLITST.dir/SOLUTIONS/(LAZYPROPUSED).cpp.s"
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/LAZY.cpp.o: CMakeFiles/WILLITST.dir/flags.make
+CMakeFiles/WILLITST.dir/SOLUTIONS/LAZY.cpp.o: ../SOLUTIONS/LAZY.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/LAZY.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/LAZY.cpp.o -c /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/LAZY.cpp
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/LAZY.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/LAZY.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/LAZY.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/LAZY.cpp.i
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/LAZY.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/LAZY.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/LAZY.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/LAZY.cpp.s
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/ETF.cpp.o: CMakeFiles/WILLITST.dir/flags.make
+CMakeFiles/WILLITST.dir/SOLUTIONS/ETF.cpp.o: ../SOLUTIONS/ETF.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/ETF.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/ETF.cpp.o -c /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/ETF.cpp
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/ETF.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/ETF.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/ETF.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/ETF.cpp.i
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/ETF.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/ETF.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/ETF.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/ETF.cpp.s
+
 # Object files for target WILLITST
 WILLITST_OBJECTS = \
 "CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.o" \
@@ -282,7 +360,13 @@ WILLITST_OBJECTS = \
 "CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1-final.cpp.o" \
 "CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.o" \
 "CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.o" \
-"CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.o"
+"CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.o" \
+"CMakeFiles/WILLITST.dir/SOLUTIONS/BUGLIFE.cpp.o" \
+"CMakeFiles/WILLITST.dir/SOLUTIONS/AIBOHP.cpp.o" \
+"CMakeFiles/WILLITST.dir/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.o" \
+"CMakeFiles/WILLITST.dir/SOLUTIONS/(LAZYPROPUSED).cpp.o" \
+"CMakeFiles/WILLITST.dir/SOLUTIONS/LAZY.cpp.o" \
+"CMakeFiles/WILLITST.dir/SOLUTIONS/ETF.cpp.o"
 
 # External object files for target WILLITST
 WILLITST_EXTERNAL_OBJECTS =
@@ -303,9 +387,15 @@ WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1-final.cpp.o
 WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.o
 WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.o
 WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/test.cpp.o
+WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/BUGLIFE.cpp.o
+WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/AIBOHP.cpp.o
+WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/SegmentTreesWithoutLazyProp.cpp.o
+WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/(LAZYPROPUSED).cpp.o
+WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/LAZY.cpp.o
+WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/ETF.cpp.o
 WILLITST: CMakeFiles/WILLITST.dir/build.make
 WILLITST: CMakeFiles/WILLITST.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable WILLITST"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable WILLITST"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WILLITST.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
