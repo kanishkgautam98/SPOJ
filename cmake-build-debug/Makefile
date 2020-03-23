@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ANARC90
+
+# Build rule for target.
+ANARC90: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ANARC90
+.PHONY : ANARC90
+
+# fast build rule for target.
+ANARC90/fast:
+	$(MAKE) -f CMakeFiles/ANARC90.dir/build.make CMakeFiles/ANARC90.dir/build
+.PHONY : ANARC90/fast
+
+#=============================================================================
+# Target rules for targets named OLOLo
+
+# Build rule for target.
+OLOLo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OLOLo
+.PHONY : OLOLo
+
+# fast build rule for target.
+OLOLo/fast:
+	$(MAKE) -f CMakeFiles/OLOLo.dir/build.make CMakeFiles/OLOLo.dir/build
+.PHONY : OLOLo/fast
+
+#=============================================================================
 # Target rules for targets named LAZY
 
 # Build rule for target.
@@ -189,6 +215,19 @@ GIRLSNBYS/fast:
 .PHONY : GIRLSNBYS/fast
 
 #=============================================================================
+# Target rules for targets named BEENUMS
+
+# Build rule for target.
+BEENUMS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BEENUMS
+.PHONY : BEENUMS
+
+# fast build rule for target.
+BEENUMS/fast:
+	$(MAKE) -f CMakeFiles/BEENUMS.dir/build.make CMakeFiles/BEENUMS.dir/build
+.PHONY : BEENUMS/fast
+
+#=============================================================================
 # Target rules for targets named INTEST
 
 # Build rule for target.
@@ -226,6 +265,19 @@ PT07Z: cmake_check_build_system
 PT07Z/fast:
 	$(MAKE) -f CMakeFiles/PT07Z.dir/build.make CMakeFiles/PT07Z.dir/build
 .PHONY : PT07Z/fast
+
+#=============================================================================
+# Target rules for targets named EULER
+
+# Build rule for target.
+EULER: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 EULER
+.PHONY : EULER
+
+# fast build rule for target.
+EULER/fast:
+	$(MAKE) -f CMakeFiles/EULER.dir/build.make CMakeFiles/EULER.dir/build
+.PHONY : EULER/fast
 
 #=============================================================================
 # Target rules for targets named SPOJ
@@ -384,6 +436,19 @@ TRICOUNT/fast:
 .PHONY : TRICOUNT/fast
 
 #=============================================================================
+# Target rules for targets named HPYNOS
+
+# Build rule for target.
+HPYNOS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HPYNOS
+.PHONY : HPYNOS
+
+# fast build rule for target.
+HPYNOS/fast:
+	$(MAKE) -f CMakeFiles/HPYNOS.dir/build.make CMakeFiles/HPYNOS.dir/build
+.PHONY : HPYNOS/fast
+
+#=============================================================================
 # Target rules for targets named TestCode
 
 # Build rule for target.
@@ -520,6 +585,66 @@ SOLUTIONS/ALCATRAZ3.cpp.s:
 	$(MAKE) -f CMakeFiles/ALCATRAZ3.dir/build.make CMakeFiles/ALCATRAZ3.dir/SOLUTIONS/ALCATRAZ3.cpp.s
 .PHONY : SOLUTIONS/ALCATRAZ3.cpp.s
 
+SOLUTIONS/ANARC90.o: SOLUTIONS/ANARC90.cpp.o
+
+.PHONY : SOLUTIONS/ANARC90.o
+
+# target to build an object file
+SOLUTIONS/ANARC90.cpp.o:
+	$(MAKE) -f CMakeFiles/ANARC90.dir/build.make CMakeFiles/ANARC90.dir/SOLUTIONS/ANARC90.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ANARC90.cpp.o
+.PHONY : SOLUTIONS/ANARC90.cpp.o
+
+SOLUTIONS/ANARC90.i: SOLUTIONS/ANARC90.cpp.i
+
+.PHONY : SOLUTIONS/ANARC90.i
+
+# target to preprocess a source file
+SOLUTIONS/ANARC90.cpp.i:
+	$(MAKE) -f CMakeFiles/ANARC90.dir/build.make CMakeFiles/ANARC90.dir/SOLUTIONS/ANARC90.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ANARC90.cpp.i
+.PHONY : SOLUTIONS/ANARC90.cpp.i
+
+SOLUTIONS/ANARC90.s: SOLUTIONS/ANARC90.cpp.s
+
+.PHONY : SOLUTIONS/ANARC90.s
+
+# target to generate assembly for a file
+SOLUTIONS/ANARC90.cpp.s:
+	$(MAKE) -f CMakeFiles/ANARC90.dir/build.make CMakeFiles/ANARC90.dir/SOLUTIONS/ANARC90.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ANARC90.cpp.s
+.PHONY : SOLUTIONS/ANARC90.cpp.s
+
+SOLUTIONS/BEENUMS.o: SOLUTIONS/BEENUMS.cpp.o
+
+.PHONY : SOLUTIONS/BEENUMS.o
+
+# target to build an object file
+SOLUTIONS/BEENUMS.cpp.o:
+	$(MAKE) -f CMakeFiles/BEENUMS.dir/build.make CMakeFiles/BEENUMS.dir/SOLUTIONS/BEENUMS.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/BEENUMS.cpp.o
+.PHONY : SOLUTIONS/BEENUMS.cpp.o
+
+SOLUTIONS/BEENUMS.i: SOLUTIONS/BEENUMS.cpp.i
+
+.PHONY : SOLUTIONS/BEENUMS.i
+
+# target to preprocess a source file
+SOLUTIONS/BEENUMS.cpp.i:
+	$(MAKE) -f CMakeFiles/BEENUMS.dir/build.make CMakeFiles/BEENUMS.dir/SOLUTIONS/BEENUMS.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/BEENUMS.cpp.i
+.PHONY : SOLUTIONS/BEENUMS.cpp.i
+
+SOLUTIONS/BEENUMS.s: SOLUTIONS/BEENUMS.cpp.s
+
+.PHONY : SOLUTIONS/BEENUMS.s
+
+# target to generate assembly for a file
+SOLUTIONS/BEENUMS.cpp.s:
+	$(MAKE) -f CMakeFiles/BEENUMS.dir/build.make CMakeFiles/BEENUMS.dir/SOLUTIONS/BEENUMS.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/BEENUMS.cpp.s
+.PHONY : SOLUTIONS/BEENUMS.cpp.s
+
 SOLUTIONS/BUGLIFE.o: SOLUTIONS/BUGLIFE.cpp.o
 
 .PHONY : SOLUTIONS/BUGLIFE.o
@@ -603,6 +728,36 @@ SOLUTIONS/ETF.s: SOLUTIONS/ETF.cpp.s
 SOLUTIONS/ETF.cpp.s:
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ETF.cpp.s
 .PHONY : SOLUTIONS/ETF.cpp.s
+
+SOLUTIONS/EULER.o: SOLUTIONS/EULER.cpp.o
+
+.PHONY : SOLUTIONS/EULER.o
+
+# target to build an object file
+SOLUTIONS/EULER.cpp.o:
+	$(MAKE) -f CMakeFiles/EULER.dir/build.make CMakeFiles/EULER.dir/SOLUTIONS/EULER.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/EULER.cpp.o
+.PHONY : SOLUTIONS/EULER.cpp.o
+
+SOLUTIONS/EULER.i: SOLUTIONS/EULER.cpp.i
+
+.PHONY : SOLUTIONS/EULER.i
+
+# target to preprocess a source file
+SOLUTIONS/EULER.cpp.i:
+	$(MAKE) -f CMakeFiles/EULER.dir/build.make CMakeFiles/EULER.dir/SOLUTIONS/EULER.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/EULER.cpp.i
+.PHONY : SOLUTIONS/EULER.cpp.i
+
+SOLUTIONS/EULER.s: SOLUTIONS/EULER.cpp.s
+
+.PHONY : SOLUTIONS/EULER.s
+
+# target to generate assembly for a file
+SOLUTIONS/EULER.cpp.s:
+	$(MAKE) -f CMakeFiles/EULER.dir/build.make CMakeFiles/EULER.dir/SOLUTIONS/EULER.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/EULER.cpp.s
+.PHONY : SOLUTIONS/EULER.cpp.s
 
 SOLUTIONS/FARIDA.o: SOLUTIONS/FARIDA.cpp.o
 
@@ -724,6 +879,36 @@ SOLUTIONS/GSS1.cpp.s:
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1.cpp.s
 .PHONY : SOLUTIONS/GSS1.cpp.s
 
+SOLUTIONS/HPYNOS.o: SOLUTIONS/HPYNOS.cpp.o
+
+.PHONY : SOLUTIONS/HPYNOS.o
+
+# target to build an object file
+SOLUTIONS/HPYNOS.cpp.o:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/HPYNOS.cpp.o
+	$(MAKE) -f CMakeFiles/HPYNOS.dir/build.make CMakeFiles/HPYNOS.dir/SOLUTIONS/HPYNOS.cpp.o
+.PHONY : SOLUTIONS/HPYNOS.cpp.o
+
+SOLUTIONS/HPYNOS.i: SOLUTIONS/HPYNOS.cpp.i
+
+.PHONY : SOLUTIONS/HPYNOS.i
+
+# target to preprocess a source file
+SOLUTIONS/HPYNOS.cpp.i:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/HPYNOS.cpp.i
+	$(MAKE) -f CMakeFiles/HPYNOS.dir/build.make CMakeFiles/HPYNOS.dir/SOLUTIONS/HPYNOS.cpp.i
+.PHONY : SOLUTIONS/HPYNOS.cpp.i
+
+SOLUTIONS/HPYNOS.s: SOLUTIONS/HPYNOS.cpp.s
+
+.PHONY : SOLUTIONS/HPYNOS.s
+
+# target to generate assembly for a file
+SOLUTIONS/HPYNOS.cpp.s:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/HPYNOS.cpp.s
+	$(MAKE) -f CMakeFiles/HPYNOS.dir/build.make CMakeFiles/HPYNOS.dir/SOLUTIONS/HPYNOS.cpp.s
+.PHONY : SOLUTIONS/HPYNOS.cpp.s
+
 SOLUTIONS/INTEST.o: SOLUTIONS/INTEST.cpp.o
 
 .PHONY : SOLUTIONS/INTEST.o
@@ -843,6 +1028,36 @@ SOLUTIONS/NGM.cpp.s:
 	$(MAKE) -f CMakeFiles/NGM.dir/build.make CMakeFiles/NGM.dir/SOLUTIONS/NGM.cpp.s
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.s
 .PHONY : SOLUTIONS/NGM.cpp.s
+
+SOLUTIONS/OLOLo.o: SOLUTIONS/OLOLo.cpp.o
+
+.PHONY : SOLUTIONS/OLOLo.o
+
+# target to build an object file
+SOLUTIONS/OLOLo.cpp.o:
+	$(MAKE) -f CMakeFiles/OLOLo.dir/build.make CMakeFiles/OLOLo.dir/SOLUTIONS/OLOLo.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/OLOLo.cpp.o
+.PHONY : SOLUTIONS/OLOLo.cpp.o
+
+SOLUTIONS/OLOLo.i: SOLUTIONS/OLOLo.cpp.i
+
+.PHONY : SOLUTIONS/OLOLo.i
+
+# target to preprocess a source file
+SOLUTIONS/OLOLo.cpp.i:
+	$(MAKE) -f CMakeFiles/OLOLo.dir/build.make CMakeFiles/OLOLo.dir/SOLUTIONS/OLOLo.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/OLOLo.cpp.i
+.PHONY : SOLUTIONS/OLOLo.cpp.i
+
+SOLUTIONS/OLOLo.s: SOLUTIONS/OLOLo.cpp.s
+
+.PHONY : SOLUTIONS/OLOLo.s
+
+# target to generate assembly for a file
+SOLUTIONS/OLOLo.cpp.s:
+	$(MAKE) -f CMakeFiles/OLOLo.dir/build.make CMakeFiles/OLOLo.dir/SOLUTIONS/OLOLo.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/OLOLo.cpp.s
+.PHONY : SOLUTIONS/OLOLo.cpp.s
 
 SOLUTIONS/PERMUT2.o: SOLUTIONS/PERMUT2.cpp.o
 
@@ -1170,15 +1385,19 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... ANARC90"
+	@echo "... OLOLo"
 	@echo "... LAZY"
 	@echo "... FARIDA"
 	@echo "... NGM"
 	@echo "... GSS1"
 	@echo "... GSS1-final"
 	@echo "... GIRLSNBYS"
+	@echo "... BEENUMS"
 	@echo "... INTEST"
 	@echo "... STPAR"
 	@echo "... PT07Z"
+	@echo "... EULER"
 	@echo "... SPOJ"
 	@echo "... ABSYS"
 	@echo "... WILLITST"
@@ -1191,6 +1410,7 @@ help:
 	@echo "... PERMUT2"
 	@echo "... test"
 	@echo "... TRICOUNT"
+	@echo "... HPYNOS"
 	@echo "... TestCode"
 	@echo "... TOPOSORT"
 	@echo "... SOLUTIONS/(LAZYPROPUSED).o"
@@ -1205,6 +1425,12 @@ help:
 	@echo "... SOLUTIONS/ALCATRAZ3.o"
 	@echo "... SOLUTIONS/ALCATRAZ3.i"
 	@echo "... SOLUTIONS/ALCATRAZ3.s"
+	@echo "... SOLUTIONS/ANARC90.o"
+	@echo "... SOLUTIONS/ANARC90.i"
+	@echo "... SOLUTIONS/ANARC90.s"
+	@echo "... SOLUTIONS/BEENUMS.o"
+	@echo "... SOLUTIONS/BEENUMS.i"
+	@echo "... SOLUTIONS/BEENUMS.s"
 	@echo "... SOLUTIONS/BUGLIFE.o"
 	@echo "... SOLUTIONS/BUGLIFE.i"
 	@echo "... SOLUTIONS/BUGLIFE.s"
@@ -1214,6 +1440,9 @@ help:
 	@echo "... SOLUTIONS/ETF.o"
 	@echo "... SOLUTIONS/ETF.i"
 	@echo "... SOLUTIONS/ETF.s"
+	@echo "... SOLUTIONS/EULER.o"
+	@echo "... SOLUTIONS/EULER.i"
+	@echo "... SOLUTIONS/EULER.s"
 	@echo "... SOLUTIONS/FARIDA.o"
 	@echo "... SOLUTIONS/FARIDA.i"
 	@echo "... SOLUTIONS/FARIDA.s"
@@ -1226,6 +1455,9 @@ help:
 	@echo "... SOLUTIONS/GSS1.o"
 	@echo "... SOLUTIONS/GSS1.i"
 	@echo "... SOLUTIONS/GSS1.s"
+	@echo "... SOLUTIONS/HPYNOS.o"
+	@echo "... SOLUTIONS/HPYNOS.i"
+	@echo "... SOLUTIONS/HPYNOS.s"
 	@echo "... SOLUTIONS/INTEST.o"
 	@echo "... SOLUTIONS/INTEST.i"
 	@echo "... SOLUTIONS/INTEST.s"
@@ -1238,6 +1470,9 @@ help:
 	@echo "... SOLUTIONS/NGM.o"
 	@echo "... SOLUTIONS/NGM.i"
 	@echo "... SOLUTIONS/NGM.s"
+	@echo "... SOLUTIONS/OLOLo.o"
+	@echo "... SOLUTIONS/OLOLo.i"
+	@echo "... SOLUTIONS/OLOLo.s"
 	@echo "... SOLUTIONS/PERMUT2.o"
 	@echo "... SOLUTIONS/PERMUT2.i"
 	@echo "... SOLUTIONS/PERMUT2.s"

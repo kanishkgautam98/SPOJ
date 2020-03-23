@@ -1,92 +1,61 @@
+// C++ program to find minimum number of 
+// reversals required to balance an expression 
 #include<bits/stdc++.h>
 using namespace std;
-#define ll long long int
 
-ll tree[400400];
-ll lazy[400400];
 
-ll query(ll idx,ll queryStart,ll queryEnd,ll treeStart,ll treeEnd)
+// Returns count of minimum reversals for making 
+// expr balanced. Returns -1 if expr cannot be 
+// balanced. 
+int countMinReversals(string expr)
 {
-    if(lazy[idx]!=0)
+    int len = expr.length();
+
+    // length of expression must be even to make
+    // it balanced by using reversals.
+    if (len%2)
+        return -1;
+
+    // After this loop, stack contains unbalanced
+    // part of expression, i.e., expression of the
+    // form "}}..}{{..{"
+    stack<char> s;
+    for (int i=0; i<len; i++)
     {
-        tree[idx]+=(treeEnd-treeStart+1)*lazy[idx];
-        if(treeStart!=treeEnd)
+        if (expr[i]=='}' && !s.empty())
         {
-            lazy[2*idx]+=lazy[idx];
-            lazy[2*idx+1]+=lazy[idx];
+            if (s.top()=='{')
+                s.pop();
+            else
+                s.push(expr[i]);
         }
-        lazy[idx]=0;
+        else
+            s.push(expr[i]);
     }
-    if(treeStart>treeEnd || treeStart>queryEnd || treeEnd<queryStart)
+
+    // Length of the reduced expression
+    // red_len = (m+n)
+    int red_len = s.size();
+
+    // count opening brackets at the end of
+    // stack
+    int n = 0;
+    while (!s.empty() && s.top() == '{')
     {
-        return 0;
+        s.pop();
+        n++;
     }
-    if(treeStart>=queryStart && treeEnd<=queryEnd)
-    {
-        return tree[idx];
-    }
-    ll mid=treeStart+(treeEnd-treeStart)/2;
-    return query(2*idx,queryStart,queryEnd,treeStart,mid)+query(2*idx+1,queryStart,queryEnd,mid+1,treeEnd);
+
+    // return ceil(m/2) + ceil(n/2) which is
+    // actually equal to (m+n)/2 + n%2 when
+    // m+n is even.
+    return (red_len/2 + n%2);
 }
 
-void update(ll idx,ll updateStart,ll updateEnd,ll treeStart,ll treeEnd,ll val)
-{
-    if(lazy[idx] != 0)
-    {
-        tree[idx]+=(treeEnd-treeStart+1)*lazy[idx];
-        if(treeStart!=treeEnd)
-        {
-            lazy[2*idx]+=lazy[idx];
-            lazy[2*idx+1]+=lazy[idx];
-        }
-        lazy[idx]=0;
-    }
-    if(treeStart>treeEnd || treeStart>updateEnd || treeEnd<updateStart)
-    {
-        return ;
-    }
-    if(treeStart>=updateStart && treeEnd<=updateEnd)
-    {
-        tree[idx]+=(treeEnd-treeStart+1)*val;
-        if(treeStart!=treeEnd)
-        {
-            lazy[2*idx]+=val;
-            lazy[2*idx+1]+=val;
-        }
-        return ;
-    }
-    ll mid=treeStart+(treeEnd-treeStart)/2;
-    update(2*idx,updateStart,updateEnd,treeStart,mid,val);
-    update(2*idx+1,updateStart,updateEnd,mid+1,treeEnd,val);
-    tree[idx]=tree[2*idx]+tree[2*idx+1];
-}
-
+// Driver program to test above function 
 int main()
 {
-    ios_base::sync_with_stdio(false),cin.tie(NULL),cout.tie(NULL);
-    ll t;
-    cin>>t;
-    while(t--)
-    {
-        ll n,c;
-        cin>>n>>c;
-        memset(tree,0,sizeof(tree));
-        memset(lazy,0,sizeof(lazy));
-        ll temp,a,b;
-        while(c--)
-        {
-            cin>>temp;
-            if(temp)
-            {
-                cin>>a>>b;
-                cout<<query(1,a,b,1,n)<<"\n";
-            }
-            else
-            {
-                cin>>a>>b>>temp;
-                update(1,a,b,1,n,temp);
-            }
-        }
-    }
+    string expr = "{{{}";
+    cout << countMinReversals(expr);
     return 0;
-}
+} 

@@ -48,15 +48,19 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/ANARC90.dir/DependInfo.cmake"
+  "CMakeFiles/OLOLo.dir/DependInfo.cmake"
   "CMakeFiles/LAZY.dir/DependInfo.cmake"
   "CMakeFiles/FARIDA.dir/DependInfo.cmake"
   "CMakeFiles/NGM.dir/DependInfo.cmake"
   "CMakeFiles/GSS1.dir/DependInfo.cmake"
   "CMakeFiles/GSS1-final.dir/DependInfo.cmake"
   "CMakeFiles/GIRLSNBYS.dir/DependInfo.cmake"
+  "CMakeFiles/BEENUMS.dir/DependInfo.cmake"
   "CMakeFiles/INTEST.dir/DependInfo.cmake"
   "CMakeFiles/STPAR.dir/DependInfo.cmake"
   "CMakeFiles/PT07Z.dir/DependInfo.cmake"
+  "CMakeFiles/EULER.dir/DependInfo.cmake"
   "CMakeFiles/SPOJ.dir/DependInfo.cmake"
   "CMakeFiles/ABSYS.dir/DependInfo.cmake"
   "CMakeFiles/WILLITST.dir/DependInfo.cmake"
@@ -69,6 +73,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/PERMUT2.dir/DependInfo.cmake"
   "CMakeFiles/test.dir/DependInfo.cmake"
   "CMakeFiles/TRICOUNT.dir/DependInfo.cmake"
+  "CMakeFiles/HPYNOS.dir/DependInfo.cmake"
   "CMakeFiles/TestCode.dir/DependInfo.cmake"
   "CMakeFiles/TOPOSORT.dir/DependInfo.cmake"
   )

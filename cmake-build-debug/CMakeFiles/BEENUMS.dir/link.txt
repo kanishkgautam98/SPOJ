@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/BEENUMS.dir/SOLUTIONS/BEENUMS.cpp.o  -o BEENUMS 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ANARC90.dir/SOLUTIONS/ANARC90.cpp.o  -o ANARC90 
