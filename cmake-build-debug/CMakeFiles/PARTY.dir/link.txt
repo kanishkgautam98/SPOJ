@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PARTY.dir/SOLUTIONS/PARTY.cpp.o  -o PARTY 

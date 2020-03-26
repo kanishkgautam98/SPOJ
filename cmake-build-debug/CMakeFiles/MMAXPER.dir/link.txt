@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/MMAXPER.dir/SOLUTIONS/MMAXPER.cpp.o  -o MMAXPER 
