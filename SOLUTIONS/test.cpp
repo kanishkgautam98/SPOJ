@@ -1,61 +1,46 @@
-// C++ program to find minimum number of 
-// reversals required to balance an expression 
-#include<bits/stdc++.h>
+#include <cstdio>
+#include <algorithm>
+
 using namespace std;
 
+int main(){
+    int n,N,a,b,c,x[90],y[90],z[90],dp[90];
 
-// Returns count of minimum reversals for making 
-// expr balanced. Returns -1 if expr cannot be 
-// balanced. 
-int countMinReversals(string expr)
-{
-    int len = expr.length();
+    while(true){
+        scanf("%d",&n);
+        if(n==0) break;
 
-    // length of expression must be even to make
-    // it balanced by using reversals.
-    if (len%2)
-        return -1;
+        N = 3*n;
 
-    // After this loop, stack contains unbalanced
-    // part of expression, i.e., expression of the
-    // form "}}..}{{..{"
-    stack<char> s;
-    for (int i=0; i<len; i++)
-    {
-        if (expr[i]=='}' && !s.empty())
-        {
-            if (s.top()=='{')
-                s.pop();
-            else
-                s.push(expr[i]);
+        for(int i = 0;i<n;++i){
+            scanf("%d %d %d",&a,&b,&c);
+            x[3*i] = a; y[3*i] = b; z[3*i] = c;
+            x[3*i+1] = b; y[3*i+1] = c; z[3*i+1] = a;
+            x[3*i+2] = c; y[3*i+2] = a; z[3*i+2] = b;
         }
-        else
-            s.push(expr[i]);
+
+        for(int i = 0;i<N;++i) for(int j = i+1;j<N;++j){
+                if((x[j]<x[i] && y[j]<y[i]) || (y[j]<x[i] && x[j]<y[i])){
+                    swap(x[i],x[j]);
+                    swap(y[i],y[j]);
+                    swap(z[i],z[j]);
+                }
+            }
+
+        int ans = -1;
+
+        for(int i = 0;i<N;++i){
+            dp[i] = z[i];
+
+            for(int j = 0;j<i;++j)
+                if((x[j]<x[i] && y[j]<y[i]) || (y[j]<x[i] && x[j]<y[i]))
+                    dp[i] = max(dp[i],dp[j]+z[i]);
+
+            ans = max(ans,dp[i]);
+        }
+
+        printf("%d\n",ans);
     }
 
-    // Length of the reduced expression
-    // red_len = (m+n)
-    int red_len = s.size();
-
-    // count opening brackets at the end of
-    // stack
-    int n = 0;
-    while (!s.empty() && s.top() == '{')
-    {
-        s.pop();
-        n++;
-    }
-
-    // return ceil(m/2) + ceil(n/2) which is
-    // actually equal to (m+n)/2 + n%2 when
-    // m+n is even.
-    return (red_len/2 + n%2);
-}
-
-// Driver program to test above function 
-int main()
-{
-    string expr = "{{{}";
-    cout << countMinReversals(expr);
     return 0;
-} 
+}

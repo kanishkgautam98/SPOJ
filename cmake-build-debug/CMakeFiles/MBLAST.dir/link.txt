@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/MBLAST.dir/SOLUTIONS/MBLAST.cpp.o  -o MBLAST 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/BABTWR.dir/SOLUTIONS/BABTWR.cpp.o  -o BABTWR 

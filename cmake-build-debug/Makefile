@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/kanishk/CLionProjects/SPOJ/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named MBLAST
+
+# Build rule for target.
+MBLAST: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MBLAST
+.PHONY : MBLAST
+
+# fast build rule for target.
+MBLAST/fast:
+	$(MAKE) -f CMakeFiles/MBLAST.dir/build.make CMakeFiles/MBLAST.dir/build
+.PHONY : MBLAST/fast
+
+#=============================================================================
+# Target rules for targets named BABTWR
+
+# Build rule for target.
+BABTWR: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BABTWR
+.PHONY : BABTWR
+
+# fast build rule for target.
+BABTWR/fast:
+	$(MAKE) -f CMakeFiles/BABTWR.dir/build.make CMakeFiles/BABTWR.dir/build
+.PHONY : BABTWR/fast
+
+#=============================================================================
+# Target rules for targets named ASSIGN
+
+# Build rule for target.
+ASSIGN: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ASSIGN
+.PHONY : ASSIGN
+
+# fast build rule for target.
+ASSIGN/fast:
+	$(MAKE) -f CMakeFiles/ASSIGN.dir/build.make CMakeFiles/ASSIGN.dir/build
+.PHONY : ASSIGN/fast
+
+#=============================================================================
+# Target rules for targets named MAXLN
+
+# Build rule for target.
+MAXLN: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MAXLN
+.PHONY : MAXLN
+
+# fast build rule for target.
+MAXLN/fast:
+	$(MAKE) -f CMakeFiles/MAXLN.dir/build.make CMakeFiles/MAXLN.dir/build
+.PHONY : MAXLN/fast
+
+#=============================================================================
+# Target rules for targets named OFFSIDE
+
+# Build rule for target.
+OFFSIDE: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OFFSIDE
+.PHONY : OFFSIDE
+
+# fast build rule for target.
+OFFSIDE/fast:
+	$(MAKE) -f CMakeFiles/OFFSIDE.dir/build.make CMakeFiles/OFFSIDE.dir/build
+.PHONY : OFFSIDE/fast
+
+#=============================================================================
 # Target rules for targets named ANARC90
 
 # Build rule for target.
@@ -135,6 +200,19 @@ OLOLo: cmake_check_build_system
 OLOLo/fast:
 	$(MAKE) -f CMakeFiles/OLOLo.dir/build.make CMakeFiles/OLOLo.dir/build
 .PHONY : OLOLo/fast
+
+#=============================================================================
+# Target rules for targets named BYTESM2
+
+# Build rule for target.
+BYTESM2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BYTESM2
+.PHONY : BYTESM2
+
+# fast build rule for target.
+BYTESM2/fast:
+	$(MAKE) -f CMakeFiles/BYTESM2.dir/build.make CMakeFiles/BYTESM2.dir/build
+.PHONY : BYTESM2/fast
 
 #=============================================================================
 # Target rules for targets named LAZY
@@ -615,6 +693,66 @@ SOLUTIONS/ANARC90.cpp.s:
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ANARC90.cpp.s
 .PHONY : SOLUTIONS/ANARC90.cpp.s
 
+SOLUTIONS/ASSIGN.o: SOLUTIONS/ASSIGN.cpp.o
+
+.PHONY : SOLUTIONS/ASSIGN.o
+
+# target to build an object file
+SOLUTIONS/ASSIGN.cpp.o:
+	$(MAKE) -f CMakeFiles/ASSIGN.dir/build.make CMakeFiles/ASSIGN.dir/SOLUTIONS/ASSIGN.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ASSIGN.cpp.o
+.PHONY : SOLUTIONS/ASSIGN.cpp.o
+
+SOLUTIONS/ASSIGN.i: SOLUTIONS/ASSIGN.cpp.i
+
+.PHONY : SOLUTIONS/ASSIGN.i
+
+# target to preprocess a source file
+SOLUTIONS/ASSIGN.cpp.i:
+	$(MAKE) -f CMakeFiles/ASSIGN.dir/build.make CMakeFiles/ASSIGN.dir/SOLUTIONS/ASSIGN.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ASSIGN.cpp.i
+.PHONY : SOLUTIONS/ASSIGN.cpp.i
+
+SOLUTIONS/ASSIGN.s: SOLUTIONS/ASSIGN.cpp.s
+
+.PHONY : SOLUTIONS/ASSIGN.s
+
+# target to generate assembly for a file
+SOLUTIONS/ASSIGN.cpp.s:
+	$(MAKE) -f CMakeFiles/ASSIGN.dir/build.make CMakeFiles/ASSIGN.dir/SOLUTIONS/ASSIGN.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/ASSIGN.cpp.s
+.PHONY : SOLUTIONS/ASSIGN.cpp.s
+
+SOLUTIONS/BABTWR.o: SOLUTIONS/BABTWR.cpp.o
+
+.PHONY : SOLUTIONS/BABTWR.o
+
+# target to build an object file
+SOLUTIONS/BABTWR.cpp.o:
+	$(MAKE) -f CMakeFiles/BABTWR.dir/build.make CMakeFiles/BABTWR.dir/SOLUTIONS/BABTWR.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/BABTWR.cpp.o
+.PHONY : SOLUTIONS/BABTWR.cpp.o
+
+SOLUTIONS/BABTWR.i: SOLUTIONS/BABTWR.cpp.i
+
+.PHONY : SOLUTIONS/BABTWR.i
+
+# target to preprocess a source file
+SOLUTIONS/BABTWR.cpp.i:
+	$(MAKE) -f CMakeFiles/BABTWR.dir/build.make CMakeFiles/BABTWR.dir/SOLUTIONS/BABTWR.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/BABTWR.cpp.i
+.PHONY : SOLUTIONS/BABTWR.cpp.i
+
+SOLUTIONS/BABTWR.s: SOLUTIONS/BABTWR.cpp.s
+
+.PHONY : SOLUTIONS/BABTWR.s
+
+# target to generate assembly for a file
+SOLUTIONS/BABTWR.cpp.s:
+	$(MAKE) -f CMakeFiles/BABTWR.dir/build.make CMakeFiles/BABTWR.dir/SOLUTIONS/BABTWR.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/BABTWR.cpp.s
+.PHONY : SOLUTIONS/BABTWR.cpp.s
+
 SOLUTIONS/BEENUMS.o: SOLUTIONS/BEENUMS.cpp.o
 
 .PHONY : SOLUTIONS/BEENUMS.o
@@ -671,6 +809,36 @@ SOLUTIONS/BUGLIFE.s: SOLUTIONS/BUGLIFE.cpp.s
 SOLUTIONS/BUGLIFE.cpp.s:
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/BUGLIFE.cpp.s
 .PHONY : SOLUTIONS/BUGLIFE.cpp.s
+
+SOLUTIONS/BYTESM2.o: SOLUTIONS/BYTESM2.cpp.o
+
+.PHONY : SOLUTIONS/BYTESM2.o
+
+# target to build an object file
+SOLUTIONS/BYTESM2.cpp.o:
+	$(MAKE) -f CMakeFiles/BYTESM2.dir/build.make CMakeFiles/BYTESM2.dir/SOLUTIONS/BYTESM2.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/BYTESM2.cpp.o
+.PHONY : SOLUTIONS/BYTESM2.cpp.o
+
+SOLUTIONS/BYTESM2.i: SOLUTIONS/BYTESM2.cpp.i
+
+.PHONY : SOLUTIONS/BYTESM2.i
+
+# target to preprocess a source file
+SOLUTIONS/BYTESM2.cpp.i:
+	$(MAKE) -f CMakeFiles/BYTESM2.dir/build.make CMakeFiles/BYTESM2.dir/SOLUTIONS/BYTESM2.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/BYTESM2.cpp.i
+.PHONY : SOLUTIONS/BYTESM2.cpp.i
+
+SOLUTIONS/BYTESM2.s: SOLUTIONS/BYTESM2.cpp.s
+
+.PHONY : SOLUTIONS/BYTESM2.s
+
+# target to generate assembly for a file
+SOLUTIONS/BYTESM2.cpp.s:
+	$(MAKE) -f CMakeFiles/BYTESM2.dir/build.make CMakeFiles/BYTESM2.dir/SOLUTIONS/BYTESM2.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/BYTESM2.cpp.s
+.PHONY : SOLUTIONS/BYTESM2.cpp.s
 
 SOLUTIONS/CANTON.o: SOLUTIONS/CANTON.cpp.o
 
@@ -999,6 +1167,66 @@ SOLUTIONS/LAZY.cpp.s:
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/LAZY.cpp.s
 .PHONY : SOLUTIONS/LAZY.cpp.s
 
+SOLUTIONS/MAXLN.o: SOLUTIONS/MAXLN.cpp.o
+
+.PHONY : SOLUTIONS/MAXLN.o
+
+# target to build an object file
+SOLUTIONS/MAXLN.cpp.o:
+	$(MAKE) -f CMakeFiles/MAXLN.dir/build.make CMakeFiles/MAXLN.dir/SOLUTIONS/MAXLN.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/MAXLN.cpp.o
+.PHONY : SOLUTIONS/MAXLN.cpp.o
+
+SOLUTIONS/MAXLN.i: SOLUTIONS/MAXLN.cpp.i
+
+.PHONY : SOLUTIONS/MAXLN.i
+
+# target to preprocess a source file
+SOLUTIONS/MAXLN.cpp.i:
+	$(MAKE) -f CMakeFiles/MAXLN.dir/build.make CMakeFiles/MAXLN.dir/SOLUTIONS/MAXLN.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/MAXLN.cpp.i
+.PHONY : SOLUTIONS/MAXLN.cpp.i
+
+SOLUTIONS/MAXLN.s: SOLUTIONS/MAXLN.cpp.s
+
+.PHONY : SOLUTIONS/MAXLN.s
+
+# target to generate assembly for a file
+SOLUTIONS/MAXLN.cpp.s:
+	$(MAKE) -f CMakeFiles/MAXLN.dir/build.make CMakeFiles/MAXLN.dir/SOLUTIONS/MAXLN.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/MAXLN.cpp.s
+.PHONY : SOLUTIONS/MAXLN.cpp.s
+
+SOLUTIONS/MBLAST.o: SOLUTIONS/MBLAST.cpp.o
+
+.PHONY : SOLUTIONS/MBLAST.o
+
+# target to build an object file
+SOLUTIONS/MBLAST.cpp.o:
+	$(MAKE) -f CMakeFiles/MBLAST.dir/build.make CMakeFiles/MBLAST.dir/SOLUTIONS/MBLAST.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/MBLAST.cpp.o
+.PHONY : SOLUTIONS/MBLAST.cpp.o
+
+SOLUTIONS/MBLAST.i: SOLUTIONS/MBLAST.cpp.i
+
+.PHONY : SOLUTIONS/MBLAST.i
+
+# target to preprocess a source file
+SOLUTIONS/MBLAST.cpp.i:
+	$(MAKE) -f CMakeFiles/MBLAST.dir/build.make CMakeFiles/MBLAST.dir/SOLUTIONS/MBLAST.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/MBLAST.cpp.i
+.PHONY : SOLUTIONS/MBLAST.cpp.i
+
+SOLUTIONS/MBLAST.s: SOLUTIONS/MBLAST.cpp.s
+
+.PHONY : SOLUTIONS/MBLAST.s
+
+# target to generate assembly for a file
+SOLUTIONS/MBLAST.cpp.s:
+	$(MAKE) -f CMakeFiles/MBLAST.dir/build.make CMakeFiles/MBLAST.dir/SOLUTIONS/MBLAST.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/MBLAST.cpp.s
+.PHONY : SOLUTIONS/MBLAST.cpp.s
+
 SOLUTIONS/NGM.o: SOLUTIONS/NGM.cpp.o
 
 .PHONY : SOLUTIONS/NGM.o
@@ -1028,6 +1256,36 @@ SOLUTIONS/NGM.cpp.s:
 	$(MAKE) -f CMakeFiles/NGM.dir/build.make CMakeFiles/NGM.dir/SOLUTIONS/NGM.cpp.s
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/NGM.cpp.s
 .PHONY : SOLUTIONS/NGM.cpp.s
+
+SOLUTIONS/OFFSIDE.o: SOLUTIONS/OFFSIDE.cpp.o
+
+.PHONY : SOLUTIONS/OFFSIDE.o
+
+# target to build an object file
+SOLUTIONS/OFFSIDE.cpp.o:
+	$(MAKE) -f CMakeFiles/OFFSIDE.dir/build.make CMakeFiles/OFFSIDE.dir/SOLUTIONS/OFFSIDE.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/OFFSIDE.cpp.o
+.PHONY : SOLUTIONS/OFFSIDE.cpp.o
+
+SOLUTIONS/OFFSIDE.i: SOLUTIONS/OFFSIDE.cpp.i
+
+.PHONY : SOLUTIONS/OFFSIDE.i
+
+# target to preprocess a source file
+SOLUTIONS/OFFSIDE.cpp.i:
+	$(MAKE) -f CMakeFiles/OFFSIDE.dir/build.make CMakeFiles/OFFSIDE.dir/SOLUTIONS/OFFSIDE.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/OFFSIDE.cpp.i
+.PHONY : SOLUTIONS/OFFSIDE.cpp.i
+
+SOLUTIONS/OFFSIDE.s: SOLUTIONS/OFFSIDE.cpp.s
+
+.PHONY : SOLUTIONS/OFFSIDE.s
+
+# target to generate assembly for a file
+SOLUTIONS/OFFSIDE.cpp.s:
+	$(MAKE) -f CMakeFiles/OFFSIDE.dir/build.make CMakeFiles/OFFSIDE.dir/SOLUTIONS/OFFSIDE.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/OFFSIDE.cpp.s
+.PHONY : SOLUTIONS/OFFSIDE.cpp.s
 
 SOLUTIONS/OLOLo.o: SOLUTIONS/OLOLo.cpp.o
 
@@ -1383,10 +1641,16 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... MBLAST"
+	@echo "... rebuild_cache"
+	@echo "... BABTWR"
+	@echo "... ASSIGN"
+	@echo "... MAXLN"
+	@echo "... OFFSIDE"
 	@echo "... ANARC90"
 	@echo "... OLOLo"
+	@echo "... BYTESM2"
 	@echo "... LAZY"
 	@echo "... FARIDA"
 	@echo "... NGM"
@@ -1428,12 +1692,21 @@ help:
 	@echo "... SOLUTIONS/ANARC90.o"
 	@echo "... SOLUTIONS/ANARC90.i"
 	@echo "... SOLUTIONS/ANARC90.s"
+	@echo "... SOLUTIONS/ASSIGN.o"
+	@echo "... SOLUTIONS/ASSIGN.i"
+	@echo "... SOLUTIONS/ASSIGN.s"
+	@echo "... SOLUTIONS/BABTWR.o"
+	@echo "... SOLUTIONS/BABTWR.i"
+	@echo "... SOLUTIONS/BABTWR.s"
 	@echo "... SOLUTIONS/BEENUMS.o"
 	@echo "... SOLUTIONS/BEENUMS.i"
 	@echo "... SOLUTIONS/BEENUMS.s"
 	@echo "... SOLUTIONS/BUGLIFE.o"
 	@echo "... SOLUTIONS/BUGLIFE.i"
 	@echo "... SOLUTIONS/BUGLIFE.s"
+	@echo "... SOLUTIONS/BYTESM2.o"
+	@echo "... SOLUTIONS/BYTESM2.i"
+	@echo "... SOLUTIONS/BYTESM2.s"
 	@echo "... SOLUTIONS/CANTON.o"
 	@echo "... SOLUTIONS/CANTON.i"
 	@echo "... SOLUTIONS/CANTON.s"
@@ -1467,9 +1740,18 @@ help:
 	@echo "... SOLUTIONS/LAZY.o"
 	@echo "... SOLUTIONS/LAZY.i"
 	@echo "... SOLUTIONS/LAZY.s"
+	@echo "... SOLUTIONS/MAXLN.o"
+	@echo "... SOLUTIONS/MAXLN.i"
+	@echo "... SOLUTIONS/MAXLN.s"
+	@echo "... SOLUTIONS/MBLAST.o"
+	@echo "... SOLUTIONS/MBLAST.i"
+	@echo "... SOLUTIONS/MBLAST.s"
 	@echo "... SOLUTIONS/NGM.o"
 	@echo "... SOLUTIONS/NGM.i"
 	@echo "... SOLUTIONS/NGM.s"
+	@echo "... SOLUTIONS/OFFSIDE.o"
+	@echo "... SOLUTIONS/OFFSIDE.i"
+	@echo "... SOLUTIONS/OFFSIDE.s"
 	@echo "... SOLUTIONS/OLOLo.o"
 	@echo "... SOLUTIONS/OLOLo.i"
 	@echo "... SOLUTIONS/OLOLo.s"

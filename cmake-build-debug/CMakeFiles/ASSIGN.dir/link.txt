@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ASSIGN.dir/SOLUTIONS/ASSIGN.cpp.o  -o ASSIGN 

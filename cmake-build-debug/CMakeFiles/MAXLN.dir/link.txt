@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/MAXLN.dir/SOLUTIONS/MAXLN.cpp.o  -o MAXLN 

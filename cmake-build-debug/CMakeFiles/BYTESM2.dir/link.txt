@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/BYTESM2.dir/SOLUTIONS/BYTESM2.cpp.o  -o BYTESM2 

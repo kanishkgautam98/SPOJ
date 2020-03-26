@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/test.cpp
-bits/stdc++.h
+cstdio
+-
+algorithm
 -
 
