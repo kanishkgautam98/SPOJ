@@ -189,6 +189,19 @@ PERMUT2/fast:
 .PHONY : PERMUT2/fast
 
 #=============================================================================
+# Target rules for targets named TRT
+
+# Build rule for target.
+TRT: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TRT
+.PHONY : TRT
+
+# fast build rule for target.
+TRT/fast:
+	$(MAKE) -f CMakeFiles/TRT.dir/build.make CMakeFiles/TRT.dir/build
+.PHONY : TRT/fast
+
+#=============================================================================
 # Target rules for targets named CANTON
 
 # Build rule for target.
@@ -473,6 +486,19 @@ BYTESM2: cmake_check_build_system
 BYTESM2/fast:
 	$(MAKE) -f CMakeFiles/BYTESM2.dir/build.make CMakeFiles/BYTESM2.dir/build
 .PHONY : BYTESM2/fast
+
+#=============================================================================
+# Target rules for targets named PIGBANK
+
+# Build rule for target.
+PIGBANK: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PIGBANK
+.PHONY : PIGBANK
+
+# fast build rule for target.
+PIGBANK/fast:
+	$(MAKE) -f CMakeFiles/PIGBANK.dir/build.make CMakeFiles/PIGBANK.dir/build
+.PHONY : PIGBANK/fast
 
 #=============================================================================
 # Target rules for targets named OLOLo
@@ -1467,6 +1493,36 @@ SOLUTIONS/PERMUT2.cpp.s:
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/PERMUT2.cpp.s
 .PHONY : SOLUTIONS/PERMUT2.cpp.s
 
+SOLUTIONS/PIGBANK.o: SOLUTIONS/PIGBANK.cpp.o
+
+.PHONY : SOLUTIONS/PIGBANK.o
+
+# target to build an object file
+SOLUTIONS/PIGBANK.cpp.o:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/PIGBANK.cpp.o
+	$(MAKE) -f CMakeFiles/PIGBANK.dir/build.make CMakeFiles/PIGBANK.dir/SOLUTIONS/PIGBANK.cpp.o
+.PHONY : SOLUTIONS/PIGBANK.cpp.o
+
+SOLUTIONS/PIGBANK.i: SOLUTIONS/PIGBANK.cpp.i
+
+.PHONY : SOLUTIONS/PIGBANK.i
+
+# target to preprocess a source file
+SOLUTIONS/PIGBANK.cpp.i:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/PIGBANK.cpp.i
+	$(MAKE) -f CMakeFiles/PIGBANK.dir/build.make CMakeFiles/PIGBANK.dir/SOLUTIONS/PIGBANK.cpp.i
+.PHONY : SOLUTIONS/PIGBANK.cpp.i
+
+SOLUTIONS/PIGBANK.s: SOLUTIONS/PIGBANK.cpp.s
+
+.PHONY : SOLUTIONS/PIGBANK.s
+
+# target to generate assembly for a file
+SOLUTIONS/PIGBANK.cpp.s:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/PIGBANK.cpp.s
+	$(MAKE) -f CMakeFiles/PIGBANK.dir/build.make CMakeFiles/PIGBANK.dir/SOLUTIONS/PIGBANK.cpp.s
+.PHONY : SOLUTIONS/PIGBANK.cpp.s
+
 SOLUTIONS/PT07Y.o: SOLUTIONS/PT07Y.cpp.o
 
 .PHONY : SOLUTIONS/PT07Y.o
@@ -1638,6 +1694,36 @@ SOLUTIONS/TRICOUNT.cpp.s:
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/TRICOUNT.cpp.s
 .PHONY : SOLUTIONS/TRICOUNT.cpp.s
 
+SOLUTIONS/TRT.o: SOLUTIONS/TRT.cpp.o
+
+.PHONY : SOLUTIONS/TRT.o
+
+# target to build an object file
+SOLUTIONS/TRT.cpp.o:
+	$(MAKE) -f CMakeFiles/TRT.dir/build.make CMakeFiles/TRT.dir/SOLUTIONS/TRT.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/TRT.cpp.o
+.PHONY : SOLUTIONS/TRT.cpp.o
+
+SOLUTIONS/TRT.i: SOLUTIONS/TRT.cpp.i
+
+.PHONY : SOLUTIONS/TRT.i
+
+# target to preprocess a source file
+SOLUTIONS/TRT.cpp.i:
+	$(MAKE) -f CMakeFiles/TRT.dir/build.make CMakeFiles/TRT.dir/SOLUTIONS/TRT.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/TRT.cpp.i
+.PHONY : SOLUTIONS/TRT.cpp.i
+
+SOLUTIONS/TRT.s: SOLUTIONS/TRT.cpp.s
+
+.PHONY : SOLUTIONS/TRT.s
+
+# target to generate assembly for a file
+SOLUTIONS/TRT.cpp.s:
+	$(MAKE) -f CMakeFiles/TRT.dir/build.make CMakeFiles/TRT.dir/SOLUTIONS/TRT.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/TRT.cpp.s
+.PHONY : SOLUTIONS/TRT.cpp.s
+
 SOLUTIONS/TestCode.o: SOLUTIONS/TestCode.cpp.o
 
 .PHONY : SOLUTIONS/TestCode.o
@@ -1769,6 +1855,7 @@ help:
 	@echo "... TRICOUNT"
 	@echo "... test"
 	@echo "... PERMUT2"
+	@echo "... TRT"
 	@echo "... CANTON"
 	@echo "... PT07Y"
 	@echo "... ALCATRAZ3"
@@ -1791,6 +1878,7 @@ help:
 	@echo "... LAZY"
 	@echo "... GIRLSNBYS"
 	@echo "... BYTESM2"
+	@echo "... PIGBANK"
 	@echo "... OLOLo"
 	@echo "... ANARC90"
 	@echo "... OFFSIDE"
@@ -1890,6 +1978,9 @@ help:
 	@echo "... SOLUTIONS/PERMUT2.o"
 	@echo "... SOLUTIONS/PERMUT2.i"
 	@echo "... SOLUTIONS/PERMUT2.s"
+	@echo "... SOLUTIONS/PIGBANK.o"
+	@echo "... SOLUTIONS/PIGBANK.i"
+	@echo "... SOLUTIONS/PIGBANK.s"
 	@echo "... SOLUTIONS/PT07Y.o"
 	@echo "... SOLUTIONS/PT07Y.i"
 	@echo "... SOLUTIONS/PT07Y.s"
@@ -1908,6 +1999,9 @@ help:
 	@echo "... SOLUTIONS/TRICOUNT.o"
 	@echo "... SOLUTIONS/TRICOUNT.i"
 	@echo "... SOLUTIONS/TRICOUNT.s"
+	@echo "... SOLUTIONS/TRT.o"
+	@echo "... SOLUTIONS/TRT.i"
+	@echo "... SOLUTIONS/TRT.s"
 	@echo "... SOLUTIONS/TestCode.o"
 	@echo "... SOLUTIONS/TestCode.i"
 	@echo "... SOLUTIONS/TestCode.s"

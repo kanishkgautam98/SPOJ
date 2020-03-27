@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TRT.dir/SOLUTIONS/TRT.cpp.o  -o TRT 
