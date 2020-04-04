@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SAMER08C-Candy.dir/SOLUTIONS/SAMER08C-Candy.cpp.o  -o SAMER08C-Candy 

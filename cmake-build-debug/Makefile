@@ -111,6 +111,97 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named HOTELS
+
+# Build rule for target.
+HOTELS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HOTELS
+.PHONY : HOTELS
+
+# fast build rule for target.
+HOTELS/fast:
+	$(MAKE) -f CMakeFiles/HOTELS.dir/build.make CMakeFiles/HOTELS.dir/build
+.PHONY : HOTELS/fast
+
+#=============================================================================
+# Target rules for targets named PARENTING
+
+# Build rule for target.
+PARENTING: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PARENTING
+.PHONY : PARENTING
+
+# fast build rule for target.
+PARENTING/fast:
+	$(MAKE) -f CMakeFiles/PARENTING.dir/build.make CMakeFiles/PARENTING.dir/build
+.PHONY : PARENTING/fast
+
+#=============================================================================
+# Target rules for targets named NESTINGDEPTH
+
+# Build rule for target.
+NESTINGDEPTH: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 NESTINGDEPTH
+.PHONY : NESTINGDEPTH
+
+# fast build rule for target.
+NESTINGDEPTH/fast:
+	$(MAKE) -f CMakeFiles/NESTINGDEPTH.dir/build.make CMakeFiles/NESTINGDEPTH.dir/build
+.PHONY : NESTINGDEPTH/fast
+
+#=============================================================================
+# Target rules for targets named VESTIGIUM
+
+# Build rule for target.
+VESTIGIUM: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 VESTIGIUM
+.PHONY : VESTIGIUM
+
+# fast build rule for target.
+VESTIGIUM/fast:
+	$(MAKE) -f CMakeFiles/VESTIGIUM.dir/build.make CMakeFiles/VESTIGIUM.dir/build
+.PHONY : VESTIGIUM/fast
+
+#=============================================================================
+# Target rules for targets named TRIP
+
+# Build rule for target.
+TRIP: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TRIP
+.PHONY : TRIP
+
+# fast build rule for target.
+TRIP/fast:
+	$(MAKE) -f CMakeFiles/TRIP.dir/build.make CMakeFiles/TRIP.dir/build
+.PHONY : TRIP/fast
+
+#=============================================================================
+# Target rules for targets named SOLDIER
+
+# Build rule for target.
+SOLDIER: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SOLDIER
+.PHONY : SOLDIER
+
+# fast build rule for target.
+SOLDIER/fast:
+	$(MAKE) -f CMakeFiles/SOLDIER.dir/build.make CMakeFiles/SOLDIER.dir/build
+.PHONY : SOLDIER/fast
+
+#=============================================================================
+# Target rules for targets named SAMER08C-Candy
+
+# Build rule for target.
+SAMER08C-Candy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SAMER08C-Candy
+.PHONY : SAMER08C-Candy
+
+# fast build rule for target.
+SAMER08C-Candy/fast:
+	$(MAKE) -f CMakeFiles/SAMER08C-Candy.dir/build.make CMakeFiles/SAMER08C-Candy.dir/build
+.PHONY : SAMER08C-Candy/fast
+
+#=============================================================================
 # Target rules for targets named PARTY
 
 # Build rule for target.
@@ -267,6 +358,19 @@ INVCNT/fast:
 .PHONY : INVCNT/fast
 
 #=============================================================================
+# Target rules for targets named SAMER
+
+# Build rule for target.
+SAMER: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SAMER
+.PHONY : SAMER
+
+# fast build rule for target.
+SAMER/fast:
+	$(MAKE) -f CMakeFiles/SAMER.dir/build.make CMakeFiles/SAMER.dir/build
+.PHONY : SAMER/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -410,6 +514,19 @@ GSS1/fast:
 .PHONY : GSS1/fast
 
 #=============================================================================
+# Target rules for targets named TWENDS
+
+# Build rule for target.
+TWENDS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TWENDS
+.PHONY : TWENDS
+
+# fast build rule for target.
+TWENDS/fast:
+	$(MAKE) -f CMakeFiles/TWENDS.dir/build.make CMakeFiles/TWENDS.dir/build
+.PHONY : TWENDS/fast
+
+#=============================================================================
 # Target rules for targets named NGM
 
 # Build rule for target.
@@ -460,6 +577,45 @@ LAZY: cmake_check_build_system
 LAZY/fast:
 	$(MAKE) -f CMakeFiles/LAZY.dir/build.make CMakeFiles/LAZY.dir/build
 .PHONY : LAZY/fast
+
+#=============================================================================
+# Target rules for targets named CARSELL
+
+# Build rule for target.
+CARSELL: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CARSELL
+.PHONY : CARSELL
+
+# fast build rule for target.
+CARSELL/fast:
+	$(MAKE) -f CMakeFiles/CARSELL.dir/build.make CMakeFiles/CARSELL.dir/build
+.PHONY : CARSELL/fast
+
+#=============================================================================
+# Target rules for targets named SAMER08-DNA
+
+# Build rule for target.
+SAMER08-DNA: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SAMER08-DNA
+.PHONY : SAMER08-DNA
+
+# fast build rule for target.
+SAMER08-DNA/fast:
+	$(MAKE) -f CMakeFiles/SAMER08-DNA.dir/build.make CMakeFiles/SAMER08-DNA.dir/build
+.PHONY : SAMER08-DNA/fast
+
+#=============================================================================
+# Target rules for targets named RENT
+
+# Build rule for target.
+RENT: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RENT
+.PHONY : RENT
+
+# fast build rule for target.
+RENT/fast:
+	$(MAKE) -f CMakeFiles/RENT.dir/build.make CMakeFiles/RENT.dir/build
+.PHONY : RENT/fast
 
 #=============================================================================
 # Target rules for targets named GIRLSNBYS
@@ -577,6 +733,19 @@ BABTWR: cmake_check_build_system
 BABTWR/fast:
 	$(MAKE) -f CMakeFiles/BABTWR.dir/build.make CMakeFiles/BABTWR.dir/build
 .PHONY : BABTWR/fast
+
+#=============================================================================
+# Target rules for targets named SCUBADIV
+
+# Build rule for target.
+SCUBADIV: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SCUBADIV
+.PHONY : SCUBADIV
+
+# fast build rule for target.
+SCUBADIV/fast:
+	$(MAKE) -f CMakeFiles/SCUBADIV.dir/build.make CMakeFiles/SCUBADIV.dir/build
+.PHONY : SCUBADIV/fast
 
 #=============================================================================
 # Target rules for targets named MBLAST
@@ -935,6 +1104,33 @@ SOLUTIONS/CANTON.cpp.s:
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/CANTON.cpp.s
 .PHONY : SOLUTIONS/CANTON.cpp.s
 
+SOLUTIONS/CARSELL.o: SOLUTIONS/CARSELL.cpp.o
+
+.PHONY : SOLUTIONS/CARSELL.o
+
+# target to build an object file
+SOLUTIONS/CARSELL.cpp.o:
+	$(MAKE) -f CMakeFiles/CARSELL.dir/build.make CMakeFiles/CARSELL.dir/SOLUTIONS/CARSELL.cpp.o
+.PHONY : SOLUTIONS/CARSELL.cpp.o
+
+SOLUTIONS/CARSELL.i: SOLUTIONS/CARSELL.cpp.i
+
+.PHONY : SOLUTIONS/CARSELL.i
+
+# target to preprocess a source file
+SOLUTIONS/CARSELL.cpp.i:
+	$(MAKE) -f CMakeFiles/CARSELL.dir/build.make CMakeFiles/CARSELL.dir/SOLUTIONS/CARSELL.cpp.i
+.PHONY : SOLUTIONS/CARSELL.cpp.i
+
+SOLUTIONS/CARSELL.s: SOLUTIONS/CARSELL.cpp.s
+
+.PHONY : SOLUTIONS/CARSELL.s
+
+# target to generate assembly for a file
+SOLUTIONS/CARSELL.cpp.s:
+	$(MAKE) -f CMakeFiles/CARSELL.dir/build.make CMakeFiles/CARSELL.dir/SOLUTIONS/CARSELL.cpp.s
+.PHONY : SOLUTIONS/CARSELL.cpp.s
+
 SOLUTIONS/ETF.o: SOLUTIONS/ETF.cpp.o
 
 .PHONY : SOLUTIONS/ETF.o
@@ -1111,6 +1307,33 @@ SOLUTIONS/GSS1.cpp.s:
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1.cpp.s
 	$(MAKE) -f CMakeFiles/GSS1.dir/build.make CMakeFiles/GSS1.dir/SOLUTIONS/GSS1.cpp.s
 .PHONY : SOLUTIONS/GSS1.cpp.s
+
+SOLUTIONS/HOTELS.o: SOLUTIONS/HOTELS.cpp.o
+
+.PHONY : SOLUTIONS/HOTELS.o
+
+# target to build an object file
+SOLUTIONS/HOTELS.cpp.o:
+	$(MAKE) -f CMakeFiles/HOTELS.dir/build.make CMakeFiles/HOTELS.dir/SOLUTIONS/HOTELS.cpp.o
+.PHONY : SOLUTIONS/HOTELS.cpp.o
+
+SOLUTIONS/HOTELS.i: SOLUTIONS/HOTELS.cpp.i
+
+.PHONY : SOLUTIONS/HOTELS.i
+
+# target to preprocess a source file
+SOLUTIONS/HOTELS.cpp.i:
+	$(MAKE) -f CMakeFiles/HOTELS.dir/build.make CMakeFiles/HOTELS.dir/SOLUTIONS/HOTELS.cpp.i
+.PHONY : SOLUTIONS/HOTELS.cpp.i
+
+SOLUTIONS/HOTELS.s: SOLUTIONS/HOTELS.cpp.s
+
+.PHONY : SOLUTIONS/HOTELS.s
+
+# target to generate assembly for a file
+SOLUTIONS/HOTELS.cpp.s:
+	$(MAKE) -f CMakeFiles/HOTELS.dir/build.make CMakeFiles/HOTELS.dir/SOLUTIONS/HOTELS.cpp.s
+.PHONY : SOLUTIONS/HOTELS.cpp.s
 
 SOLUTIONS/HPYNOS.o: SOLUTIONS/HPYNOS.cpp.o
 
@@ -1346,6 +1569,33 @@ SOLUTIONS/MMAXPER.cpp.s:
 	$(MAKE) -f CMakeFiles/MMAXPER.dir/build.make CMakeFiles/MMAXPER.dir/SOLUTIONS/MMAXPER.cpp.s
 .PHONY : SOLUTIONS/MMAXPER.cpp.s
 
+SOLUTIONS/NESTINGDEPTH.o: SOLUTIONS/NESTINGDEPTH.cpp.o
+
+.PHONY : SOLUTIONS/NESTINGDEPTH.o
+
+# target to build an object file
+SOLUTIONS/NESTINGDEPTH.cpp.o:
+	$(MAKE) -f CMakeFiles/NESTINGDEPTH.dir/build.make CMakeFiles/NESTINGDEPTH.dir/SOLUTIONS/NESTINGDEPTH.cpp.o
+.PHONY : SOLUTIONS/NESTINGDEPTH.cpp.o
+
+SOLUTIONS/NESTINGDEPTH.i: SOLUTIONS/NESTINGDEPTH.cpp.i
+
+.PHONY : SOLUTIONS/NESTINGDEPTH.i
+
+# target to preprocess a source file
+SOLUTIONS/NESTINGDEPTH.cpp.i:
+	$(MAKE) -f CMakeFiles/NESTINGDEPTH.dir/build.make CMakeFiles/NESTINGDEPTH.dir/SOLUTIONS/NESTINGDEPTH.cpp.i
+.PHONY : SOLUTIONS/NESTINGDEPTH.cpp.i
+
+SOLUTIONS/NESTINGDEPTH.s: SOLUTIONS/NESTINGDEPTH.cpp.s
+
+.PHONY : SOLUTIONS/NESTINGDEPTH.s
+
+# target to generate assembly for a file
+SOLUTIONS/NESTINGDEPTH.cpp.s:
+	$(MAKE) -f CMakeFiles/NESTINGDEPTH.dir/build.make CMakeFiles/NESTINGDEPTH.dir/SOLUTIONS/NESTINGDEPTH.cpp.s
+.PHONY : SOLUTIONS/NESTINGDEPTH.cpp.s
+
 SOLUTIONS/NGM.o: SOLUTIONS/NGM.cpp.o
 
 .PHONY : SOLUTIONS/NGM.o
@@ -1435,6 +1685,33 @@ SOLUTIONS/OLOLo.cpp.s:
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/OLOLo.cpp.s
 	$(MAKE) -f CMakeFiles/OLOLo.dir/build.make CMakeFiles/OLOLo.dir/SOLUTIONS/OLOLo.cpp.s
 .PHONY : SOLUTIONS/OLOLo.cpp.s
+
+SOLUTIONS/PARENTING.o: SOLUTIONS/PARENTING.cpp.o
+
+.PHONY : SOLUTIONS/PARENTING.o
+
+# target to build an object file
+SOLUTIONS/PARENTING.cpp.o:
+	$(MAKE) -f CMakeFiles/PARENTING.dir/build.make CMakeFiles/PARENTING.dir/SOLUTIONS/PARENTING.cpp.o
+.PHONY : SOLUTIONS/PARENTING.cpp.o
+
+SOLUTIONS/PARENTING.i: SOLUTIONS/PARENTING.cpp.i
+
+.PHONY : SOLUTIONS/PARENTING.i
+
+# target to preprocess a source file
+SOLUTIONS/PARENTING.cpp.i:
+	$(MAKE) -f CMakeFiles/PARENTING.dir/build.make CMakeFiles/PARENTING.dir/SOLUTIONS/PARENTING.cpp.i
+.PHONY : SOLUTIONS/PARENTING.cpp.i
+
+SOLUTIONS/PARENTING.s: SOLUTIONS/PARENTING.cpp.s
+
+.PHONY : SOLUTIONS/PARENTING.s
+
+# target to generate assembly for a file
+SOLUTIONS/PARENTING.cpp.s:
+	$(MAKE) -f CMakeFiles/PARENTING.dir/build.make CMakeFiles/PARENTING.dir/SOLUTIONS/PARENTING.cpp.s
+.PHONY : SOLUTIONS/PARENTING.cpp.s
 
 SOLUTIONS/PARTY.o: SOLUTIONS/PARTY.cpp.o
 
@@ -1580,6 +1857,201 @@ SOLUTIONS/PT07Z.cpp.s:
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/PT07Z.cpp.s
 .PHONY : SOLUTIONS/PT07Z.cpp.s
 
+SOLUTIONS/RENT.o: SOLUTIONS/RENT.cpp.o
+
+.PHONY : SOLUTIONS/RENT.o
+
+# target to build an object file
+SOLUTIONS/RENT.cpp.o:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/RENT.cpp.o
+	$(MAKE) -f CMakeFiles/RENT.dir/build.make CMakeFiles/RENT.dir/SOLUTIONS/RENT.cpp.o
+.PHONY : SOLUTIONS/RENT.cpp.o
+
+SOLUTIONS/RENT.i: SOLUTIONS/RENT.cpp.i
+
+.PHONY : SOLUTIONS/RENT.i
+
+# target to preprocess a source file
+SOLUTIONS/RENT.cpp.i:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/RENT.cpp.i
+	$(MAKE) -f CMakeFiles/RENT.dir/build.make CMakeFiles/RENT.dir/SOLUTIONS/RENT.cpp.i
+.PHONY : SOLUTIONS/RENT.cpp.i
+
+SOLUTIONS/RENT.s: SOLUTIONS/RENT.cpp.s
+
+.PHONY : SOLUTIONS/RENT.s
+
+# target to generate assembly for a file
+SOLUTIONS/RENT.cpp.s:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/RENT.cpp.s
+	$(MAKE) -f CMakeFiles/RENT.dir/build.make CMakeFiles/RENT.dir/SOLUTIONS/RENT.cpp.s
+.PHONY : SOLUTIONS/RENT.cpp.s
+
+SOLUTIONS/SAMER08-DNA.o: SOLUTIONS/SAMER08-DNA.cpp.o
+
+.PHONY : SOLUTIONS/SAMER08-DNA.o
+
+# target to build an object file
+SOLUTIONS/SAMER08-DNA.cpp.o:
+	$(MAKE) -f CMakeFiles/SAMER08-DNA.dir/build.make CMakeFiles/SAMER08-DNA.dir/SOLUTIONS/SAMER08-DNA.cpp.o
+.PHONY : SOLUTIONS/SAMER08-DNA.cpp.o
+
+SOLUTIONS/SAMER08-DNA.i: SOLUTIONS/SAMER08-DNA.cpp.i
+
+.PHONY : SOLUTIONS/SAMER08-DNA.i
+
+# target to preprocess a source file
+SOLUTIONS/SAMER08-DNA.cpp.i:
+	$(MAKE) -f CMakeFiles/SAMER08-DNA.dir/build.make CMakeFiles/SAMER08-DNA.dir/SOLUTIONS/SAMER08-DNA.cpp.i
+.PHONY : SOLUTIONS/SAMER08-DNA.cpp.i
+
+SOLUTIONS/SAMER08-DNA.s: SOLUTIONS/SAMER08-DNA.cpp.s
+
+.PHONY : SOLUTIONS/SAMER08-DNA.s
+
+# target to generate assembly for a file
+SOLUTIONS/SAMER08-DNA.cpp.s:
+	$(MAKE) -f CMakeFiles/SAMER08-DNA.dir/build.make CMakeFiles/SAMER08-DNA.dir/SOLUTIONS/SAMER08-DNA.cpp.s
+.PHONY : SOLUTIONS/SAMER08-DNA.cpp.s
+
+SOLUTIONS/SAMER08C-Candy.o: SOLUTIONS/SAMER08C-Candy.cpp.o
+
+.PHONY : SOLUTIONS/SAMER08C-Candy.o
+
+# target to build an object file
+SOLUTIONS/SAMER08C-Candy.cpp.o:
+	$(MAKE) -f CMakeFiles/SAMER08C-Candy.dir/build.make CMakeFiles/SAMER08C-Candy.dir/SOLUTIONS/SAMER08C-Candy.cpp.o
+.PHONY : SOLUTIONS/SAMER08C-Candy.cpp.o
+
+SOLUTIONS/SAMER08C-Candy.i: SOLUTIONS/SAMER08C-Candy.cpp.i
+
+.PHONY : SOLUTIONS/SAMER08C-Candy.i
+
+# target to preprocess a source file
+SOLUTIONS/SAMER08C-Candy.cpp.i:
+	$(MAKE) -f CMakeFiles/SAMER08C-Candy.dir/build.make CMakeFiles/SAMER08C-Candy.dir/SOLUTIONS/SAMER08C-Candy.cpp.i
+.PHONY : SOLUTIONS/SAMER08C-Candy.cpp.i
+
+SOLUTIONS/SAMER08C-Candy.s: SOLUTIONS/SAMER08C-Candy.cpp.s
+
+.PHONY : SOLUTIONS/SAMER08C-Candy.s
+
+# target to generate assembly for a file
+SOLUTIONS/SAMER08C-Candy.cpp.s:
+	$(MAKE) -f CMakeFiles/SAMER08C-Candy.dir/build.make CMakeFiles/SAMER08C-Candy.dir/SOLUTIONS/SAMER08C-Candy.cpp.s
+.PHONY : SOLUTIONS/SAMER08C-Candy.cpp.s
+
+SOLUTIONS/SAMER08C.o: SOLUTIONS/SAMER08C.cpp.o
+
+.PHONY : SOLUTIONS/SAMER08C.o
+
+# target to build an object file
+SOLUTIONS/SAMER08C.cpp.o:
+	$(MAKE) -f CMakeFiles/SAMER.dir/build.make CMakeFiles/SAMER.dir/SOLUTIONS/SAMER08C.cpp.o
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08C.cpp.o
+.PHONY : SOLUTIONS/SAMER08C.cpp.o
+
+SOLUTIONS/SAMER08C.i: SOLUTIONS/SAMER08C.cpp.i
+
+.PHONY : SOLUTIONS/SAMER08C.i
+
+# target to preprocess a source file
+SOLUTIONS/SAMER08C.cpp.i:
+	$(MAKE) -f CMakeFiles/SAMER.dir/build.make CMakeFiles/SAMER.dir/SOLUTIONS/SAMER08C.cpp.i
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08C.cpp.i
+.PHONY : SOLUTIONS/SAMER08C.cpp.i
+
+SOLUTIONS/SAMER08C.s: SOLUTIONS/SAMER08C.cpp.s
+
+.PHONY : SOLUTIONS/SAMER08C.s
+
+# target to generate assembly for a file
+SOLUTIONS/SAMER08C.cpp.s:
+	$(MAKE) -f CMakeFiles/SAMER.dir/build.make CMakeFiles/SAMER.dir/SOLUTIONS/SAMER08C.cpp.s
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08C.cpp.s
+.PHONY : SOLUTIONS/SAMER08C.cpp.s
+
+SOLUTIONS/SAMER08F.o: SOLUTIONS/SAMER08F.cpp.o
+
+.PHONY : SOLUTIONS/SAMER08F.o
+
+# target to build an object file
+SOLUTIONS/SAMER08F.cpp.o:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08F.cpp.o
+.PHONY : SOLUTIONS/SAMER08F.cpp.o
+
+SOLUTIONS/SAMER08F.i: SOLUTIONS/SAMER08F.cpp.i
+
+.PHONY : SOLUTIONS/SAMER08F.i
+
+# target to preprocess a source file
+SOLUTIONS/SAMER08F.cpp.i:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08F.cpp.i
+.PHONY : SOLUTIONS/SAMER08F.cpp.i
+
+SOLUTIONS/SAMER08F.s: SOLUTIONS/SAMER08F.cpp.s
+
+.PHONY : SOLUTIONS/SAMER08F.s
+
+# target to generate assembly for a file
+SOLUTIONS/SAMER08F.cpp.s:
+	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08F.cpp.s
+.PHONY : SOLUTIONS/SAMER08F.cpp.s
+
+SOLUTIONS/SCUBADIV.o: SOLUTIONS/SCUBADIV.cpp.o
+
+.PHONY : SOLUTIONS/SCUBADIV.o
+
+# target to build an object file
+SOLUTIONS/SCUBADIV.cpp.o:
+	$(MAKE) -f CMakeFiles/SCUBADIV.dir/build.make CMakeFiles/SCUBADIV.dir/SOLUTIONS/SCUBADIV.cpp.o
+.PHONY : SOLUTIONS/SCUBADIV.cpp.o
+
+SOLUTIONS/SCUBADIV.i: SOLUTIONS/SCUBADIV.cpp.i
+
+.PHONY : SOLUTIONS/SCUBADIV.i
+
+# target to preprocess a source file
+SOLUTIONS/SCUBADIV.cpp.i:
+	$(MAKE) -f CMakeFiles/SCUBADIV.dir/build.make CMakeFiles/SCUBADIV.dir/SOLUTIONS/SCUBADIV.cpp.i
+.PHONY : SOLUTIONS/SCUBADIV.cpp.i
+
+SOLUTIONS/SCUBADIV.s: SOLUTIONS/SCUBADIV.cpp.s
+
+.PHONY : SOLUTIONS/SCUBADIV.s
+
+# target to generate assembly for a file
+SOLUTIONS/SCUBADIV.cpp.s:
+	$(MAKE) -f CMakeFiles/SCUBADIV.dir/build.make CMakeFiles/SCUBADIV.dir/SOLUTIONS/SCUBADIV.cpp.s
+.PHONY : SOLUTIONS/SCUBADIV.cpp.s
+
+SOLUTIONS/SOLDIER.o: SOLUTIONS/SOLDIER.cpp.o
+
+.PHONY : SOLUTIONS/SOLDIER.o
+
+# target to build an object file
+SOLUTIONS/SOLDIER.cpp.o:
+	$(MAKE) -f CMakeFiles/SOLDIER.dir/build.make CMakeFiles/SOLDIER.dir/SOLUTIONS/SOLDIER.cpp.o
+.PHONY : SOLUTIONS/SOLDIER.cpp.o
+
+SOLUTIONS/SOLDIER.i: SOLUTIONS/SOLDIER.cpp.i
+
+.PHONY : SOLUTIONS/SOLDIER.i
+
+# target to preprocess a source file
+SOLUTIONS/SOLDIER.cpp.i:
+	$(MAKE) -f CMakeFiles/SOLDIER.dir/build.make CMakeFiles/SOLDIER.dir/SOLUTIONS/SOLDIER.cpp.i
+.PHONY : SOLUTIONS/SOLDIER.cpp.i
+
+SOLUTIONS/SOLDIER.s: SOLUTIONS/SOLDIER.cpp.s
+
+.PHONY : SOLUTIONS/SOLDIER.s
+
+# target to generate assembly for a file
+SOLUTIONS/SOLDIER.cpp.s:
+	$(MAKE) -f CMakeFiles/SOLDIER.dir/build.make CMakeFiles/SOLDIER.dir/SOLUTIONS/SOLDIER.cpp.s
+.PHONY : SOLUTIONS/SOLDIER.cpp.s
+
 SOLUTIONS/STPAR.o: SOLUTIONS/STPAR.cpp.o
 
 .PHONY : SOLUTIONS/STPAR.o
@@ -1694,6 +2166,33 @@ SOLUTIONS/TRICOUNT.cpp.s:
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/TRICOUNT.cpp.s
 .PHONY : SOLUTIONS/TRICOUNT.cpp.s
 
+SOLUTIONS/TRIP.o: SOLUTIONS/TRIP.cpp.o
+
+.PHONY : SOLUTIONS/TRIP.o
+
+# target to build an object file
+SOLUTIONS/TRIP.cpp.o:
+	$(MAKE) -f CMakeFiles/TRIP.dir/build.make CMakeFiles/TRIP.dir/SOLUTIONS/TRIP.cpp.o
+.PHONY : SOLUTIONS/TRIP.cpp.o
+
+SOLUTIONS/TRIP.i: SOLUTIONS/TRIP.cpp.i
+
+.PHONY : SOLUTIONS/TRIP.i
+
+# target to preprocess a source file
+SOLUTIONS/TRIP.cpp.i:
+	$(MAKE) -f CMakeFiles/TRIP.dir/build.make CMakeFiles/TRIP.dir/SOLUTIONS/TRIP.cpp.i
+.PHONY : SOLUTIONS/TRIP.cpp.i
+
+SOLUTIONS/TRIP.s: SOLUTIONS/TRIP.cpp.s
+
+.PHONY : SOLUTIONS/TRIP.s
+
+# target to generate assembly for a file
+SOLUTIONS/TRIP.cpp.s:
+	$(MAKE) -f CMakeFiles/TRIP.dir/build.make CMakeFiles/TRIP.dir/SOLUTIONS/TRIP.cpp.s
+.PHONY : SOLUTIONS/TRIP.cpp.s
+
 SOLUTIONS/TRT.o: SOLUTIONS/TRT.cpp.o
 
 .PHONY : SOLUTIONS/TRT.o
@@ -1724,6 +2223,33 @@ SOLUTIONS/TRT.cpp.s:
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/TRT.cpp.s
 .PHONY : SOLUTIONS/TRT.cpp.s
 
+SOLUTIONS/TWENDS.o: SOLUTIONS/TWENDS.cpp.o
+
+.PHONY : SOLUTIONS/TWENDS.o
+
+# target to build an object file
+SOLUTIONS/TWENDS.cpp.o:
+	$(MAKE) -f CMakeFiles/TWENDS.dir/build.make CMakeFiles/TWENDS.dir/SOLUTIONS/TWENDS.cpp.o
+.PHONY : SOLUTIONS/TWENDS.cpp.o
+
+SOLUTIONS/TWENDS.i: SOLUTIONS/TWENDS.cpp.i
+
+.PHONY : SOLUTIONS/TWENDS.i
+
+# target to preprocess a source file
+SOLUTIONS/TWENDS.cpp.i:
+	$(MAKE) -f CMakeFiles/TWENDS.dir/build.make CMakeFiles/TWENDS.dir/SOLUTIONS/TWENDS.cpp.i
+.PHONY : SOLUTIONS/TWENDS.cpp.i
+
+SOLUTIONS/TWENDS.s: SOLUTIONS/TWENDS.cpp.s
+
+.PHONY : SOLUTIONS/TWENDS.s
+
+# target to generate assembly for a file
+SOLUTIONS/TWENDS.cpp.s:
+	$(MAKE) -f CMakeFiles/TWENDS.dir/build.make CMakeFiles/TWENDS.dir/SOLUTIONS/TWENDS.cpp.s
+.PHONY : SOLUTIONS/TWENDS.cpp.s
+
 SOLUTIONS/TestCode.o: SOLUTIONS/TestCode.cpp.o
 
 .PHONY : SOLUTIONS/TestCode.o
@@ -1753,6 +2279,33 @@ SOLUTIONS/TestCode.cpp.s:
 	$(MAKE) -f CMakeFiles/TestCode.dir/build.make CMakeFiles/TestCode.dir/SOLUTIONS/TestCode.cpp.s
 	$(MAKE) -f CMakeFiles/WILLITST.dir/build.make CMakeFiles/WILLITST.dir/SOLUTIONS/TestCode.cpp.s
 .PHONY : SOLUTIONS/TestCode.cpp.s
+
+SOLUTIONS/VESTIGIUM.o: SOLUTIONS/VESTIGIUM.cpp.o
+
+.PHONY : SOLUTIONS/VESTIGIUM.o
+
+# target to build an object file
+SOLUTIONS/VESTIGIUM.cpp.o:
+	$(MAKE) -f CMakeFiles/VESTIGIUM.dir/build.make CMakeFiles/VESTIGIUM.dir/SOLUTIONS/VESTIGIUM.cpp.o
+.PHONY : SOLUTIONS/VESTIGIUM.cpp.o
+
+SOLUTIONS/VESTIGIUM.i: SOLUTIONS/VESTIGIUM.cpp.i
+
+.PHONY : SOLUTIONS/VESTIGIUM.i
+
+# target to preprocess a source file
+SOLUTIONS/VESTIGIUM.cpp.i:
+	$(MAKE) -f CMakeFiles/VESTIGIUM.dir/build.make CMakeFiles/VESTIGIUM.dir/SOLUTIONS/VESTIGIUM.cpp.i
+.PHONY : SOLUTIONS/VESTIGIUM.cpp.i
+
+SOLUTIONS/VESTIGIUM.s: SOLUTIONS/VESTIGIUM.cpp.s
+
+.PHONY : SOLUTIONS/VESTIGIUM.s
+
+# target to generate assembly for a file
+SOLUTIONS/VESTIGIUM.cpp.s:
+	$(MAKE) -f CMakeFiles/VESTIGIUM.dir/build.make CMakeFiles/VESTIGIUM.dir/SOLUTIONS/VESTIGIUM.cpp.s
+.PHONY : SOLUTIONS/VESTIGIUM.cpp.s
 
 SOLUTIONS/WILLITST.o: SOLUTIONS/WILLITST.cpp.o
 
@@ -1848,7 +2401,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... HOTELS"
+	@echo "... PARENTING"
+	@echo "... NESTINGDEPTH"
+	@echo "... VESTIGIUM"
+	@echo "... TRIP"
 	@echo "... edit_cache"
+	@echo "... SOLDIER"
+	@echo "... SAMER08C-Candy"
 	@echo "... PARTY"
 	@echo "... TOPOSORT"
 	@echo "... TestCode"
@@ -1861,6 +2421,7 @@ help:
 	@echo "... ALCATRAZ3"
 	@echo "... CMakeLists"
 	@echo "... INVCNT"
+	@echo "... SAMER"
 	@echo "... main"
 	@echo "... SPOJ"
 	@echo "... HPYNOS"
@@ -1872,10 +2433,14 @@ help:
 	@echo "... ABSYS"
 	@echo "... GSS1-final"
 	@echo "... GSS1"
+	@echo "... TWENDS"
 	@echo "... NGM"
 	@echo "... FARIDA"
 	@echo "... EULER"
 	@echo "... LAZY"
+	@echo "... CARSELL"
+	@echo "... SAMER08-DNA"
+	@echo "... RENT"
 	@echo "... GIRLSNBYS"
 	@echo "... BYTESM2"
 	@echo "... PIGBANK"
@@ -1885,6 +2450,7 @@ help:
 	@echo "... MAXLN"
 	@echo "... ASSIGN"
 	@echo "... BABTWR"
+	@echo "... SCUBADIV"
 	@echo "... MBLAST"
 	@echo "... MCOINS"
 	@echo "... MMAXPER"
@@ -1921,6 +2487,9 @@ help:
 	@echo "... SOLUTIONS/CANTON.o"
 	@echo "... SOLUTIONS/CANTON.i"
 	@echo "... SOLUTIONS/CANTON.s"
+	@echo "... SOLUTIONS/CARSELL.o"
+	@echo "... SOLUTIONS/CARSELL.i"
+	@echo "... SOLUTIONS/CARSELL.s"
 	@echo "... SOLUTIONS/ETF.o"
 	@echo "... SOLUTIONS/ETF.i"
 	@echo "... SOLUTIONS/ETF.s"
@@ -1939,6 +2508,9 @@ help:
 	@echo "... SOLUTIONS/GSS1.o"
 	@echo "... SOLUTIONS/GSS1.i"
 	@echo "... SOLUTIONS/GSS1.s"
+	@echo "... SOLUTIONS/HOTELS.o"
+	@echo "... SOLUTIONS/HOTELS.i"
+	@echo "... SOLUTIONS/HOTELS.s"
 	@echo "... SOLUTIONS/HPYNOS.o"
 	@echo "... SOLUTIONS/HPYNOS.i"
 	@echo "... SOLUTIONS/HPYNOS.s"
@@ -1963,6 +2535,9 @@ help:
 	@echo "... SOLUTIONS/MMAXPER.o"
 	@echo "... SOLUTIONS/MMAXPER.i"
 	@echo "... SOLUTIONS/MMAXPER.s"
+	@echo "... SOLUTIONS/NESTINGDEPTH.o"
+	@echo "... SOLUTIONS/NESTINGDEPTH.i"
+	@echo "... SOLUTIONS/NESTINGDEPTH.s"
 	@echo "... SOLUTIONS/NGM.o"
 	@echo "... SOLUTIONS/NGM.i"
 	@echo "... SOLUTIONS/NGM.s"
@@ -1972,6 +2547,9 @@ help:
 	@echo "... SOLUTIONS/OLOLo.o"
 	@echo "... SOLUTIONS/OLOLo.i"
 	@echo "... SOLUTIONS/OLOLo.s"
+	@echo "... SOLUTIONS/PARENTING.o"
+	@echo "... SOLUTIONS/PARENTING.i"
+	@echo "... SOLUTIONS/PARENTING.s"
 	@echo "... SOLUTIONS/PARTY.o"
 	@echo "... SOLUTIONS/PARTY.i"
 	@echo "... SOLUTIONS/PARTY.s"
@@ -1987,6 +2565,27 @@ help:
 	@echo "... SOLUTIONS/PT07Z.o"
 	@echo "... SOLUTIONS/PT07Z.i"
 	@echo "... SOLUTIONS/PT07Z.s"
+	@echo "... SOLUTIONS/RENT.o"
+	@echo "... SOLUTIONS/RENT.i"
+	@echo "... SOLUTIONS/RENT.s"
+	@echo "... SOLUTIONS/SAMER08-DNA.o"
+	@echo "... SOLUTIONS/SAMER08-DNA.i"
+	@echo "... SOLUTIONS/SAMER08-DNA.s"
+	@echo "... SOLUTIONS/SAMER08C-Candy.o"
+	@echo "... SOLUTIONS/SAMER08C-Candy.i"
+	@echo "... SOLUTIONS/SAMER08C-Candy.s"
+	@echo "... SOLUTIONS/SAMER08C.o"
+	@echo "... SOLUTIONS/SAMER08C.i"
+	@echo "... SOLUTIONS/SAMER08C.s"
+	@echo "... SOLUTIONS/SAMER08F.o"
+	@echo "... SOLUTIONS/SAMER08F.i"
+	@echo "... SOLUTIONS/SAMER08F.s"
+	@echo "... SOLUTIONS/SCUBADIV.o"
+	@echo "... SOLUTIONS/SCUBADIV.i"
+	@echo "... SOLUTIONS/SCUBADIV.s"
+	@echo "... SOLUTIONS/SOLDIER.o"
+	@echo "... SOLUTIONS/SOLDIER.i"
+	@echo "... SOLUTIONS/SOLDIER.s"
 	@echo "... SOLUTIONS/STPAR.o"
 	@echo "... SOLUTIONS/STPAR.i"
 	@echo "... SOLUTIONS/STPAR.s"
@@ -1999,12 +2598,21 @@ help:
 	@echo "... SOLUTIONS/TRICOUNT.o"
 	@echo "... SOLUTIONS/TRICOUNT.i"
 	@echo "... SOLUTIONS/TRICOUNT.s"
+	@echo "... SOLUTIONS/TRIP.o"
+	@echo "... SOLUTIONS/TRIP.i"
+	@echo "... SOLUTIONS/TRIP.s"
 	@echo "... SOLUTIONS/TRT.o"
 	@echo "... SOLUTIONS/TRT.i"
 	@echo "... SOLUTIONS/TRT.s"
+	@echo "... SOLUTIONS/TWENDS.o"
+	@echo "... SOLUTIONS/TWENDS.i"
+	@echo "... SOLUTIONS/TWENDS.s"
 	@echo "... SOLUTIONS/TestCode.o"
 	@echo "... SOLUTIONS/TestCode.i"
 	@echo "... SOLUTIONS/TestCode.s"
+	@echo "... SOLUTIONS/VESTIGIUM.o"
+	@echo "... SOLUTIONS/VESTIGIUM.i"
+	@echo "... SOLUTIONS/VESTIGIUM.s"
 	@echo "... SOLUTIONS/WILLITST.o"
 	@echo "... SOLUTIONS/WILLITST.i"
 	@echo "... SOLUTIONS/WILLITST.s"

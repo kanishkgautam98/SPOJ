@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SOLDIER.dir/SOLUTIONS/SOLDIER.cpp.o  -o SOLDIER 

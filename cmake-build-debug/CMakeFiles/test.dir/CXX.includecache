@@ -7,8 +7,12 @@
 #IncludeRegexTransform: 
 
 /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/test.cpp
-cstdio
+iostream
 -
-algorithm
+stdio.h
+-
+set
+-
+iterator
 -
 

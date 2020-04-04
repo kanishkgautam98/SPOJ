@@ -1,5 +1,12 @@
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/HOTELS.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/PARENTING.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/NESTINGDEPTH.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/VESTIGIUM.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/TRIP.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/SOLDIER.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/SAMER08C-Candy.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/PARTY.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/TOPOSORT.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/TestCode.dir
@@ -12,6 +19,7 @@
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/ALCATRAZ3.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/CMakeLists.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/INVCNT.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/SAMER.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/main.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/SPOJ.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/HPYNOS.dir
@@ -23,10 +31,14 @@
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/ABSYS.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/GSS1-final.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/GSS1.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/TWENDS.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/NGM.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/FARIDA.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/EULER.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/LAZY.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/CARSELL.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/SAMER08-DNA.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/RENT.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/GIRLSNBYS.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/BYTESM2.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/PIGBANK.dir
@@ -36,6 +48,7 @@
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/MAXLN.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/ASSIGN.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/BABTWR.dir
+/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/SCUBADIV.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/MBLAST.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/MCOINS.dir
 /home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/MMAXPER.dir

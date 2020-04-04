@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/NESTINGDEPTH.dir/SOLUTIONS/NESTINGDEPTH.cpp.o  -o NESTINGDEPTH 

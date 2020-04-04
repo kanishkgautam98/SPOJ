@@ -1,46 +1,122 @@
-#include <cstdio>
-#include <algorithm>
+#include<iostream>
+#include<stdio.h>
+#include<set>
+#include<iterator>
 
 using namespace std;
 
-int main(){
-    int n,N,a,b,c,x[90],y[90],z[90],dp[90];
+void print(set<string> s)
+{
+    set<string>::iterator it;
 
-    while(true){
-        scanf("%d",&n);
-        if(n==0) break;
+    for(it=s.begin();it!=s.end();it++)
+    {
+        cout<<*it<<endl;
+    }
 
-        N = 3*n;
+}
 
-        for(int i = 0;i<n;++i){
-            scanf("%d %d %d",&a,&b,&c);
-            x[3*i] = a; y[3*i] = b; z[3*i] = c;
-            x[3*i+1] = b; y[3*i+1] = c; z[3*i+1] = a;
-            x[3*i+2] = c; y[3*i+2] = a; z[3*i+2] = b;
-        }
+void LCS(string x,int m,string y,int n)
+{
+    int c[m+1][n+1];
 
-        for(int i = 0;i<N;++i) for(int j = i+1;j<N;++j){
-                if((x[j]<x[i] && y[j]<y[i]) || (y[j]<x[i] && x[j]<y[i])){
-                    swap(x[i],x[j]);
-                    swap(y[i],y[j]);
-                    swap(z[i],z[j]);
+    set<string> s[m+1][n+1];
+
+    for(int i=0;i<=m;i++)
+    {
+        c[i][0]=0;
+        s[i][0].insert("");
+    }
+
+    for(int j=0;j<=n;j++)
+    {
+        c[0][j]=0;
+        s[0][j].insert("");
+    }
+
+
+    for(int i=1;i<=m;i++)
+        for(int j=1;j<=n;j++)
+        {
+            if(x[i-1]==y[j-1])
+            {
+                c[i][j]=c[i-1][j-1]+1;
+                set<string>::iterator it;
+
+                for(it=s[i-1][j-1].begin();it!=s[i-1][j-1].end();it++)
+                {
+                    s[i][j].insert((*it)+x[i-1]);
+                }
+
+            }
+
+            else if(c[i-1][j]>c[i][j-1])
+            {
+                c[i][j]=c[i-1][j];
+                set<string>::iterator it;
+
+                for(it=s[i-1][j].begin();it!=s[i-1][j].end();it++)
+                {
+                    s[i][j].insert((*it));
                 }
             }
 
-        int ans = -1;
+            else if(c[i][j-1]>c[i-1][j])
+            {
+                c[i][j]=c[i][j-1];
+                set<string>::iterator it;
 
-        for(int i = 0;i<N;++i){
-            dp[i] = z[i];
+                for(it=s[i][j-1].begin();it!=s[i][j-1].end();it++)
+                {
+                    s[i][j].insert((*it));
+                }
+            }
 
-            for(int j = 0;j<i;++j)
-                if((x[j]<x[i] && y[j]<y[i]) || (y[j]<x[i] && x[j]<y[i]))
-                    dp[i] = max(dp[i],dp[j]+z[i]);
+            else
+            {
+                c[i][j]=c[i][j-1];
+                set<string>::iterator it;
 
-            ans = max(ans,dp[i]);
+                for(it=s[i][j-1].begin();it!=s[i][j-1].end();it++)
+                {
+                    s[i][j].insert((*it));
+                }
+
+                for(it=s[i-1][j].begin();it!=s[i-1][j].end();it++)
+                {
+                    s[i][j].insert((*it));
+                }
+
+            }
+
         }
 
-        printf("%d\n",ans);
+    print(s[m][n]);
+
+}
+
+int main()
+{
+    int t;
+
+    scanf("%d",&t);
+
+    while(t--)
+    {
+        string x;
+        string y;
+
+        cin>>x>>y;
+
+        int m=x.length();
+        int n=y.length();
+
+        LCS(x,m,y,n);
+
     }
 
+    //system ("pause");
+
     return 0;
+
 }

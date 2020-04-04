@@ -512,6 +512,45 @@ CMakeFiles/WILLITST.dir/SOLUTIONS/PIGBANK.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/PIGBANK.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/PIGBANK.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/PIGBANK.cpp.s
 
+CMakeFiles/WILLITST.dir/SOLUTIONS/RENT.cpp.o: CMakeFiles/WILLITST.dir/flags.make
+CMakeFiles/WILLITST.dir/SOLUTIONS/RENT.cpp.o: ../SOLUTIONS/RENT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/RENT.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/RENT.cpp.o -c /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/RENT.cpp
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/RENT.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/RENT.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/RENT.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/RENT.cpp.i
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/RENT.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/RENT.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/RENT.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/RENT.cpp.s
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08C.cpp.o: CMakeFiles/WILLITST.dir/flags.make
+CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08C.cpp.o: ../SOLUTIONS/SAMER08C.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08C.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08C.cpp.o -c /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/SAMER08C.cpp
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08C.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08C.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/SAMER08C.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08C.cpp.i
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08C.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08C.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/SAMER08C.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08C.cpp.s
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08F.cpp.o: CMakeFiles/WILLITST.dir/flags.make
+CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08F.cpp.o: ../SOLUTIONS/SAMER08F.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08F.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08F.cpp.o -c /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/SAMER08F.cpp
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08F.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08F.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/SAMER08F.cpp > CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08F.cpp.i
+
+CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08F.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08F.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kanishk/CLionProjects/SPOJ/SOLUTIONS/SAMER08F.cpp -o CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08F.cpp.s
+
 # Object files for target WILLITST
 WILLITST_OBJECTS = \
 "CMakeFiles/WILLITST.dir/SOLUTIONS/WILLITST.cpp.o" \
@@ -548,7 +587,10 @@ WILLITST_OBJECTS = \
 "CMakeFiles/WILLITST.dir/SOLUTIONS/BYTESM2.cpp.o" \
 "CMakeFiles/WILLITST.dir/SOLUTIONS/MBLAST.cpp.o" \
 "CMakeFiles/WILLITST.dir/SOLUTIONS/TRT.cpp.o" \
-"CMakeFiles/WILLITST.dir/SOLUTIONS/PIGBANK.cpp.o"
+"CMakeFiles/WILLITST.dir/SOLUTIONS/PIGBANK.cpp.o" \
+"CMakeFiles/WILLITST.dir/SOLUTIONS/RENT.cpp.o" \
+"CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08C.cpp.o" \
+"CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08F.cpp.o"
 
 # External object files for target WILLITST
 WILLITST_EXTERNAL_OBJECTS =
@@ -588,9 +630,12 @@ WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/BYTESM2.cpp.o
 WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/MBLAST.cpp.o
 WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/TRT.cpp.o
 WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/PIGBANK.cpp.o
+WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/RENT.cpp.o
+WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08C.cpp.o
+WILLITST: CMakeFiles/WILLITST.dir/SOLUTIONS/SAMER08F.cpp.o
 WILLITST: CMakeFiles/WILLITST.dir/build.make
 WILLITST: CMakeFiles/WILLITST.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable WILLITST"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking CXX executable WILLITST"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WILLITST.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

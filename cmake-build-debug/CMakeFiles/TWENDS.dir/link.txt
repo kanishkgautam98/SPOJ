@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TWENDS.dir/SOLUTIONS/TWENDS.cpp.o  -o TWENDS 

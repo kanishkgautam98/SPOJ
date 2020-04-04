@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/RENT.dir/SOLUTIONS/RENT.cpp.o  -o RENT 

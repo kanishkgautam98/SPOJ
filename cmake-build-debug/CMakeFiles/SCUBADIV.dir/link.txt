@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SCUBADIV.dir/SOLUTIONS/SCUBADIV.cpp.o  -o SCUBADIV 

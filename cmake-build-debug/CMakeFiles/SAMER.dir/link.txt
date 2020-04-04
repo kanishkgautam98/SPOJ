@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SAMER.dir/SOLUTIONS/SAMER08C.cpp.o  -o SAMER 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TRIP.dir/SOLUTIONS/TRIP.cpp.o  -o TRIP 

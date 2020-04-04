@@ -27,11 +27,333 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="HOTELS">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/HOTELS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 HOTELS"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HOTELS/fast">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/HOTELS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 HOTELS/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PARENTING">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/PARENTING" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 PARENTING"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PARENTING/fast">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/PARENTING" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 PARENTING/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NESTINGDEPTH">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/NESTINGDEPTH" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 NESTINGDEPTH"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NESTINGDEPTH/fast">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/NESTINGDEPTH" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 NESTINGDEPTH/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VESTIGIUM">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/VESTIGIUM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 VESTIGIUM"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VESTIGIUM/fast">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/VESTIGIUM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 VESTIGIUM/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TRIP">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/TRIP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 TRIP"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TRIP/fast">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/TRIP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 TRIP/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SOLDIER">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/SOLDIER" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 SOLDIER"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SOLDIER/fast">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/SOLDIER" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 SOLDIER/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SAMER08C-Candy">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/SAMER08C-Candy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 SAMER08C-Candy"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SAMER08C-Candy/fast">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/SAMER08C-Candy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 SAMER08C-Candy/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -589,6 +911,52 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="SAMER">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/SAMER" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 SAMER"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SAMER/fast">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/SAMER" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 SAMER/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="main">
 				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
@@ -1095,6 +1463,52 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="TWENDS">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/TWENDS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 TWENDS"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TWENDS/fast">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/TWENDS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 TWENDS/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="NGM">
 				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/NGM" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
@@ -1274,6 +1688,144 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAZY/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CARSELL">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CARSELL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 CARSELL"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CARSELL/fast">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CARSELL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 CARSELL/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SAMER08-DNA">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/SAMER08-DNA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 SAMER08-DNA"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SAMER08-DNA/fast">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/SAMER08-DNA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 SAMER08-DNA/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RENT">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/RENT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 RENT"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RENT/fast">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/RENT" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 RENT/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1693,6 +2245,52 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="SCUBADIV">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/SCUBADIV" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 SCUBADIV"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SCUBADIV/fast">
+				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/SCUBADIV" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 SCUBADIV/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="MBLAST">
 				<Option output="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/MBLAST" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/kanishk/CLionProjects/SPOJ/cmake-build-debug"/>
@@ -1875,6 +2473,9 @@
 			<Option target="CANTON"/>
 			<Option target="WILLITST"/>
 		</Unit>
+		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/CARSELL.cpp">
+			<Option target="CARSELL"/>
+		</Unit>
 		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/ETF.cpp">
 			<Option target="WILLITST"/>
 		</Unit>
@@ -1897,6 +2498,9 @@
 		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/GSS1.cpp">
 			<Option target="WILLITST"/>
 			<Option target="GSS1"/>
+		</Unit>
+		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/HOTELS.cpp">
+			<Option target="HOTELS"/>
 		</Unit>
 		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/HPYNOS.cpp">
 			<Option target="HPYNOS"/>
@@ -1928,6 +2532,9 @@
 		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/MMAXPER.cpp">
 			<Option target="MMAXPER"/>
 		</Unit>
+		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/NESTINGDEPTH.cpp">
+			<Option target="NESTINGDEPTH"/>
+		</Unit>
 		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/NGM.cpp">
 			<Option target="WILLITST"/>
 			<Option target="NGM"/>
@@ -1939,6 +2546,9 @@
 		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/OLOLo.cpp">
 			<Option target="WILLITST"/>
 			<Option target="OLOLo"/>
+		</Unit>
+		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/PARENTING.cpp">
+			<Option target="PARENTING"/>
 		</Unit>
 		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/PARTY.cpp">
 			<Option target="PARTY"/>
@@ -1958,6 +2568,29 @@
 			<Option target="PT07Z"/>
 			<Option target="WILLITST"/>
 		</Unit>
+		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/RENT.cpp">
+			<Option target="WILLITST"/>
+			<Option target="RENT"/>
+		</Unit>
+		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/SAMER08-DNA.cpp">
+			<Option target="SAMER08-DNA"/>
+		</Unit>
+		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/SAMER08C-Candy.cpp">
+			<Option target="SAMER08C-Candy"/>
+		</Unit>
+		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/SAMER08C.cpp">
+			<Option target="SAMER"/>
+			<Option target="WILLITST"/>
+		</Unit>
+		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/SAMER08F.cpp">
+			<Option target="WILLITST"/>
+		</Unit>
+		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/SCUBADIV.cpp">
+			<Option target="SCUBADIV"/>
+		</Unit>
+		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/SOLDIER.cpp">
+			<Option target="SOLDIER"/>
+		</Unit>
 		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/STPAR.cpp">
 			<Option target="STPAR"/>
 		</Unit>
@@ -1972,13 +2605,22 @@
 			<Option target="TRICOUNT"/>
 			<Option target="WILLITST"/>
 		</Unit>
+		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/TRIP.cpp">
+			<Option target="TRIP"/>
+		</Unit>
 		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/TRT.cpp">
 			<Option target="TRT"/>
 			<Option target="WILLITST"/>
 		</Unit>
+		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/TWENDS.cpp">
+			<Option target="TWENDS"/>
+		</Unit>
 		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/TestCode.cpp">
 			<Option target="TestCode"/>
 			<Option target="WILLITST"/>
+		</Unit>
+		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/VESTIGIUM.cpp">
+			<Option target="VESTIGIUM"/>
 		</Unit>
 		<Unit filename="/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/WILLITST.cpp">
 			<Option target="WILLITST"/>

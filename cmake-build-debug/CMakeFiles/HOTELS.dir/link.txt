@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/HOTELS.dir/SOLUTIONS/HOTELS.cpp.o  -o HOTELS 
