@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GSS1-final.dir/SOLUTIONS/GSS1-final.cpp.o"
+  "CMakeFiles/GSS1-final.dir/SOLUTIONS/GSS1-final(Accepted).cpp.o"
   "GSS1-final"
   "GSS1-final.pdb"
 )

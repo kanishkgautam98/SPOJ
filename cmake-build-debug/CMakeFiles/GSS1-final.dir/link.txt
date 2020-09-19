@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/GSS1-final.dir/SOLUTIONS/GSS1-final.cpp.o  -o GSS1-final 
+/usr/bin/c++  -g   "CMakeFiles/GSS1-final.dir/SOLUTIONS/GSS1-final(Accepted).cpp.o"  -o GSS1-final 

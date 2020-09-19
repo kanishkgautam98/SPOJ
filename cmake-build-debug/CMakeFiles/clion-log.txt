@@ -1,4 +1,4 @@
-/home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/193.5662.56/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/kanishk/CLionProjects/SPOJ
+/home/kanishk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/kanishk/CLionProjects/SPOJ
 -- Configuring done
 CMake Error: Cannot determine link language for target "CMakeLists".
 CMake Error: CMake can not determine linker language for target: CMakeLists

@@ -18,7 +18,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/EULER.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/EULER.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/FARIDA.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/FARIDA.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/GIRLSNBYS.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/GIRLSNBYS.cpp.o"
-  "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/GSS1-final.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1-final.cpp.o"
+  "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/GSS1-final(Accepted).cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1-final(Accepted).cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/GSS1.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/GSS1.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/HPYNOS.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/HPYNOS.cpp.o"
   "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/INTEST.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/WILLITST.dir/SOLUTIONS/INTEST.cpp.o"

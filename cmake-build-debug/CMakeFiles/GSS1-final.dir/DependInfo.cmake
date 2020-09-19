@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/GSS1-final.cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/GSS1-final.dir/SOLUTIONS/GSS1-final.cpp.o"
+  "/home/kanishk/CLionProjects/SPOJ/SOLUTIONS/GSS1-final(Accepted).cpp" "/home/kanishk/CLionProjects/SPOJ/cmake-build-debug/CMakeFiles/GSS1-final.dir/SOLUTIONS/GSS1-final(Accepted).cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
